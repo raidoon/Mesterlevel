@@ -1,0 +1,12 @@
+Wagner Domingos;Brazília;x;2833.465;2845.669
+Ivan Cihan;Fehéroroszország;2997.244;3048.425;2892.913;x;3062.598;3005.512
+Szjarhej Kalamojec;Fehéroroszország;2922.047;2920.079;2901.575
+David Söderberg;Finnország;2846.457;x;2937.402;2928.346;x;x
+Amgad Elseify Ashraf;Katar;2908.661;2968.504;2931.102;2960.63;2970.866;2923.228
+Jevhen Vinohradov;Ukrajna;2889.37;x;2917.717
+Wojciech Nowicki;Lengyelország;x;2950.394;2951.575;x;x;3060.236
+Pars Krisztián;Magyarország;2943.701;2958.661;2963.78;2948.425;2937.795;x
+Diego del Real;Mexikó;2887.795;2896.85;2994.094;x;2788.583;2896.457
+Serghei Marghiev;Moldova;2886.22;2918.898;x
+Marcel Lomnický;Szlovákia;2887.008;2860.236;2951.181;2956.299;2990.945;2938.583
+Dilsod Nazarov;Tádzsikisztán;2998.425;3042.126;3073.622;3038.189;3097.638;3058.268
