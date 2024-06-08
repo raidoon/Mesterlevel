@@ -1,1 +1,1 @@
-Pythonos feladatok
+Pythonos munkák, gyakorlások, feladatok
