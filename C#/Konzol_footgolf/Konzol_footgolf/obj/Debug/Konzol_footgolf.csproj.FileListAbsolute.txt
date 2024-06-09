@@ -1,0 +1,7 @@
+C:\Users\v\Desktop\T1\BJ\Konzol_footgolf\Konzol_footgolf\bin\Debug\Konzol_footgolf.exe.config
+C:\Users\v\Desktop\T1\BJ\Konzol_footgolf\Konzol_footgolf\bin\Debug\Konzol_footgolf.exe
+C:\Users\v\Desktop\T1\BJ\Konzol_footgolf\Konzol_footgolf\bin\Debug\Konzol_footgolf.pdb
+C:\Users\v\Desktop\T1\BJ\Konzol_footgolf\Konzol_footgolf\obj\Debug\Konzol_footgolf.csproj.AssemblyReference.cache
+C:\Users\v\Desktop\T1\BJ\Konzol_footgolf\Konzol_footgolf\obj\Debug\Konzol_footgolf.csproj.CoreCompileInputs.cache
+C:\Users\v\Desktop\T1\BJ\Konzol_footgolf\Konzol_footgolf\obj\Debug\Konzol_footgolf.exe
+C:\Users\v\Desktop\T1\BJ\Konzol_footgolf\Konzol_footgolf\obj\Debug\Konzol_footgolf.pdb
