@@ -1,0 +1,14 @@
+C:\Users\v\Desktop\T1\BJ\Konzol_Balkezesek\Konzol_Balkezesek\bin\Debug\Konzol_Balkezesek.exe.config
+C:\Users\v\Desktop\T1\BJ\Konzol_Balkezesek\Konzol_Balkezesek\bin\Debug\Konzol_Balkezesek.exe
+C:\Users\v\Desktop\T1\BJ\Konzol_Balkezesek\Konzol_Balkezesek\bin\Debug\Konzol_Balkezesek.pdb
+C:\Users\v\Desktop\T1\BJ\Konzol_Balkezesek\Konzol_Balkezesek\obj\Debug\Konzol_Balkezesek.csproj.AssemblyReference.cache
+C:\Users\v\Desktop\T1\BJ\Konzol_Balkezesek\Konzol_Balkezesek\obj\Debug\Konzol_Balkezesek.csproj.CoreCompileInputs.cache
+C:\Users\v\Desktop\T1\BJ\Konzol_Balkezesek\Konzol_Balkezesek\obj\Debug\Konzol_Balkezesek.exe
+C:\Users\v\Desktop\T1\BJ\Konzol_Balkezesek\Konzol_Balkezesek\obj\Debug\Konzol_Balkezesek.pdb
+C:\Users\user\Desktop\SULI\T1\BJ\Konzol_Balkezesek\Konzol_Balkezesek\bin\Debug\Konzol_Balkezesek.exe.config
+C:\Users\user\Desktop\SULI\T1\BJ\Konzol_Balkezesek\Konzol_Balkezesek\bin\Debug\Konzol_Balkezesek.exe
+C:\Users\user\Desktop\SULI\T1\BJ\Konzol_Balkezesek\Konzol_Balkezesek\bin\Debug\Konzol_Balkezesek.pdb
+C:\Users\user\Desktop\SULI\T1\BJ\Konzol_Balkezesek\Konzol_Balkezesek\obj\Debug\Konzol_Balkezesek.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\SULI\T1\BJ\Konzol_Balkezesek\Konzol_Balkezesek\obj\Debug\Konzol_Balkezesek.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SULI\T1\BJ\Konzol_Balkezesek\Konzol_Balkezesek\obj\Debug\Konzol_Balkezesek.exe
+C:\Users\user\Desktop\SULI\T1\BJ\Konzol_Balkezesek\Konzol_Balkezesek\obj\Debug\Konzol_Balkezesek.pdb
