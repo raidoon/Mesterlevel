@@ -1,0 +1,17 @@
+név;dátum;óraszám;igazolt;indok
+Nagy Lajos;2023.05.15;7;igazolt;betegség
+Nagy Lajos;2023.05.16;7;igazolt;betegség
+Nagy Lajos;2023.05.17;7;igazolt;betegség
+Nagy Géza;2023.05.15;2;igazolt;késett a vonat
+Nagy Géza;2023.05.16;2;igazolt;késett a vonat
+Nagy Géza;2023.05.17;2;igazolt;késett a vonat
+Nagy Ádám;2023.05.15;2;igazolatlan;elaludt
+Nagy Ádám;2023.05.16;2;igazolatlan;elaludt
+Nagy Ádám;2023.05.17;2;igazolatlan;elaludt
+Nagy Lajos;2023,05,24;8;igazolt;betegség
+Nagy Lajos;2023,05,23;2;igazolatlan;elaludt
+Nagy Lajos;2023,05,25;8;igazolt;temetés
+Nagy Lajos;2023,05,24;8;igazolt;betegség
+Nagy Géza;2024,04,04;8;igazolt;betegség
+Kiss Kata;2024,04,05;8;igazolt;késett a busz
+Kiss Ádám;2024,04,05;6;igazolatlan;elaludt
