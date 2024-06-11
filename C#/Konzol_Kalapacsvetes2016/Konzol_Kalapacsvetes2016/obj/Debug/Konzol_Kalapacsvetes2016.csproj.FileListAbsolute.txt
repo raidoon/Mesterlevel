@@ -1,0 +1,14 @@
+C:\Users\v\Desktop\T1\BJ\Konzol_Kalapacsvetes2016\Konzol_Kalapacsvetes2016\bin\Debug\Konzol_Kalapacsvetes2016.exe.config
+C:\Users\v\Desktop\T1\BJ\Konzol_Kalapacsvetes2016\Konzol_Kalapacsvetes2016\bin\Debug\Konzol_Kalapacsvetes2016.exe
+C:\Users\v\Desktop\T1\BJ\Konzol_Kalapacsvetes2016\Konzol_Kalapacsvetes2016\bin\Debug\Konzol_Kalapacsvetes2016.pdb
+C:\Users\v\Desktop\T1\BJ\Konzol_Kalapacsvetes2016\Konzol_Kalapacsvetes2016\obj\Debug\Konzol_Kalapacsvetes2016.csproj.AssemblyReference.cache
+C:\Users\v\Desktop\T1\BJ\Konzol_Kalapacsvetes2016\Konzol_Kalapacsvetes2016\obj\Debug\Konzol_Kalapacsvetes2016.csproj.CoreCompileInputs.cache
+C:\Users\v\Desktop\T1\BJ\Konzol_Kalapacsvetes2016\Konzol_Kalapacsvetes2016\obj\Debug\Konzol_Kalapacsvetes2016.exe
+C:\Users\v\Desktop\T1\BJ\Konzol_Kalapacsvetes2016\Konzol_Kalapacsvetes2016\obj\Debug\Konzol_Kalapacsvetes2016.pdb
+C:\Users\user\Desktop\SULI\T1\BJ\Konzol_Kalapacsvetes2016\Konzol_Kalapacsvetes2016\bin\Debug\Konzol_Kalapacsvetes2016.exe.config
+C:\Users\user\Desktop\SULI\T1\BJ\Konzol_Kalapacsvetes2016\Konzol_Kalapacsvetes2016\bin\Debug\Konzol_Kalapacsvetes2016.exe
+C:\Users\user\Desktop\SULI\T1\BJ\Konzol_Kalapacsvetes2016\Konzol_Kalapacsvetes2016\bin\Debug\Konzol_Kalapacsvetes2016.pdb
+C:\Users\user\Desktop\SULI\T1\BJ\Konzol_Kalapacsvetes2016\Konzol_Kalapacsvetes2016\obj\Debug\Konzol_Kalapacsvetes2016.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\SULI\T1\BJ\Konzol_Kalapacsvetes2016\Konzol_Kalapacsvetes2016\obj\Debug\Konzol_Kalapacsvetes2016.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SULI\T1\BJ\Konzol_Kalapacsvetes2016\Konzol_Kalapacsvetes2016\obj\Debug\Konzol_Kalapacsvetes2016.exe
+C:\Users\user\Desktop\SULI\T1\BJ\Konzol_Kalapacsvetes2016\Konzol_Kalapacsvetes2016\obj\Debug\Konzol_Kalapacsvetes2016.pdb
