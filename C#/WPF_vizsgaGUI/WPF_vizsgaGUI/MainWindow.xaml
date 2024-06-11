@@ -1,0 +1,18 @@
+﻿<Window x:Class="WPF_vizsgaGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_vizsgaGUI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="datagrid" HorizontalAlignment="Left" Height="222" Margin="10,30,0,0" VerticalAlignment="Top" Width="325" d:ItemsSource="{d:SampleData ItemCount=5}" SelectionChanged="datagrid_SelectionChanged"/>
+        <ListBox x:Name="listbox" HorizontalAlignment="Left" Height="221" Margin="352,31,0,0" VerticalAlignment="Top" Width="438" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+        <Label x:Name="lberedmenyek" Content="Eredmények" HorizontalAlignment="Left" Margin="36,298,0,0" VerticalAlignment="Top" Width="299"/>
+        <Label x:Name="lbkerestttanulo" Content="Keresett tanuló" HorizontalAlignment="Center" Margin="0,298,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbkeresetttanulo" HorizontalAlignment="Left" Margin="545,298,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="tbkeresetttanulo_TextChanged"/>
+        <Label x:Name="lbkereseseredmenye" Content="Keresés eredménye" HorizontalAlignment="Left" Margin="444,340,0,0" VerticalAlignment="Top" Height="84" Width="324"/>
+
+    </Grid>
+</Window>
