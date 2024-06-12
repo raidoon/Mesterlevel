@@ -1,0 +1,7 @@
+név;dátum;óraszám;igazolt;indok
+Nagy Lajos;2023.05.15;7;igazolt;betegség
+Nagy Lajos;2023.05.16;7;igazolatlan;betegség
+Nagy Lajos;2023.06.20;2;igazolt;nem volt kedve jönni
+Nagy Géza;2023.05.17;2;igazolt;késett a vonat
+Kiss István;2024.04.04;6;igazolt;betegség
+Joci;2024.04.04;3;igazolt;késett a vonat
