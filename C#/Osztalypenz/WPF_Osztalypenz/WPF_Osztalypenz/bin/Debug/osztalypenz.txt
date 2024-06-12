@@ -1,0 +1,12 @@
+befizetes;Laci;2023.05.20;3000
+kifizetes;meghívó;2023.05.20;1000
+befizetes;Gábor;2023.05.22;2500
+kifizetes;virág;2023.05.22;1500
+befizetes;Ildikó;2023.05.22;1000
+befizetes;Kata;2023.05.22;1000
+befizetes;Tercsi;2024.04.04;3000
+befizetes;Fercsi;2024.04.04;1111
+kifizetes;ofő;2024.04.04;1333
+kifizetes;ofő;2024.04.04;2000
+befizetes;Laci;2024.04.04;3333
+befizetes;Laci;2024.04.04;1111

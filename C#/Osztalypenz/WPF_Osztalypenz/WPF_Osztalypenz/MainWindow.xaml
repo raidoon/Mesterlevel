@@ -1,0 +1,138 @@
+﻿<Window x:Class="WPF_Osztalypenz.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Osztalypenz"
+        mc:Ignorable="d"
+        Title="Osztálypénz nyilvántartó" Height="568.5" Width="909.5">
+    <Grid Margin="0,0,24,0" Height="525" VerticalAlignment="Top">
+        
+        <ListBox x:Name="listbox" 
+                 HorizontalAlignment="Left" 
+                 Height="328" 
+                 Margin="10,10,0,0" 
+                 VerticalAlignment="Top" 
+                 Width="443" 
+                 FontSize="20"/>
+        
+        <Label x:Name="lbegyenleg" 
+               Content="Egyenleg:" 
+               HorizontalAlignment="Left" 
+               Margin="512,19,0,0" 
+               VerticalAlignment="Top" 
+               FontSize="20"/>
+        
+        <Label x:Name="lbtranzakcio" 
+               Content="Új tranzakció típusa:" 
+               HorizontalAlignment="Left" 
+               Margin="512,105,0,0" 
+               VerticalAlignment="Top" 
+               FontSize="20"/>
+        
+        <RadioButton x:Name="radiobtbefizetes" 
+                     Content="befizetés" 
+                     HorizontalAlignment="Left" 
+                     Margin="512,152,0,0" 
+                     VerticalAlignment="Top" 
+                     IsChecked="True" 
+                     FontSize="20"/>
+        
+        <RadioButton x:Name="radiobtkifizetes" 
+                     Content="kifizetés" 
+                     HorizontalAlignment="Left" 
+                     Margin="625,152,0,0" 
+                     VerticalAlignment="Top" 
+                     FontSize="20"/>
+        
+        <Label x:Name="lbnev" 
+               Content="Név:" 
+               HorizontalAlignment="Left" 
+               Margin="512,190,0,0" 
+               VerticalAlignment="Top" 
+               FontSize="20"/>
+        
+        <Label x:Name="lbdatum" 
+               Content="Dátum:" 
+               HorizontalAlignment="Left" 
+               Margin="512,238,0,0" 
+               VerticalAlignment="Top" 
+               FontSize="20"/>
+        
+        <Label x:Name="lbosszeg" 
+               Content="Összeg:" 
+               HorizontalAlignment="Left" 
+               Margin="512,288,0,0" 
+               VerticalAlignment="Top" 
+               FontSize="20"/>
+        
+        <TextBox x:Name="tbnev" 
+                 HorizontalAlignment="Left"
+                 Height="34" 
+                 Margin="607,190,0,0" 
+                 TextWrapping="Wrap" 
+                 Text="" 
+                 VerticalAlignment="Top"
+                 Width="175" 
+                 FontSize="20" 
+                 TextChanged="Tbnev_TextChanged"/>
+        
+        <TextBox x:Name="tbosszeg"
+                 HorizontalAlignment="Left"
+                 Height="34" 
+                 Margin="607,291,0,0" 
+                 TextWrapping="Wrap" 
+                 Text="" 
+                 VerticalAlignment="Top" 
+                 Width="175" 
+                 FontSize="20" 
+                 TextChanged="Tbosszeg_TextChanged"/>
+        
+        <Button x:Name="btadatrogzites" 
+                Content="Adatrögzítés"
+                HorizontalAlignment="Left" 
+                Margin="667,343,0,0" 
+                VerticalAlignment="Top" 
+                Width="135" 
+                FontSize="20" 
+                Height="76" 
+                Click="Btadatrogzites_Click" 
+                Background="#FFE6DD22"/>
+        
+        <DatePicker x:Name="datum" 
+                    HorizontalAlignment="Left" 
+                    Margin="607,238,0,0" 
+                    VerticalAlignment="Top" 
+                    FontSize="20"
+                    Width="175"/>
+        
+        <Label x:Name="lbuzenet" 
+               Content="" 
+               HorizontalAlignment="Left"
+               Margin="39,343,0,0" 
+               VerticalAlignment="Top" 
+               Width="601" 
+               FontSize="20"
+               FontWeight="Bold" 
+               Height="65" 
+               Background="#FFE2D28C"/>
+        
+        <Label x:Name="lbfajlnev" 
+               Content="Fájlnév:" 
+               HorizontalAlignment="Left" 
+               Margin="39,439,0,0" 
+               VerticalAlignment="Top" 
+               FontSize="20"/>
+        
+        <TextBox x:Name="tbfajlnev" 
+                 HorizontalAlignment="Left" 
+                 Height="37" 
+                 Margin="134,439,0,0" 
+                 TextWrapping="Wrap" 
+                 Text="osztalypenz.txt" 
+                 VerticalAlignment="Top"
+                 Width="319"
+                 FontSize="20" 
+                 TextChanged="Tbfajlnev_TextChanged"/>
+    </Grid>
+</Window>
