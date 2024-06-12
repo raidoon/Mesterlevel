@@ -1,0 +1,14 @@
+C:\Users\v\Desktop\T1\BJ\Konzol_Snooker\Konzol_Snooker\bin\Debug\Konzol_Snooker.exe.config
+C:\Users\v\Desktop\T1\BJ\Konzol_Snooker\Konzol_Snooker\bin\Debug\Konzol_Snooker.exe
+C:\Users\v\Desktop\T1\BJ\Konzol_Snooker\Konzol_Snooker\bin\Debug\Konzol_Snooker.pdb
+C:\Users\v\Desktop\T1\BJ\Konzol_Snooker\Konzol_Snooker\obj\Debug\Konzol_Snooker.csproj.AssemblyReference.cache
+C:\Users\v\Desktop\T1\BJ\Konzol_Snooker\Konzol_Snooker\obj\Debug\Konzol_Snooker.csproj.CoreCompileInputs.cache
+C:\Users\v\Desktop\T1\BJ\Konzol_Snooker\Konzol_Snooker\obj\Debug\Konzol_Snooker.exe
+C:\Users\v\Desktop\T1\BJ\Konzol_Snooker\Konzol_Snooker\obj\Debug\Konzol_Snooker.pdb
+C:\Users\user\Desktop\SULI\T1\BJ\Konzol_Snooker\Konzol_Snooker\bin\Debug\Konzol_Snooker.exe.config
+C:\Users\user\Desktop\SULI\T1\BJ\Konzol_Snooker\Konzol_Snooker\bin\Debug\Konzol_Snooker.exe
+C:\Users\user\Desktop\SULI\T1\BJ\Konzol_Snooker\Konzol_Snooker\bin\Debug\Konzol_Snooker.pdb
+C:\Users\user\Desktop\SULI\T1\BJ\Konzol_Snooker\Konzol_Snooker\obj\Debug\Konzol_Snooker.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\SULI\T1\BJ\Konzol_Snooker\Konzol_Snooker\obj\Debug\Konzol_Snooker.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SULI\T1\BJ\Konzol_Snooker\Konzol_Snooker\obj\Debug\Konzol_Snooker.exe
+C:\Users\user\Desktop\SULI\T1\BJ\Konzol_Snooker\Konzol_Snooker\obj\Debug\Konzol_Snooker.pdb
