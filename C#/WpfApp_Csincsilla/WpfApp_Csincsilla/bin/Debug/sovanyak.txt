@@ -1,0 +1,17 @@
+átlagnál kisebb súlyú csincsillák
+Madagasca;2012-05-23;413;I
+Bongo;2013-07-27;373;I
+Chicha;2009-08-13;420;I
+Zorro;2010-07-11;392;N
+Boris;2017-07-06;366;N
+Phoebe;2009-08-19;426;I
+Cherry;2009-10-30;352;I
+Pepper;2007-12-26;382;I
+Zeus;2010-07-11;393;I
+Bucket;2015-09-26;378;I
+Oscar;2017-10-19;394;I
+Ozzy;2008-01-25;389;I
+Pikachu;2016-12-18;405;I
+Zoe;2002-11-15;425;I
+Panca;2012-04-22;394;I
+Oriel;2005-11-24;367;N

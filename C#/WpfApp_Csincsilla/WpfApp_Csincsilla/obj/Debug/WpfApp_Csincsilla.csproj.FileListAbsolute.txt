@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\GITHUB\C#\WpfApp_Csincsilla\WpfApp_Csincsilla\bin\Debug\WpfApp_Csincsilla.exe.config
+C:\Users\user\Desktop\GITHUB\C#\WpfApp_Csincsilla\WpfApp_Csincsilla\bin\Debug\WpfApp_Csincsilla.exe
+C:\Users\user\Desktop\GITHUB\C#\WpfApp_Csincsilla\WpfApp_Csincsilla\bin\Debug\WpfApp_Csincsilla.pdb
+C:\Users\user\Desktop\GITHUB\C#\WpfApp_Csincsilla\WpfApp_Csincsilla\obj\Debug\WpfApp_Csincsilla.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\GITHUB\C#\WpfApp_Csincsilla\WpfApp_Csincsilla\obj\Debug\MainWindow.g.cs
+C:\Users\user\Desktop\GITHUB\C#\WpfApp_Csincsilla\WpfApp_Csincsilla\obj\Debug\App.g.cs
+C:\Users\user\Desktop\GITHUB\C#\WpfApp_Csincsilla\WpfApp_Csincsilla\obj\Debug\WpfApp_Csincsilla_MarkupCompile.cache
+C:\Users\user\Desktop\GITHUB\C#\WpfApp_Csincsilla\WpfApp_Csincsilla\obj\Debug\WpfApp_Csincsilla_MarkupCompile.lref
+C:\Users\user\Desktop\GITHUB\C#\WpfApp_Csincsilla\WpfApp_Csincsilla\obj\Debug\MainWindow.baml
+C:\Users\user\Desktop\GITHUB\C#\WpfApp_Csincsilla\WpfApp_Csincsilla\obj\Debug\WpfApp_Csincsilla.g.resources
+C:\Users\user\Desktop\GITHUB\C#\WpfApp_Csincsilla\WpfApp_Csincsilla\obj\Debug\WpfApp_Csincsilla.Properties.Resources.resources
+C:\Users\user\Desktop\GITHUB\C#\WpfApp_Csincsilla\WpfApp_Csincsilla\obj\Debug\WpfApp_Csincsilla.csproj.GenerateResource.cache
+C:\Users\user\Desktop\GITHUB\C#\WpfApp_Csincsilla\WpfApp_Csincsilla\obj\Debug\WpfApp_Csincsilla.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\GITHUB\C#\WpfApp_Csincsilla\WpfApp_Csincsilla\obj\Debug\WpfApp_Csincsilla.exe
+C:\Users\user\Desktop\GITHUB\C#\WpfApp_Csincsilla\WpfApp_Csincsilla\obj\Debug\WpfApp_Csincsilla.pdb
