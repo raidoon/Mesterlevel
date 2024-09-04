@@ -5,6 +5,8 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ismetles_Console_WPF", "Ismetles_Console_WPF\Ismetles_Console_WPF.csproj", "{01B38A2D-5B45-4CB4-8A55-1747D51A4D3D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ismetles_WPF", "Ismetles_WPF\Ismetles_WPF.csproj", "{9FF5A776-6591-478E-8474-F7602F238E9D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{01B38A2D-5B45-4CB4-8A55-1747D51A4D3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01B38A2D-5B45-4CB4-8A55-1747D51A4D3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01B38A2D-5B45-4CB4-8A55-1747D51A4D3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FF5A776-6591-478E-8474-F7602F238E9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FF5A776-6591-478E-8474-F7602F238E9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FF5A776-6591-478E-8474-F7602F238E9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FF5A776-6591-478E-8474-F7602F238E9D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -22,10 +22,10 @@
                HorizontalAlignment="Left" 
                Margin="62,172,0,0" 
                VerticalAlignment="Top"/>
-        <TextBox x:Name="tb_telekszelesseg" HorizontalAlignment="Left" Margin="193,42,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="tb_telekhossz" HorizontalAlignment="Left" Margin="193,98,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tb_telekszelesseg" HorizontalAlignment="Left" Margin="193,42,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="tb_telekszelesseg_TextChanged"/>
+        <TextBox x:Name="tb_telekhossz" HorizontalAlignment="Left" Margin="193,98,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="tb_telekhossz_TextChanged"/>
         <TextBox x:Name="tb_kerulet" HorizontalAlignment="Left" Margin="193,176,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
-        <Button x:Name="bt_szamol" Content="Kerület kiszámítása" HorizontalAlignment="Left" Margin="486,217,0,0" VerticalAlignment="Top" Height="53" Width="156"/>
+        <Button x:Name="bt_szamol" Content="Kerület kiszámítása" HorizontalAlignment="Left" Margin="486,217,0,0" VerticalAlignment="Top" Height="53" Width="156" Click="bt_szamol_Click"/>
 
     </Grid>
 </Window>
