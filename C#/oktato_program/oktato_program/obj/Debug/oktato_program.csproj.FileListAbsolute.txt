@@ -1,0 +1,7 @@
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\oktato_program\oktato_program\bin\Debug\oktato_program.exe.config
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\oktato_program\oktato_program\bin\Debug\oktato_program.exe
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\oktato_program\oktato_program\bin\Debug\oktato_program.pdb
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\oktato_program\oktato_program\obj\Debug\oktato_program.csproj.AssemblyReference.cache
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\oktato_program\oktato_program\obj\Debug\oktato_program.csproj.CoreCompileInputs.cache
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\oktato_program\oktato_program\obj\Debug\oktato_program.exe
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\oktato_program\oktato_program\obj\Debug\oktato_program.pdb
