@@ -13,8 +13,10 @@ namespace Ismetles_Console_WPF
         {
             int telekszelesseg = 0, telekhossz = 0, kerulet = 0;
             Console.WriteLine("Telek kerületének kiszámítása");
-            telekszelesseg = szambe("telek szélessége:");
-            while (telekszelesseg <= 0); //a telekszélessége pozitív szám kell, hogy legyen
+            telekszelesseg = szambe("telek szélessége: ");
+            telekhossz = szambe("telek hossza: ");
+            kerulet=2*(telekszelesseg+telekhossz);
+            Console.WriteLine($"A telek kerülete: {kerulet}");
 
             Console.ReadKey();
         }
