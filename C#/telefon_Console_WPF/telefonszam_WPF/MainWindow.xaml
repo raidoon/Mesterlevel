@@ -1,0 +1,14 @@
+﻿<Window x:Class="telefonszam_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:telefonszam_WPF"
+        mc:Ignorable="d"
+        Title="Telefonszám" Height="450" Width="800">
+    <Grid>
+        <Label Content="Az Ön telefonszáma:" HorizontalAlignment="Left" Margin="124,0,0,0" VerticalAlignment="Center" FontSize="20"/>
+        <TextBox x:Name="telefonszam" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="204" Height="34" FontSize="18" Margin="349,0,0,0" TextChanged="telefonszam_TextChanged"/>
+
+    </Grid>
+</Window>
