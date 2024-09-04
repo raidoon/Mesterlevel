@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "telefon_Console_WPF", "tele
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "telefonszam_WPF", "telefonszam_WPF\telefonszam_WPF.csproj", "{4352694F-60E6-48AA-A9E9-52E9B536EA81}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "telefonszam_wpf_betu", "telefonszam_wpf_betu\telefonszam_wpf_betu.csproj", "{9AA39357-6B02-446C-AF4A-44F83B1109E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{4352694F-60E6-48AA-A9E9-52E9B536EA81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4352694F-60E6-48AA-A9E9-52E9B536EA81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4352694F-60E6-48AA-A9E9-52E9B536EA81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AA39357-6B02-446C-AF4A-44F83B1109E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AA39357-6B02-446C-AF4A-44F83B1109E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AA39357-6B02-446C-AF4A-44F83B1109E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AA39357-6B02-446C-AF4A-44F83B1109E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
