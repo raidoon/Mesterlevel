@@ -1,0 +1,31 @@
+﻿<Window x:Class="Ismetles_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ismetles_WPF"
+        mc:Ignorable="d"
+        Title="Telek kerülete" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="lb_telekszelesseg"
+               Content="Telek szélessége:"
+               HorizontalAlignment="Left" 
+               Margin="62,38,0,0" 
+               VerticalAlignment="Top"/>
+        <Label x:Name="lb_telekhossz" 
+               Content="Telek hossza:"
+               HorizontalAlignment="Left"
+               Margin="62,94,0,0"
+               VerticalAlignment="Top"/>
+        <Label x:Name="lb_kerulet"
+               Content="Telek kerülete:" 
+               HorizontalAlignment="Left" 
+               Margin="62,172,0,0" 
+               VerticalAlignment="Top"/>
+        <TextBox x:Name="tb_telekszelesseg" HorizontalAlignment="Left" Margin="193,42,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tb_telekhossz" HorizontalAlignment="Left" Margin="193,98,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tb_kerulet" HorizontalAlignment="Left" Margin="193,176,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <Button x:Name="bt_szamol" Content="Kerület kiszámítása" HorizontalAlignment="Left" Margin="486,217,0,0" VerticalAlignment="Top" Height="53" Width="156"/>
+
+    </Grid>
+</Window>
