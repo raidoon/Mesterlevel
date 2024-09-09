@@ -5,6 +5,8 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oktato_program", "oktato_program\oktato_program.csproj", "{A2992170-CFDE-4495-9BA6-A203628628AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oktato_WPF", "oktato_WPF\oktato_WPF.csproj", "{5393764B-C728-4D12-A577-84C9D91B8F9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A2992170-CFDE-4495-9BA6-A203628628AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2992170-CFDE-4495-9BA6-A203628628AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2992170-CFDE-4495-9BA6-A203628628AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5393764B-C728-4D12-A577-84C9D91B8F9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5393764B-C728-4D12-A577-84C9D91B8F9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5393764B-C728-4D12-A577-84C9D91B8F9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5393764B-C728-4D12-A577-84C9D91B8F9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
