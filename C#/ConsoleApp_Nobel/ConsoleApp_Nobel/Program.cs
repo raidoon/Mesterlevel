@@ -40,6 +40,7 @@ namespace ConsoleApp_Nobel
             Console.WriteLine("8. feladat: orvosi.txt");
             List<string> kimenet = new List<string>();
             foreach (var item in listaNobel) if(item.tipus=="orvosi") kimenet.Add($"{item.ev}:{item.keresztNev} {item.vezetekNev}");
+            kimenet.Sort();
             File.WriteAllLines("orvosi.txt", kimenet);
             Console.ReadKey();
         }
