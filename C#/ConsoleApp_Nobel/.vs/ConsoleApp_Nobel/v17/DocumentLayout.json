@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\ConsoleApp_Nobel\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{548C9B86-87ED-41FF-AE8F-81465D88ED21}|LINQ_Nobel\\LINQ_Nobel.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\consoleapp_nobel\\linq_nobel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{548C9B86-87ED-41FF-AE8F-81465D88ED21}|LINQ_Nobel\\LINQ_Nobel.csproj|solutionrelative:linq_nobel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{89C7B330-3C28-41CE-AD95-A2320C5566FD}|ConsoleApp_Nobel\\ConsoleApp_Nobel.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\consoleapp_nobel\\consoleapp_nobel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89C7B330-3C28-41CE-AD95-A2320C5566FD}|ConsoleApp_Nobel\\ConsoleApp_Nobel.csproj|solutionrelative:consoleapp_nobel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89C7B330-3C28-41CE-AD95-A2320C5566FD}|ConsoleApp_Nobel\\ConsoleApp_Nobel.csproj|C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\ConsoleApp_Nobel\\consoleapp_nobel\\nobel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89C7B330-3C28-41CE-AD95-A2320C5566FD}|ConsoleApp_Nobel\\ConsoleApp_Nobel.csproj|solutionrelative:consoleapp_nobel\\nobel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{89C7B330-3C28-41CE-AD95-A2320C5566FD}|ConsoleApp_Nobel\\ConsoleApp_Nobel.csproj|C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\ConsoleApp_Nobel\\consoleapp_nobel\\class_maskeppen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89C7B330-3C28-41CE-AD95-A2320C5566FD}|ConsoleApp_Nobel\\ConsoleApp_Nobel.csproj|solutionrelative:consoleapp_nobel\\class_maskeppen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89C7B330-3C28-41CE-AD95-A2320C5566FD}|ConsoleApp_Nobel\\ConsoleApp_Nobel.csproj|C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\ConsoleApp_Nobel\\consoleapp_nobel\\nobel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89C7B330-3C28-41CE-AD95-A2320C5566FD}|ConsoleApp_Nobel\\ConsoleApp_Nobel.csproj|solutionrelative:consoleapp_nobel\\nobel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +26,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 206,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\ConsoleApp_Nobel\\ConsoleApp_Nobel\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp_Nobel\\Program.cs",
+              "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\ConsoleApp_Nobel\\ConsoleApp_Nobel\\Program.cs",
+              "RelativeToolTip": "ConsoleApp_Nobel\\Program.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwCMAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T10:54:42.088Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\ConsoleApp_Nobel\\LINQ_Nobel\\Program.cs",
+              "RelativeDocumentMoniker": "LINQ_Nobel\\Program.cs",
+              "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\ConsoleApp_Nobel\\LINQ_Nobel\\Program.cs*",
+              "RelativeToolTip": "LINQ_Nobel\\Program.cs*",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAABkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T07:16:22.605Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -34,31 +66,20 @@
               "RelativeToolTip": "ConsoleApp_Nobel\\class_maskeppen.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAgwAkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T11:08:52.715Z"
+              "WhenOpened": "2024-09-13T11:08:52.715Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Nobel.cs",
               "DocumentMoniker": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\ConsoleApp_Nobel\\ConsoleApp_Nobel\\Nobel.cs",
               "RelativeDocumentMoniker": "ConsoleApp_Nobel\\Nobel.cs",
               "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\ConsoleApp_Nobel\\ConsoleApp_Nobel\\Nobel.cs",
               "RelativeToolTip": "ConsoleApp_Nobel\\Nobel.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAiwBYAAAAeAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T11:05:05.244Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\ConsoleApp_Nobel\\ConsoleApp_Nobel\\Program.cs",
-              "RelativeDocumentMoniker": "ConsoleApp_Nobel\\Program.cs",
-              "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\ConsoleApp_Nobel\\ConsoleApp_Nobel\\Program.cs*",
-              "RelativeToolTip": "ConsoleApp_Nobel\\Program.cs*",
-              "ViewState": "AQIAABgAAAAAAAAAAAAhwCsAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T10:54:42.088Z",
+              "WhenOpened": "2024-09-13T11:05:05.244Z",
               "EditorCaption": ""
             }
           ]

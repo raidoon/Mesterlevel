@@ -5,6 +5,8 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp_Nobel", "ConsoleApp_Nobel\ConsoleApp_Nobel.csproj", "{89C7B330-3C28-41CE-AD95-A2320C5566FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ_Nobel", "LINQ_Nobel\LINQ_Nobel.csproj", "{548C9B86-87ED-41FF-AE8F-81465D88ED21}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{89C7B330-3C28-41CE-AD95-A2320C5566FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89C7B330-3C28-41CE-AD95-A2320C5566FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89C7B330-3C28-41CE-AD95-A2320C5566FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{548C9B86-87ED-41FF-AE8F-81465D88ED21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{548C9B86-87ED-41FF-AE8F-81465D88ED21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{548C9B86-87ED-41FF-AE8F-81465D88ED21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{548C9B86-87ED-41FF-AE8F-81465D88ED21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
