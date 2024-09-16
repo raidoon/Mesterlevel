@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Runtime.InteropServices;
+using System.Text;
 
 namespace ConsoleApp_Nobel
 {
@@ -25,15 +25,24 @@ namespace ConsoleApp_Nobel
             foreach (var item in listaNobel) if(item.vezetekNev.Contains("Curie")) Console.WriteLine($"\t{item.ev}: {item.keresztNev} {item.vezetekNev}({item.tipus})");
             //melyik típusú díjból hány darabot osztottak ki a nobel-díj történelme folyamán
             Console.WriteLine("7.feladat:");
-            Dictionary<string,int> keyValuePairs = new Dictionary<string,int>();
+            Dictionary<string,int> tipus_hanyszor = new Dictionary<string,int>();
             foreach(var item in listaNobel)
             {
-                if (keyValuePairs.ContainsKey(item.tipus)) keyValuePairs[item.tipus]++;
-                else keyValuePairs.Add(item.tipus,1);
+                if (tipus_hanyszor.ContainsKey(item.tipus)) tipus_hanyszor[item.tipus]++;
+                else tipus_hanyszor.Add(item.tipus,1);
             }
-            foreach (var item in keyValuePairs) Console.WriteLine($"\t{item.Key} \t{item.Value} db");
-
+            foreach (var item in tipus_hanyszor) Console.WriteLine($"\t{item.Key} \t{item.Value} db");
             //orvosi.txt néven egy utf-8 kódolású fájl --> tartalmazza az összes kiosztott orvosi nobel-díj adatait
+            // --> /nitem.ev:item.keresztNev item.vezetekNev
+            using (StreamWriter sw = new StreamWriter("orvosi.txt",false,Encoding.UTF8))
+            {
+                foreach (var item in listaNobel)
+                {
+                    if(item.tipus=="orvosi") sw.WriteLine($"{item.ev}:{item.keresztNev} {item.vezetekNev}");
+                }
+            }
+
+            Console.WriteLine("8. feladat: orvosi.txt");
             Console.ReadKey();
         }
     }
