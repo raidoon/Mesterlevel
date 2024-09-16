@@ -34,10 +34,13 @@ namespace ConsoleApp_Nobel
             foreach (var item in tipus_hanyszor) Console.WriteLine($"\t{item.Key.PadRight(20)} {item.Value} db");
             //orvosi.txt néven egy utf-8 kódolású fájl --> tartalmazza az összes kiosztott orvosi nobel-díj adatait
             // --> /nitem.ev:item.keresztNev item.vezetekNev
-            using (StreamWriter sw = new StreamWriter("orvosi.txt",false,Encoding.UTF8))
+            /*using (StreamWriter sw = new StreamWriter("orvosi.txt",false,Encoding.UTF8))
                 foreach (var item in listaNobel) if (item.tipus == "orvosi") 
-                        sw.WriteLine($"{item.ev}:{item.keresztNev} {item.vezetekNev}");
+                        sw.WriteLine($"{item.ev}:{item.keresztNev} {item.vezetekNev}");*/
             Console.WriteLine("8. feladat: orvosi.txt");
+            List<string> kimenet = new List<string>();
+            foreach (var item in listaNobel) if(item.tipus=="orvosi") kimenet.Add($"{item.ev}:{item.keresztNev} {item.vezetekNev}");
+            File.WriteAllLines("orvosi.txt", kimenet);
             Console.ReadKey();
         }
     }
