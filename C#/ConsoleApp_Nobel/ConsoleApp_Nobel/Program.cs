@@ -25,17 +25,13 @@ namespace ConsoleApp_Nobel
             foreach (var item in listaNobel) if(item.vezetekNev.Contains("Curie")) Console.WriteLine($"\t{item.ev}: {item.keresztNev} {item.vezetekNev}({item.tipus})");
             //melyik típusú díjból hány darabot osztottak ki a nobel-díj történelme folyamán
             Console.WriteLine("7.feladat:");
-            List<string> tipusok = new List<string>();
-            
+            Dictionary<string,int> keyValuePairs = new Dictionary<string,int>();
             foreach(var item in listaNobel)
             {
-                if (tipusok.Contains(item.tipus)) { }
-                else
-                {
-                     tipusok.Add(item.tipus);
-                }
+                if (keyValuePairs.ContainsKey(item.tipus)) keyValuePairs[item.tipus]++;
+                else keyValuePairs.Add(item.tipus,1);
             }
-            foreach (var item in tipusok) Console.WriteLine($"\t{item}");
+            foreach (var item in keyValuePairs) Console.WriteLine($"\t{item.Key} \t{item.Value} db");
 
             //orvosi.txt néven egy utf-8 kódolású fájl --> tartalmazza az összes kiosztott orvosi nobel-díj adatait
             Console.ReadKey();
