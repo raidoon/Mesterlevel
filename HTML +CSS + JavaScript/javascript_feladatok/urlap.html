@@ -7,19 +7,25 @@
 </head>
 <body>
     
-    <span>termék neve</span>
-    <input type="text">
+    <span>Termék neve:</span>
+    <input type="text" id="termek_neve" onfocus="kiSzinezes(this)" onblur="visszaSzinez(this)">
     <br>
-    <span>termék ára</span>
-    <input type="text">
+    <span>Termék ára:</span>
+    <input type="number"value="1000" min="0" id="termek_ara">
+    <span>Ft</span>
     <br>
-    <span>termék típusa</span>
-    <select name="" id="">
-        <option value="">tejtermék</option>
-        <option value="">pékáru</option>
-        <option value="">édesség</option>
+    <span>Készleten lévő mennyiség:</span>
+    <input value="0" type="number" min="0" max="1000" id="termek_db">
+    <span>db</span>
+    <br>
+    <span>Termék típusa</span>
+    <select name="" id="termek_tipusa">
+        <option value="tejtermék">tejtermék</option>
+        <option value="pékáru">pékáru</option>
+        <option value="édesség">édesség</option>
     </select>
     <button onclick="(kattintas())">Kattints</button>
+    <div id="kiiratos_div"></div>
     
     <script src="urlap.js"></script>
 </body>
