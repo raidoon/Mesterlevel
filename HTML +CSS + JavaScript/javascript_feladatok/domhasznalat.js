@@ -1,7 +1,6 @@
 /*JS-HTML-DOM használata(design nélkül)
 -domhasznalat.html
 3. Készíts tömböt, amely a tejtermék, pékáru, édesség, fûszer, tisztítószer szavakat tartalmazza, majd lenyíló listában megjeleníti Javascript programmal (createelement...appendchild)*/
-
 var body = document.getElementsByTagName("body")[0]
 var termekTomb=["tejtermék","pékáru","édesség","fűszer","tisztítószer"]
 
@@ -17,7 +16,7 @@ body.appendChild(select)
 
 //Készíts alatta az 5 szóval radio gombokat, csak 1-et lehessen kiválasztani (createelement...appendchild)
 var form = document.createElement("form")
-
+form.id="sajt"
 for (const elem of termekTomb) {
     var input = document.createElement("input")
     input.type="radio"
@@ -29,7 +28,9 @@ for (const elem of termekTomb) {
     span.value=`${elem}`
     form.appendChild(span)
     form.appendChild(document.createElement("br"))
+    input.addEventListener("change",kattintas)
 }
+document.getElementsByName(termekTomb[0]).checked=true
 body.appendChild(form)
 
 //gombnyomásra irassuk vissza
@@ -41,6 +42,7 @@ body.appendChild(gomb)
 //divben a select adata
 var select_div = document.createElement("div")
 var radio_div = document.createElement("div")
+
 function kattintas(){
     console.log("a gomb működik")
     var select = document.getElementById("bemenet1").value
@@ -56,3 +58,5 @@ body.appendChild(select_div)
 body.appendChild(radio_div)
 
 //nem gombnyomásra irassuk vissza
+document.getElementById("bemenet1").addEventListener("change",kattintas)
+kattintas()
