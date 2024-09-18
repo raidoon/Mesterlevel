@@ -3,7 +3,6 @@ using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace ConsoleApp_utasok_adatkezelese
 {
@@ -16,7 +15,7 @@ namespace ConsoleApp_utasok_adatkezelese
             foreach (string f in fajl) adatok.Add(new adatok(f));
             /*foreach (var i in adatok) {Console.WriteLine($"{i.MegalloSorszam,-5}{i.FelszallasDatumIdo,-15}{i.KartyaAzon,-10}
                 {i.BerletTipus,-5}{i.ErvenyessegiDatum,-10}{i.ervenyessegEllenorzes()}")};*/ // ---> teszt
-            
+
             Console.WriteLine($"Végállomástól végállomásig összesen {adatok.Count()} utas szeretett volna felszállni a buszra.");
 
             //hány esetben kellett a buszvezetőnek elutasítania az utas felszállását?
@@ -26,15 +25,15 @@ namespace ConsoleApp_utasok_adatkezelese
 
             //Melyik megállóban próbált meg felszállni a legtöbb utas?
             var maxUtasSzam = adatok.GroupBy(x => x.MegalloSorszam).OrderByDescending(x => x.Count()).FirstOrDefault();
-            if(maxUtasSzam!=null)  Console.WriteLine($"A {maxUtasSzam.Key}. megállóban próbált meg felszállni a legtöbb utas ({maxUtasSzam.Count()} fő).");
+            if (maxUtasSzam != null) Console.WriteLine($"A {maxUtasSzam.Key}. megállóban próbált meg felszállni a legtöbb utas ({maxUtasSzam.Count()} fő).");
 
             //Hány ingyenes és kedvezményes bérlet volt?
             int ingyenesDB = 0, kedvezmenyesDB = 0;
             foreach (var i in adatok) if (i.ervenyessegEllenorzes())
-            {
-                if (i.kedvezmenyes()) kedvezmenyesDB++;
-                if (i.ingyenes()) ingyenesDB++;
-            }
+                {
+                    if (i.kedvezmenyes()) kedvezmenyesDB++;
+                    if (i.ingyenes()) ingyenesDB++;
+                }
             Console.WriteLine($"Ingyenesen utazók száma: {ingyenesDB} fő" +
                 $"\nKedvezményesen utazók száma: {kedvezmenyesDB} fő");
 
