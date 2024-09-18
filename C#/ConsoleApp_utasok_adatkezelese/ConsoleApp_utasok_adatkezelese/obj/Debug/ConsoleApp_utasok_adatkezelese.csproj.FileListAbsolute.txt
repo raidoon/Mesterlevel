@@ -1,0 +1,7 @@
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\ConsoleApp_utasok_adatkezelese\ConsoleApp_utasok_adatkezelese\bin\Debug\ConsoleApp_utasok_adatkezelese.exe.config
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\ConsoleApp_utasok_adatkezelese\ConsoleApp_utasok_adatkezelese\bin\Debug\ConsoleApp_utasok_adatkezelese.exe
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\ConsoleApp_utasok_adatkezelese\ConsoleApp_utasok_adatkezelese\bin\Debug\ConsoleApp_utasok_adatkezelese.pdb
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\ConsoleApp_utasok_adatkezelese\ConsoleApp_utasok_adatkezelese\obj\Debug\ConsoleApp_utasok_adatkezelese.csproj.AssemblyReference.cache
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\ConsoleApp_utasok_adatkezelese\ConsoleApp_utasok_adatkezelese\obj\Debug\ConsoleApp_utasok_adatkezelese.csproj.CoreCompileInputs.cache
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\ConsoleApp_utasok_adatkezelese\ConsoleApp_utasok_adatkezelese\obj\Debug\ConsoleApp_utasok_adatkezelese.exe
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\ConsoleApp_utasok_adatkezelese\ConsoleApp_utasok_adatkezelese\obj\Debug\ConsoleApp_utasok_adatkezelese.pdb
