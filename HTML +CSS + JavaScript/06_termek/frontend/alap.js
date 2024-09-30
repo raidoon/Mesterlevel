@@ -27,6 +27,7 @@ async function tipusLekerdez() {
     let y = await x.json();
     tipusMegjelenites(y);
 }
+
 //lenyilo listába tesszük a típusokat
 function tipusMegjelenites(y){
     for (const elem of y) {
