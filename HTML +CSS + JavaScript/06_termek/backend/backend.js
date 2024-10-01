@@ -242,9 +242,7 @@ app.post('/betuArLekerdez', (req, res) => {
   })
   connection.end()
 })
-
 //-------------------------------------------------termék típus-ra keress rá
-
 app.post('/tipusRakerdez', (req, res) => {
   kapcsolat()
   connection.query(`
@@ -266,9 +264,7 @@ app.post('/tipusRakerdez', (req, res) => {
   })
   connection.end()
 })
-
 //--------------------------------------------------------kérdezzük le az átlagát
-
 app.get('/atlagLekerdez', (req, res) => {
   kapcsolat()
   connection.query(`
@@ -287,9 +283,7 @@ app.get('/atlagLekerdez', (req, res) => {
   })
   connection.end()
 })
-
 //------------------------------------------------------betű keresés mindenhol
-
 app.post('/mindentLekerdez', (req, res) => {
   kapcsolat()
   connection.query(`
@@ -312,7 +306,6 @@ app.post('/mindentLekerdez', (req, res) => {
   })
   connection.end()
 })
-
 //-----------------------------------------------------Csoportosítás termék típusonként
 app.get('/tipusCsoportosit', (req, res) => {
   kapcsolat()
@@ -336,10 +329,7 @@ app.get('/tipusCsoportosit', (req, res) => {
   })
   connection.end()
 })
-
 //------------------------------------------------------Tipus felvitele kérdőjellel
-
-
 app.post('/tipusFelvitel2', (req, res) => {
   kapcsolat()
   connection.query(`
@@ -358,9 +348,7 @@ app.post('/tipusFelvitel2', (req, res) => {
   })
   connection.end()
 })
-
 //------------------------------------------------------Ugyanez kérdőjelesen
-
 app.post('/tipusFelvitel', (req, res) => {
   kapcsolat()
   connection.query(`
@@ -379,10 +367,7 @@ app.post('/tipusFelvitel', (req, res) => {
   })
   connection.end()
 })
-
-
 //---------------------------------------------------------Termék felvitele
-
 app.post('/termekFelvitel', (req, res) => {
   kapcsolat()
   connection.query(`
@@ -401,9 +386,7 @@ app.post('/termekFelvitel', (req, res) => {
   })
   connection.end()
 })
-
 //--------------------------------------------------------------Nem kérdőjellel
-
 app.post('/termekFelvitel2', (req, res) => {
   kapcsolat()
   connection.query(`
@@ -423,7 +406,6 @@ app.post('/termekFelvitel2', (req, res) => {
   connection.end()
 })
 //--------------------------------------------------------- típus törlése
-//
 app.delete('/tipusTorles', (req, res) => {
   kapcsolat()
   connection.query(`
@@ -531,13 +513,7 @@ app.put('/tipusarModosit', (req, res) => {
   })
   connection.end()
 })
-
-
-
-
-
-
+//----------------------------------------------- app listen
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
-
