@@ -7,8 +7,6 @@
 </head>
 <body>
     <div id="tartalom"></div>
-    
-    <select id="lenyilo"></select>
 
     <hr>
 
@@ -17,6 +15,28 @@
     <button onclick="tipusFelvitel()">Felvétel</button>
 
     <div id="visszajelzes"></div>
+
+    <hr>
+
+    <p style="text-align: center;">Új termék felvitele</p>
+
+    <span>Termék neve:</span>
+    <input type="text" id="ujTermek_neve">
+
+    <br>
+
+    <span>Termék ára:</span>
+    <input type="number" name="" id="ujTermek_ara">
+    
+    <br>
+
+    <span>Termék típusa:</span>
+    <select name="" id="lenyilo"></select>
+
+    <br>
+    <button onclick="TermekFelvitel()">Felvétel</button>
+
+    <div id="visszajelzes2"></div>
 
     <script src="alap.js"></script>
 </body>
