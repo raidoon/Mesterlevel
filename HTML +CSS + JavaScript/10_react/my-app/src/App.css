@@ -1,38 +1,29 @@
-.App {
+.keret1{
+  width: 70%;
   text-align: center;
+  margin: auto;
+  border: 2px solid blue;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.keret2{
+  width: 70%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.keretLila{
+  border: 2px solid darkorchid;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.keretZold{
+  border: 2px solid darkolivegreen;
 }
-
-.App-link {
-  color: #61dafb;
+.keretPiros{
+  border: 2px solid darkred;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.kepkinezet{
+  width: 60%;
+}
+.lenyiloDiv{
+  text-align: center;
 }
