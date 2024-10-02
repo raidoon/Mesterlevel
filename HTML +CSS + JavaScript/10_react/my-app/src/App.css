@@ -1,29 +1,40 @@
-.keret1{
-  width: 70%;
-  text-align: center;
-  margin: auto;
-  border: 2px solid blue;
-  margin-top: 10px;
-  margin-bottom: 10px;
+.doboz {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
-.keret2{
-  width: 70%;
-  margin: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
+.oszlop {
+    flex: 50%;
 }
-.keretLila{
-  border: 2px solid darkorchid;
+@media (max-width: 600px) {
+    .oszlop {
+        flex: 100%;
+    }
 }
-.keretZold{
-  border: 2px solid darkolivegreen;
+
+.keret1 {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    border: 2px solid blue;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-.keretPiros{
-  border: 2px solid darkred;
+.keret2 {
+    width: 70%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-.kepkinezet{
-  width: 60%;
+.keretLila {
+    border: 2px solid darkorchid;
 }
-.lenyiloDiv{
-  text-align: center;
+.keretZold {
+    border: 2px solid darkolivegreen;
+}
+.keretPiros {
+    border: 2px solid darkred;
+}
+.kepkinezet {
+    width: 60%;
 }

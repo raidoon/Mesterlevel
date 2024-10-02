@@ -1,5 +1,5 @@
-export default function Keruld(){
-    return(
+export default function Keruld() {
+    return (
         <div className="keret2 keretPiros">
             <ul>
                 <li>Kerüld a negatív embereket!</li>

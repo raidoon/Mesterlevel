@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import KonyvAdatok from './KonyvAdatok'
+import KonyvAdatok2 from './KonyvAdatok2'
 const konyvTomb = [
     {
         cim: 'Harry Potter',
@@ -20,18 +20,18 @@ const konyvTomb = [
         iro: 'George R.R. Martin',
     },
 ]
-const Konyvek = () => {
-    const [kivalasztottCim, setKivalasztottCim] = useState('')
+const Konyvek2 = () => {
+    const [kivalasztottSzama, setKivalasztottSzama] = useState(0)
     return (
         <div className="keret keretZold doboz">
             <div className="oszlop">
                 <select
-                    value={kivalasztottCim}
-                    onChange={(be) => setKivalasztottCim(be.target.value)}
+                    value={kivalasztottSzama}
+                    onChange={(be) => setKivalasztottSzama(be.target.value)}
                     style={{ width: 'auto', fontSize: '20px' }}
                 >
-                    {konyvTomb.map((item) => (
-                        <option value={item.cim}>
+                    {konyvTomb.map((item, index) => (
+                        <option value={index}>
                             {item.iro}: {item.cim}
                         </option>
                     ))}
@@ -39,9 +39,15 @@ const Konyvek = () => {
             </div>
 
             <div className="oszlop">
-                <KonyvAdatok kivalasztottCim={kivalasztottCim} />
+                <KonyvAdatok2
+                    kivalasztottCim={konyvTomb[kivalasztottSzama].cim}
+                    kivalasztottSzama={konyvTomb[kivalasztottSzama]}
+                    kivalasztottHossz={konyvTomb[kivalasztottSzama].hossz}
+                    kivalasztottAr={konyvTomb[kivalasztottSzama].ar}
+                    kivalasztottIroja={konyvTomb[kivalasztottSzama].iro}
+                />
             </div>
         </div>
     )
 }
-export default Konyvek
+export default Konyvek2
