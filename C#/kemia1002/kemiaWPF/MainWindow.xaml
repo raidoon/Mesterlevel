@@ -15,7 +15,20 @@
                 </Grid>
             </TabItem>
             <TabItem Header="Új elem">
-                <Grid Background="#FFE5E5E5"/>
+                <Grid Background="#FFE5E5E5">
+                    <Label Content="Évszám" HorizontalAlignment="Left" Margin="53,35,0,0" VerticalAlignment="Top"/>
+                    <Label Content="Elem neve" HorizontalAlignment="Left" Margin="38,98,0,0" VerticalAlignment="Top"/>
+                    <Label Content="Vegyjel" HorizontalAlignment="Left" Margin="54,165,0,0" VerticalAlignment="Top"/>
+                    <ComboBox x:Name="cb_ev" HorizontalAlignment="Left" Margin="135,37,0,0" VerticalAlignment="Top" Width="120"/>
+                    <Label Content="Felfedező" HorizontalAlignment="Left" Margin="41,276,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="tb_nev" HorizontalAlignment="Left" Margin="135,102,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="155"/>
+                    <TextBox x:Name="tb_vegyjel" HorizontalAlignment="Left" Margin="135,169,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+                    <TextBox x:Name="tb_felfedezo" HorizontalAlignment="Left" Margin="135,280,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="262"/>
+                    <Label Content="Rendszám" HorizontalAlignment="Left" Margin="38,228,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="tb_rendszam" HorizontalAlignment="Left" Margin="135,232,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="tb_rendszam_TextChanged"/>
+                    <Button x:Name="bt_adatrogzites" Content="Adatrögzítés" HorizontalAlignment="Left" Margin="161,333,0,0" VerticalAlignment="Top" Height="44" Width="153" Click="bt_adatrogzites_Click"/>
+                    <Label x:Name="lb_uzenet" Content="Label" HorizontalAlignment="Left" Margin="525,28,0,0" VerticalAlignment="Top" Height="213" Width="229"/>
+                </Grid>
             </TabItem>
         </TabControl>
     </Grid>
