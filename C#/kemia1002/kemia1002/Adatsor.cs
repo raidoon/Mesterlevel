@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace kemia1002
 {
-    internal class Adatsor
+    public class Adatsor
     {
         public string ev {  get; set; }
         public string elem { get; set; }

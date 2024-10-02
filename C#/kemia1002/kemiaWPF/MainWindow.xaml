@@ -9,7 +9,10 @@
     <Grid>
         <TabControl>
             <TabItem Header="Elemek lista">
-                <Grid Background="#FFE5E5E5"/>
+                <Grid Background="#FFE5E5E5">
+                    <DataGrid x:Name="datagrid" HorizontalAlignment="Left" Height="246" Margin="26,134,0,0" VerticalAlignment="Top" Width="735" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+                    <TextBox x:Name="tbkereses" HorizontalAlignment="Left" Margin="230,43,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="tbkereses_TextChanged"/>
+                </Grid>
             </TabItem>
             <TabItem Header="Új elem">
                 <Grid Background="#FFE5E5E5"/>
