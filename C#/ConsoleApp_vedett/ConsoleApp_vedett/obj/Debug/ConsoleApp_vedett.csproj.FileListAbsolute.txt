@@ -1,0 +1,10 @@
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\ConsoleApp_vedett\ConsoleApp_vedett\bin\Debug\ConsoleApp_vedett.exe.config
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\ConsoleApp_vedett\ConsoleApp_vedett\bin\Debug\ConsoleApp_vedett.exe
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\ConsoleApp_vedett\ConsoleApp_vedett\bin\Debug\ConsoleApp_vedett.pdb
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\ConsoleApp_vedett\ConsoleApp_vedett\bin\Debug\ConsoleTableExt.dll
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\ConsoleApp_vedett\ConsoleApp_vedett\bin\Debug\NetworkHelper.dll
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\ConsoleApp_vedett\ConsoleApp_vedett\obj\Debug\ConsoleApp_vedett.csproj.AssemblyReference.cache
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\ConsoleApp_vedett\ConsoleApp_vedett\obj\Debug\ConsoleApp_vedett.csproj.CoreCompileInputs.cache
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\ConsoleApp_vedett\ConsoleApp_vedett\obj\Debug\ConsoleA.47155EEA.Up2Date
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\ConsoleApp_vedett\ConsoleApp_vedett\obj\Debug\ConsoleApp_vedett.exe
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\ConsoleApp_vedett\ConsoleApp_vedett\obj\Debug\ConsoleApp_vedett.pdb

@@ -1,0 +1,56 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\ConsoleApp_vedett\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{30123642-C16B-45FF-9DBB-153ECBC84AF5}|ConsoleApp_vedett\\ConsoleApp_vedett.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\consoleapp_vedett\\consoleapp_vedett\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30123642-C16B-45FF-9DBB-153ECBC84AF5}|ConsoleApp_vedett\\ConsoleApp_vedett.csproj|solutionrelative:consoleapp_vedett\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30123642-C16B-45FF-9DBB-153ECBC84AF5}|ConsoleApp_vedett\\ConsoleApp_vedett.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\consoleapp_vedett\\consoleapp_vedett\\adatsor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30123642-C16B-45FF-9DBB-153ECBC84AF5}|ConsoleApp_vedett\\ConsoleApp_vedett.csproj|solutionrelative:consoleapp_vedett\\adatsor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 206,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "adatsor.cs",
+              "DocumentMoniker": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\ConsoleApp_vedett\\ConsoleApp_vedett\\adatsor.cs",
+              "RelativeDocumentMoniker": "ConsoleApp_vedett\\adatsor.cs",
+              "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\ConsoleApp_vedett\\ConsoleApp_vedett\\adatsor.cs",
+              "RelativeToolTip": "ConsoleApp_vedett\\adatsor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T08:48:01.941Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\ConsoleApp_vedett\\ConsoleApp_vedett\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp_vedett\\Program.cs",
+              "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\ConsoleApp_vedett\\ConsoleApp_vedett\\Program.cs",
+              "RelativeToolTip": "ConsoleApp_vedett\\Program.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAgwCwAAABtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T08:47:18.714Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
