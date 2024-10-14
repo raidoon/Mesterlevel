@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using ConsoleTableExt;
+using System.Runtime.InteropServices;
 
 namespace ConsoleApp_vedett
 {
@@ -43,7 +44,25 @@ namespace ConsoleApp_vedett
             double atlag = 0;
             foreach (var item in adatok) atlag += atvalt(arfolyam, item.eszmeiErtek);
             Console.WriteLine($"Az állatok átlagos eszmei értéke: {Math.Round(atlag/adatok.Count(),1)} EUR");
+            //paraméterként megkapja az árfolyam értékét és a listát
+            double atlag2 = atvalt2(arfolyam, adatok);
+            Console.WriteLine($"Az állatok átlagos eszmei értéke - másképpen megoldva: {Math.Round(atlag2, 1)} EUR");
+            // extra feladat: kategóriánként az állatok száma és átlagos értéke
+            var kategoriak = adatok.GroupBy(x => x.kategoria, x => x.eszmeiErtek)
+                .OrderBy(x => x.Key)
+                .Select(x => new { kategórianév = x.Key, állatok_száma = x.Count(), átlagos_eszmei_érték = x.Average() }).ToList();
+            Console.WriteLine("Kategóriánként az állatok száma és átlagos értéke:");
+            ConsoleTableBuilder.From(kategoriak).ExportAndWriteLine();
+            
             Console.ReadKey();
+        }
+
+        private static double atvalt2(int arfolyam, List<adatsor> lista)
+        {
+            double atlag = 0;
+            foreach (var item in lista) atlag += item.eszmeiErtek / arfolyam;
+            atlag = atlag / lista.Count();
+            return atlag;
         }
 
         private static double atvalt(int arfolyam, int ar)
