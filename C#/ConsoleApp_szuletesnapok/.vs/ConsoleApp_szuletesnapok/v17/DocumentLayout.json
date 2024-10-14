@@ -1,0 +1,56 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\ConsoleApp_szuletesnapok\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{596D05B2-7EF4-4F19-AA5F-F652604FB327}|ConsoleApp_szuletesnapok\\ConsoleApp_szuletesnapok.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\consoleapp_szuletesnapok\\consoleapp_szuletesnapok\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{596D05B2-7EF4-4F19-AA5F-F652604FB327}|ConsoleApp_szuletesnapok\\ConsoleApp_szuletesnapok.csproj|solutionrelative:consoleapp_szuletesnapok\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{596D05B2-7EF4-4F19-AA5F-F652604FB327}|ConsoleApp_szuletesnapok\\ConsoleApp_szuletesnapok.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\consoleapp_szuletesnapok\\consoleapp_szuletesnapok\\adatsor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{596D05B2-7EF4-4F19-AA5F-F652604FB327}|ConsoleApp_szuletesnapok\\ConsoleApp_szuletesnapok.csproj|solutionrelative:consoleapp_szuletesnapok\\adatsor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 206,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Adatsor.cs",
+              "DocumentMoniker": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\ConsoleApp_szuletesnapok\\ConsoleApp_szuletesnapok\\Adatsor.cs",
+              "RelativeDocumentMoniker": "ConsoleApp_szuletesnapok\\Adatsor.cs",
+              "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\ConsoleApp_szuletesnapok\\ConsoleApp_szuletesnapok\\Adatsor.cs",
+              "RelativeToolTip": "ConsoleApp_szuletesnapok\\Adatsor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T10:26:37.654Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\ConsoleApp_szuletesnapok\\ConsoleApp_szuletesnapok\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp_szuletesnapok\\Program.cs",
+              "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\ConsoleApp_szuletesnapok\\ConsoleApp_szuletesnapok\\Program.cs",
+              "RelativeToolTip": "ConsoleApp_szuletesnapok\\Program.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAYwD0AAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T10:26:01.538Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

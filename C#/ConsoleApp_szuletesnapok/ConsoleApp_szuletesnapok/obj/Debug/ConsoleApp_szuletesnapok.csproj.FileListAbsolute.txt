@@ -1,0 +1,10 @@
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\ConsoleApp_szuletesnapok\ConsoleApp_szuletesnapok\bin\Debug\ConsoleApp_szuletesnapok.exe.config
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\ConsoleApp_szuletesnapok\ConsoleApp_szuletesnapok\bin\Debug\ConsoleApp_szuletesnapok.exe
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\ConsoleApp_szuletesnapok\ConsoleApp_szuletesnapok\bin\Debug\ConsoleApp_szuletesnapok.pdb
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\ConsoleApp_szuletesnapok\ConsoleApp_szuletesnapok\bin\Debug\ConsoleTableExt.dll
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\ConsoleApp_szuletesnapok\ConsoleApp_szuletesnapok\bin\Debug\NetworkHelper.dll
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\ConsoleApp_szuletesnapok\ConsoleApp_szuletesnapok\obj\Debug\ConsoleApp_szuletesnapok.csproj.AssemblyReference.cache
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\ConsoleApp_szuletesnapok\ConsoleApp_szuletesnapok\obj\Debug\ConsoleApp_szuletesnapok.csproj.CoreCompileInputs.cache
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\ConsoleApp_szuletesnapok\ConsoleApp_szuletesnapok\obj\Debug\ConsoleA.AFD54B21.Up2Date
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\ConsoleApp_szuletesnapok\ConsoleApp_szuletesnapok\obj\Debug\ConsoleApp_szuletesnapok.exe
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\ConsoleApp_szuletesnapok\ConsoleApp_szuletesnapok\obj\Debug\ConsoleApp_szuletesnapok.pdb
