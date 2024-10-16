@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfApp_VarmegyeSzekhelyJatek.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp_VarmegyeSzekhelyJatek"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="800">
+    <Grid>
+        <ListBox x:Name="listbox" HorizontalAlignment="Left" Height="450" Margin="26,34,0,0" VerticalAlignment="Top" Width="255" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+        <Label x:Name="lb_n" Content="N=" HorizontalAlignment="Left" Margin="340,120,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="cb_n" HorizontalAlignment="Left" Margin="372,124,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="bt_jatekinditasa" Content="Játék indítása" HorizontalAlignment="Left" Margin="602,126,0,0" VerticalAlignment="Top" Width="99" Click="bt_jatekinditasa_Click"/>
+        <Label x:Name="lb_jatekszabaly" Content="" HorizontalAlignment="Left" Height="81" Margin="304,34,0,0" VerticalAlignment="Top" Width="455" Background="#FF6FF1A1"/>
+        <Label x:Name="lb_segitseg" Content="" HorizontalAlignment="Left" Height="78" Margin="304,164,0,0" VerticalAlignment="Top" Width="455" Background="#FF55FF96"/>
+        <TextBox x:Name="tb_szekhely" HorizontalAlignment="Left" Height="28" Margin="354,318,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="232"/>
+        <Label x:Name="lb_eredmeny" Content="Eredmény" HorizontalAlignment="Left" Margin="318,362,0,0" VerticalAlignment="Top" Height="122" Width="424" Background="#FFBEEDF3"/>
+        <Label x:Name="lb_megye" Content="Megye --> S" HorizontalAlignment="Left" Height="35" Margin="340,260,0,0" VerticalAlignment="Top" Width="376" Background="#FFA0E5ED"/>
+        <Button x:Name="bt_tipp" Content="Tipp" HorizontalAlignment="Left" Margin="625,312,0,0" VerticalAlignment="Top" Height="40" Width="53" Click="bt_tipp_Click"/>
+
+    </Grid>
+</Window>

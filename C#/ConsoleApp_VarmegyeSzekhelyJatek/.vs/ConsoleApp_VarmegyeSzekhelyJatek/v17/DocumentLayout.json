@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\ConsoleApp_VarmegyeSzekhelyJatek\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{743A0DDF-B5FD-4AB6-AF73-98E5796849E8}|WpfApp_VarmegyeSzekhelyJatek\\WpfApp_VarmegyeSzekhelyJatek.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\consoleapp_varmegyeszekhelyjatek\\wpfapp_varmegyeszekhelyjatek\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{743A0DDF-B5FD-4AB6-AF73-98E5796849E8}|WpfApp_VarmegyeSzekhelyJatek\\WpfApp_VarmegyeSzekhelyJatek.csproj|solutionrelative:wpfapp_varmegyeszekhelyjatek\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{743A0DDF-B5FD-4AB6-AF73-98E5796849E8}|WpfApp_VarmegyeSzekhelyJatek\\WpfApp_VarmegyeSzekhelyJatek.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\consoleapp_varmegyeszekhelyjatek\\wpfapp_varmegyeszekhelyjatek\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{743A0DDF-B5FD-4AB6-AF73-98E5796849E8}|WpfApp_VarmegyeSzekhelyJatek\\WpfApp_VarmegyeSzekhelyJatek.csproj|solutionrelative:wpfapp_varmegyeszekhelyjatek\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A7EAEE6C-758F-44D8-A782-D29357F42AB2}|ConsoleApp_VarmegyeSzekhelyJatek\\ConsoleApp_VarmegyeSzekhelyJatek.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\consoleapp_varmegyeszekhelyjatek\\consoleapp_varmegyeszekhelyjatek\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7EAEE6C-758F-44D8-A782-D29357F42AB2}|ConsoleApp_VarmegyeSzekhelyJatek\\ConsoleApp_VarmegyeSzekhelyJatek.csproj|solutionrelative:consoleapp_varmegyeszekhelyjatek\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,32 +26,61 @@
       "DocumentGroups": [
         {
           "DockedWidth": 206,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\ConsoleApp_VarmegyeSzekhelyJatek\\WpfApp_VarmegyeSzekhelyJatek\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp_VarmegyeSzekhelyJatek\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\ConsoleApp_VarmegyeSzekhelyJatek\\WpfApp_VarmegyeSzekhelyJatek\\MainWindow.xaml",
+              "RelativeToolTip": "WpfApp_VarmegyeSzekhelyJatek\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-16T10:25:22.25Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\ConsoleApp_VarmegyeSzekhelyJatek\\WpfApp_VarmegyeSzekhelyJatek\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp_VarmegyeSzekhelyJatek\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\ConsoleApp_VarmegyeSzekhelyJatek\\WpfApp_VarmegyeSzekhelyJatek\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp_VarmegyeSzekhelyJatek\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAYwGUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T10:25:21.758Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Adatsor.cs",
               "DocumentMoniker": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\ConsoleApp_VarmegyeSzekhelyJatek\\ConsoleApp_VarmegyeSzekhelyJatek\\Adatsor.cs",
               "RelativeDocumentMoniker": "ConsoleApp_VarmegyeSzekhelyJatek\\Adatsor.cs",
               "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\ConsoleApp_VarmegyeSzekhelyJatek\\ConsoleApp_VarmegyeSzekhelyJatek\\Adatsor.cs",
               "RelativeToolTip": "ConsoleApp_VarmegyeSzekhelyJatek\\Adatsor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAfAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-16T09:16:49.539Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\ConsoleApp_VarmegyeSzekhelyJatek\\ConsoleApp_VarmegyeSzekhelyJatek\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp_VarmegyeSzekhelyJatek\\Program.cs",
               "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\ConsoleApp_VarmegyeSzekhelyJatek\\ConsoleApp_VarmegyeSzekhelyJatek\\Program.cs",
               "RelativeToolTip": "ConsoleApp_VarmegyeSzekhelyJatek\\Program.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAWwDQAAAASAAAA",
+              "ViewState": "AQIAACsAAAAAAAAAAAAgwDwAAABRAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-16T09:16:05.805Z",
+              "IsPinned": true,
               "EditorCaption": ""
             }
           ]

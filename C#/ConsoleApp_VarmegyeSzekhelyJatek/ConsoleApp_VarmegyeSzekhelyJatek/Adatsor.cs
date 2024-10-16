@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp_VarmegyeSzekhelyJatek
 {
-    internal class Adatsor
+    public class Adatsor
     {
         public string Szekhely { get; set; }
         public string Megye { get; set; }
