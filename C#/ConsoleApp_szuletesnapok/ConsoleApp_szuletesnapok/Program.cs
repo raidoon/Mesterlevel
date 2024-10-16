@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -61,7 +62,33 @@ namespace ConsoleApp_szuletesnapok
             var szuletesekLista = adatok.GroupBy(x => x.szul.Year).OrderBy(x => x.Key)
                 .Select(x => new { évszám = x.Key, darabszám = x.Count() }).ToList();
             ConsoleTableBuilder.From(szuletesekLista).ExportAndWriteLine();
+            double atlageletkor=AtlagEletkor(DateTime.Now,adatok);
+            Console.WriteLine($"Áltagéletkor: {Math.Round(atlageletkor,2)}");
+            List<string> kiirtLista = new List<string>();
+            adatok.GroupBy(x => x.knev).ToList().ForEach(x => kiirtLista.Add($"{x.Key} név {x.Count()} fő"));
+            File.WriteAllLines("keresztnevek.txt", kiirtLista);
+            //+ feladat: ki ünnepli 10.29-én a születésnapját?
+            foreach(var a in adatok)
+            {
+                DateTime szulnapUtc = DateTime.SpecifyKind(a.szul, DateTimeKind.Utc);
+                DateTime szulnapLocal = szulnapUtc.ToLocalTime(); //átalakítjuk helyi időre
+                if (szulnapLocal.Month == 10 && szulnapLocal.Day == 29)
+                    Console.WriteLine($"{a.vnev,-20} {a.knev,-20} {a.szul.ToString("yyyy.MM.dd"),-15}");
+            }
+
             Console.ReadKey();
+        }
+
+        private static double AtlagEletkor(DateTime maiDatum, List<Adatsor> lista)
+        {
+            double atlag = 0;
+            foreach(var a  in lista)
+            {
+                TimeSpan kulonbseg = maiDatum - a.szul;
+                atlag += kulonbseg.Days / 365.25;
+            }
+            atlag=atlag/lista.Count;
+            return atlag;
         }
 
         private static int SzuletesekSzama(int evszam, List<Adatsor> adatok)
