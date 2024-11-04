@@ -7,11 +7,11 @@
       "RelativeMoniker": "D:0:0:{29E7B473-F8A7-4AD8-AF72-203F91B3A7C6}|frontend\\frontend.csproj|solutionrelative:frontend\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29E7B473-F8A7-4AD8-AF72-203F91B3A7C6}|frontend\\frontend.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\wpf_festmenyek\\frontend\\frontend\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{29E7B473-F8A7-4AD8-AF72-203F91B3A7C6}|frontend\\frontend.csproj|C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\WPF_festmenyek\\frontend\\frontend\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{29E7B473-F8A7-4AD8-AF72-203F91B3A7C6}|frontend\\frontend.csproj|solutionrelative:frontend\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29E7B473-F8A7-4AD8-AF72-203F91B3A7C6}|frontend\\frontend.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\wpf_festmenyek\\frontend\\frontend\\adatsor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{29E7B473-F8A7-4AD8-AF72-203F91B3A7C6}|frontend\\frontend.csproj|C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\WPF_festmenyek\\frontend\\frontend\\adatsor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29E7B473-F8A7-4AD8-AF72-203F91B3A7C6}|frontend\\frontend.csproj|solutionrelative:frontend\\adatsor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,8 +34,7 @@
               "RelativeToolTip": "frontend\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-11-04T11:35:15.415Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -45,7 +44,7 @@
               "RelativeDocumentMoniker": "frontend\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\WPF_festmenyek\\frontend\\frontend\\MainWindow.xaml.cs",
               "RelativeToolTip": "frontend\\MainWindow.xaml.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAwwDgAAAAsAAAA",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAswF0AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-04T11:35:12.893Z",
               "IsPinned": true,
@@ -62,8 +61,7 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-04T11:36:38.29Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             }
           ]
         }

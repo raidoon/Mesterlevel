@@ -13,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace frontend
 {
@@ -103,7 +104,6 @@ namespace frontend
                 //eh_id, eh_nev, eh_festo, eh_evszam, eh_magassag, eh_szelesseg, eh_kep
                 Adatsor modositas = new Adatsor
                 {
-                    eh_id = id,
                     eh_nev = tbnev.Text,
                     eh_festo = tbfesto.Text,
                     eh_evszam = int.Parse(cbevszam.SelectedValue.ToString()),
@@ -118,6 +118,21 @@ namespace frontend
                 adatokbetoltese();//dataGrid frissítése
             }
             else MessageBox.Show("Nincs kiválasztva sor a módosításhoz");
+        }
+
+        private void datagrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (datagrid.SelectedItem != null)
+            {
+                //eh_id, eh_nev, eh_festo, eh_evszam, eh_magassag, eh_szelesseg, eh_kep
+                Adatsor kivalasztottsor = (Adatsor)datagrid.SelectedItem;
+                tbnev.Text = kivalasztottsor.eh_nev;
+                cbevszam.SelectedValue = kivalasztottsor.eh_evszam;
+                tbszelesseg.Text = kivalasztottsor.eh_szelesseg.ToString();
+                tbmagassag.Text = kivalasztottsor.eh_magassag.ToString();
+                tbfesto.Text=kivalasztottsor.eh_festo;
+                tbkep.Text = kivalasztottsor.eh_kep;
+            }
         }
     }
 }

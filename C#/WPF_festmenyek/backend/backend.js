@@ -50,7 +50,7 @@ app.delete('/torles', (req, res) => {
 app.post('/modositas', (req, res) => {
     kapcsolat()
     connection.connect()    
-    connection.query(`UPDATE festmenyek SET eh_id=${req.body.eh_id},eh_nev=${req.body.eh_nev},eh_festo=${req.body.eh_festo},eh_evszam=${req.body.eh_evszam},eh_szelesseg=${req.body.eh_szelesseg},eh_magassag=${req.body.eh_magassag},eh_kep="${req.body.eh_kep}" WHERE eh_id=${req.body.eh_id}`, (err, rows, fields) => {
+    connection.query(`UPDATE festmenyek SET eh_nev="${req.body.eh_nev}",eh_festo="${req.body.eh_festo}",eh_evszam=${req.body.eh_evszam},eh_szelesseg=${req.body.eh_szelesseg},eh_magassag=${req.body.eh_magassag},eh_kep="${req.body.eh_kep}" WHERE eh_id=${req.body.eh_id}`, (err, rows, fields) => {
         if (err) 
           res.send("Hiba") 
         else 

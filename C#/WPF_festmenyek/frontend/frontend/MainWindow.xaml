@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <DataGrid x:Name="datagrid" HorizontalAlignment="Left" Height="298" Margin="20,126,0,0" VerticalAlignment="Top" Width="770"/>
+        <DataGrid x:Name="datagrid" HorizontalAlignment="Left" Height="298" Margin="20,126,0,0" VerticalAlignment="Top" Width="770" SelectionChanged="datagrid_SelectionChanged"/>
         <ComboBox x:Name="cbevszam" HorizontalAlignment="Left" Margin="116,90,0,0" VerticalAlignment="Top" Width="173"/>
         <Label x:Name="lbnev" Content="Festmény neve:" HorizontalAlignment="Left" Margin="20,10,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="tbnev" HorizontalAlignment="Left" Margin="116,14,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="173" Height="22"/>
