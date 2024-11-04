@@ -1,0 +1,26 @@
+C:\Users\User\Downloads\BL 2024-25 órai munkák\AAF 2-14.1 2024-25\RealEstateab10.21\RealEstateab\RealEstateab\bin\Debug\RealEstateab.exe.config
+C:\Users\User\Downloads\BL 2024-25 órai munkák\AAF 2-14.1 2024-25\RealEstateab10.21\RealEstateab\RealEstateab\bin\Debug\RealEstateab.exe
+C:\Users\User\Downloads\BL 2024-25 órai munkák\AAF 2-14.1 2024-25\RealEstateab10.21\RealEstateab\RealEstateab\bin\Debug\RealEstateab.pdb
+C:\Users\User\Downloads\BL 2024-25 órai munkák\AAF 2-14.1 2024-25\RealEstateab10.21\RealEstateab\RealEstateab\bin\Debug\NetworkHelper.dll
+C:\Users\User\Downloads\BL 2024-25 órai munkák\AAF 2-14.1 2024-25\RealEstateab10.21\RealEstateab\RealEstateab\obj\Debug\RealEstateab.csproj.AssemblyReference.cache
+C:\Users\User\Downloads\BL 2024-25 órai munkák\AAF 2-14.1 2024-25\RealEstateab10.21\RealEstateab\RealEstateab\obj\Debug\RealEstateab.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\BL 2024-25 órai munkák\AAF 2-14.1 2024-25\RealEstateab10.21\RealEstateab\RealEstateab\obj\Debug\RealEsta.C0C823FD.Up2Date
+C:\Users\User\Downloads\BL 2024-25 órai munkák\AAF 2-14.1 2024-25\RealEstateab10.21\RealEstateab\RealEstateab\obj\Debug\RealEstateab.exe
+C:\Users\User\Downloads\BL 2024-25 órai munkák\AAF 2-14.1 2024-25\RealEstateab10.21\RealEstateab\RealEstateab\obj\Debug\RealEstateab.pdb
+C:\Users\User\Downloads\BL 2024-25 órai munkák\AAF 2-14.1 2024-25\hirdetesekab feladat 10.25órai feladat\RealEstateab\RealEstateab\bin\Debug\RealEstateab.exe.config
+C:\Users\User\Downloads\BL 2024-25 órai munkák\AAF 2-14.1 2024-25\hirdetesekab feladat 10.25órai feladat\RealEstateab\RealEstateab\bin\Debug\RealEstateab.exe
+C:\Users\User\Downloads\BL 2024-25 órai munkák\AAF 2-14.1 2024-25\hirdetesekab feladat 10.25órai feladat\RealEstateab\RealEstateab\bin\Debug\RealEstateab.pdb
+C:\Users\User\Downloads\BL 2024-25 órai munkák\AAF 2-14.1 2024-25\hirdetesekab feladat 10.25órai feladat\RealEstateab\RealEstateab\bin\Debug\NetworkHelper.dll
+C:\Users\User\Downloads\BL 2024-25 órai munkák\AAF 2-14.1 2024-25\hirdetesekab feladat 10.25órai feladat\RealEstateab\RealEstateab\obj\Debug\RealEstateab.csproj.AssemblyReference.cache
+C:\Users\User\Downloads\BL 2024-25 órai munkák\AAF 2-14.1 2024-25\hirdetesekab feladat 10.25órai feladat\RealEstateab\RealEstateab\obj\Debug\RealEstateab.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\BL 2024-25 órai munkák\AAF 2-14.1 2024-25\hirdetesekab feladat 10.25órai feladat\RealEstateab\RealEstateab\obj\Debug\RealEsta.C0C823FD.Up2Date
+C:\Users\User\Downloads\BL 2024-25 órai munkák\AAF 2-14.1 2024-25\hirdetesekab feladat 10.25órai feladat\RealEstateab\RealEstateab\obj\Debug\RealEstateab.exe
+C:\Users\User\Downloads\BL 2024-25 órai munkák\AAF 2-14.1 2024-25\hirdetesekab feladat 10.25órai feladat\RealEstateab\RealEstateab\obj\Debug\RealEstateab.pdb
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\hirdetesekab 11.04\RealEstateab\RealEstateab\bin\Debug\RealEstateab.exe.config
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\hirdetesekab 11.04\RealEstateab\RealEstateab\bin\Debug\RealEstateab.exe
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\hirdetesekab 11.04\RealEstateab\RealEstateab\bin\Debug\RealEstateab.pdb
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\hirdetesekab 11.04\RealEstateab\RealEstateab\obj\Debug\RealEstateab.csproj.AssemblyReference.cache
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\hirdetesekab 11.04\RealEstateab\RealEstateab\obj\Debug\RealEstateab.csproj.CoreCompileInputs.cache
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\hirdetesekab 11.04\RealEstateab\RealEstateab\obj\Debug\RealEsta.C0C823FD.Up2Date
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\hirdetesekab 11.04\RealEstateab\RealEstateab\obj\Debug\RealEstateab.exe
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\hirdetesekab 11.04\RealEstateab\RealEstateab\obj\Debug\RealEstateab.pdb

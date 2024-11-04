@@ -1,0 +1,28 @@
+﻿<Window x:Class="frontend.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:frontend"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="datagrid" HorizontalAlignment="Left" Height="298" Margin="20,126,0,0" VerticalAlignment="Top" Width="770"/>
+        <ComboBox x:Name="cbevszam" HorizontalAlignment="Left" Margin="116,90,0,0" VerticalAlignment="Top" Width="173"/>
+        <Label x:Name="lbnev" Content="Festmény neve:" HorizontalAlignment="Left" Margin="20,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbnev" HorizontalAlignment="Left" Margin="116,14,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="173" Height="22"/>
+        <Label x:Name="lbfesto" Content="Festő neve:" HorizontalAlignment="Left" Margin="42,49,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbfesto" HorizontalAlignment="Left" Height="26" Margin="116,49,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="173"/>
+        <Label x:Name="lbevszam" Content="Évszám:" HorizontalAlignment="Left" Margin="60,88,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbszelesseg" Content="Festmény szélessége:" HorizontalAlignment="Left" Margin="344,12,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbmagassag" Content="Festmény magassága:" HorizontalAlignment="Left" Margin="572,14,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbmagassag" HorizontalAlignment="Left" Height="28" Margin="702,14,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="69"/>
+        <TextBox x:Name="tbszelesseg" HorizontalAlignment="Left" Height="28" Margin="480,14,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="69"/>
+        <Label x:Name="lbkep" Content="JPG neve:" HorizontalAlignment="Left" Margin="344,62,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbkep" HorizontalAlignment="Left" Margin="409,62,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="140" Height="26"/>
+        <Button x:Name="bttorles" Content="Törlés" HorizontalAlignment="Left" Margin="741,62,0,0" VerticalAlignment="Top" Height="31" Width="51" Click="bttorles_Click"/>
+        <Button x:Name="btujfestmeny" Content="Új festmény" HorizontalAlignment="Left" Margin="572,62,0,0" VerticalAlignment="Top" Height="31" Width="79" Click="btujfestmeny_Click"/>
+        <Button x:Name="btmodositas" Content="Módosítás" HorizontalAlignment="Left" Height="31" Margin="660,62,0,0" VerticalAlignment="Top" Width="76" Click="btmodositas_Click"/>
+
+    </Grid>
+</Window>

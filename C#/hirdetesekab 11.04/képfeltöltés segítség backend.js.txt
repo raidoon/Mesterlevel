@@ -1,0 +1,57 @@
+npm init -y
+npm install mysql
+npm install express
+npm install cors
+npm install --save multer
+npm install body-parser
+npm install nodemon
+
+
+package.json fájlban módosítás
+    "test": "echo \"Error: no test specified\" && exit 1",
+"start":"nodemon backend.js"
+
+szerver indítása: npm start
+
+
+const express = require('express')
+var multer = require('multer');
+var cors = require('cors')
+const app = express()
+const port = 3000
+app.use(cors())
+
+app.use(express.static('hirdeteskepek'))
+
+const mysql = require('mysql')
+app.use(express.json());
+
+function kapcsolat()
+{
+     connection = mysql.createConnection({
+        host: 'localhost',
+        user: 'root',
+        password: '',
+        database: 'hirdetesekab'
+      })
+}
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+  console.log('Hello Borsos Lajos!')
+})
+
+app.get('/hirdeteseklista', (req, res) => {
+  kapcsolat()
+    connection.connect()    
+    connection.query('SELECT hirdetesekid,szobaszam,szelesseg,hosszusag,emelet,alapterulet,hirdetesszoveg,tehermentes,kepnev,hirdetesdatum,hirdetoid,hirdetonev,hirdetotelefon,kategoriaid,kategorianev FROM kategoriak INNER JOIN hirdetesek ON kategoriaid=kategoriakid INNER JOIN hirdetok ON hirdetoid=hirdetokid', (err, rows, fields) => {
+      if (err) throw err    
+      console.log(rows)
+      res.send(rows)
+    })    
+    connection.end()
+  })
+
+ 
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`)
+})

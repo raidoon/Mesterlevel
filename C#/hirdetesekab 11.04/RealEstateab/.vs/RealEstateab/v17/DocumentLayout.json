@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\hirdetesekab 11.04\\RealEstateab\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BEAD0FEE-3D74-47D7-B1AD-C9B45FE5A9AB}|RealEstateabWPF\\RealEstateabWPF.csproj|C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\hirdetesekab 11.04\\RealEstateab\\realestateabwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BEAD0FEE-3D74-47D7-B1AD-C9B45FE5A9AB}|RealEstateabWPF\\RealEstateabWPF.csproj|solutionrelative:realestateabwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C6E9132-4AD6-4E4D-973A-95499F277D87}|RealEstateab\\RealEstateab.csproj|C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\hirdetesekab 11.04\\RealEstateab\\realestateab\\adatsor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C6E9132-4AD6-4E4D-973A-95499F277D87}|RealEstateab\\RealEstateab.csproj|solutionrelative:realestateab\\adatsor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEAD0FEE-3D74-47D7-B1AD-C9B45FE5A9AB}|RealEstateabWPF\\RealEstateabWPF.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\hirdetesekab 11.04\\realestateab\\realestateabwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEAD0FEE-3D74-47D7-B1AD-C9B45FE5A9AB}|RealEstateabWPF\\RealEstateabWPF.csproj|solutionrelative:realestateabwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C6E9132-4AD6-4E4D-973A-95499F277D87}|RealEstateab\\RealEstateab.csproj|C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\hirdetesekab 11.04\\RealEstateab\\realestateab\\hirdetok.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C6E9132-4AD6-4E4D-973A-95499F277D87}|RealEstateab\\RealEstateab.csproj|solutionrelative:realestateab\\hirdetok.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C6E9132-4AD6-4E4D-973A-95499F277D87}|RealEstateab\\RealEstateab.csproj|C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\hirdetesekab 11.04\\RealEstateab\\realestateab\\kategoriak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C6E9132-4AD6-4E4D-973A-95499F277D87}|RealEstateab\\RealEstateab.csproj|solutionrelative:realestateab\\kategoriak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C6E9132-4AD6-4E4D-973A-95499F277D87}|RealEstateab\\RealEstateab.csproj|C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\hirdetesekab 11.04\\RealEstateab\\realestateab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C6E9132-4AD6-4E4D-973A-95499F277D87}|RealEstateab\\RealEstateab.csproj|solutionrelative:realestateab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Kategoriak.cs",
+              "DocumentMoniker": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\hirdetesekab 11.04\\RealEstateab\\RealEstateab\\Kategoriak.cs",
+              "RelativeDocumentMoniker": "RealEstateab\\Kategoriak.cs",
+              "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\hirdetesekab 11.04\\RealEstateab\\RealEstateab\\Kategoriak.cs",
+              "RelativeToolTip": "RealEstateab\\Kategoriak.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T06:33:03.631Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Hirdetok.cs",
+              "DocumentMoniker": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\hirdetesekab 11.04\\RealEstateab\\RealEstateab\\Hirdetok.cs",
+              "RelativeDocumentMoniker": "RealEstateab\\Hirdetok.cs",
+              "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\hirdetesekab 11.04\\RealEstateab\\RealEstateab\\Hirdetok.cs",
+              "RelativeToolTip": "RealEstateab\\Hirdetok.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T06:29:07.306Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\hirdetesekab 11.04\\RealEstateab\\RealEstateabWPF\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "RealEstateabWPF\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\hirdetesekab 11.04\\RealEstateab\\RealEstateabWPF\\MainWindow.xaml*",
+              "RelativeToolTip": "RealEstateabWPF\\MainWindow.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-25T06:22:10.523Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\hirdetesekab 11.04\\RealEstateab\\RealEstateabWPF\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "RealEstateabWPF\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\hirdetesekab 11.04\\RealEstateab\\RealEstateabWPF\\MainWindow.xaml.cs",
+              "RelativeToolTip": "RealEstateabWPF\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAIEBAAAAAAAAAAAcwJ4BAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T06:22:10.225Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Adatsor.cs",
+              "DocumentMoniker": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\hirdetesekab 11.04\\RealEstateab\\RealEstateab\\Adatsor.cs",
+              "RelativeDocumentMoniker": "RealEstateab\\Adatsor.cs",
+              "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\hirdetesekab 11.04\\RealEstateab\\RealEstateab\\Adatsor.cs",
+              "RelativeToolTip": "RealEstateab\\Adatsor.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T11:59:13.822Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\hirdetesekab 11.04\\RealEstateab\\RealEstateab\\Program.cs",
+              "RelativeDocumentMoniker": "RealEstateab\\Program.cs",
+              "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\hirdetesekab 11.04\\RealEstateab\\RealEstateab\\Program.cs",
+              "RelativeToolTip": "RealEstateab\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T11:57:10.052Z",
+              "IsPinned": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

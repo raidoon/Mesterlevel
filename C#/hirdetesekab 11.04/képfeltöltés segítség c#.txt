@@ -1,0 +1,43 @@
+private void btujkep_Click(object sender, RoutedEventArgs e)
+{
+    // Kép tallózása
+    Microsoft.Win32.OpenFileDialog openFileDialog = new Microsoft.Win32.OpenFileDialog();
+    openFileDialog.Filter = "Képfájlok (*.jpg;*.jpeg;*.png)|*.jpg;*.jpeg;*.png|Mind Files (*.*)|*.*";
+    bool? result = openFileDialog.ShowDialog();
+
+    if (result == true)
+    {
+        // A kiválasztott fájl elérési útja
+        string selectedImagePath = openFileDialog.FileName;
+
+        // A fájl neve (csak a név, nem a teljes elérési út)
+        string fileName = System.IO.Path.GetFileName(selectedImagePath);
+
+        // A fájl cél elérési útja (a "kepek" mappába másolás előtt)
+        string destinationPath = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"../../../../backend/hirdeteskepek/", fileName);
+
+        try
+        {
+            // Kép másolása a "kepek" mappába
+            System.IO.File.Copy(selectedImagePath, destinationPath, true);
+
+            tbkepnev.Text = fileName;
+
+            // Frissítjük az Image.Source-t a kiválasztott képre
+            string kepEleresiUt = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"../../../../backend/hirdeteskepek/", fileName);
+            Uri uri = new Uri(kepEleresiUt, UriKind.Absolute);
+
+            // Újra létrehozzuk a BitmapImage-t
+            BitmapImage bitmapImage = new BitmapImage(uri);
+
+            // Beállítjuk az Image.Source-t
+            image.Source = bitmapImage;
+
+            MessageBox.Show("Kép sikeresen hozzáadva a kepek mappába!");
+        }
+        catch (Exception ex)
+        {
+            MessageBox.Show($"Hiba történt a kép másolása során: {ex.Message}");
+        }
+    }
+}
