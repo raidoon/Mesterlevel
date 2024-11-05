@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\ConsoleApp_Furdo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E39F4780-C7C1-4117-805B-650ECE7A1A40}|ConsoleApp_Furdo\\ConsoleApp_Furdo.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\consoleapp_furdo\\consoleapp_furdo\\adatsor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E39F4780-C7C1-4117-805B-650ECE7A1A40}|ConsoleApp_Furdo\\ConsoleApp_Furdo.csproj|solutionrelative:consoleapp_furdo\\adatsor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E39F4780-C7C1-4117-805B-650ECE7A1A40}|ConsoleApp_Furdo\\ConsoleApp_Furdo.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\consoleapp_furdo\\consoleapp_furdo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E39F4780-C7C1-4117-805B-650ECE7A1A40}|ConsoleApp_Furdo\\ConsoleApp_Furdo.csproj|solutionrelative:consoleapp_furdo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E39F4780-C7C1-4117-805B-650ECE7A1A40}|ConsoleApp_Furdo\\ConsoleApp_Furdo.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\consoleapp_furdo\\consoleapp_furdo\\adatsor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E39F4780-C7C1-4117-805B-650ECE7A1A40}|ConsoleApp_Furdo\\ConsoleApp_Furdo.csproj|solutionrelative:consoleapp_furdo\\adatsor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,17 +18,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Adatsor.cs",
               "DocumentMoniker": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\ConsoleApp_Furdo\\ConsoleApp_Furdo\\Adatsor.cs",
               "RelativeDocumentMoniker": "ConsoleApp_Furdo\\Adatsor.cs",
               "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\ConsoleApp_Furdo\\ConsoleApp_Furdo\\Adatsor.cs",
               "RelativeToolTip": "ConsoleApp_Furdo\\Adatsor.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABoAAAAMAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-05T10:57:22.436Z",
               "IsPinned": true,
@@ -36,13 +36,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\ConsoleApp_Furdo\\ConsoleApp_Furdo\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp_Furdo\\Program.cs",
               "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\ConsoleApp_Furdo\\ConsoleApp_Furdo\\Program.cs",
               "RelativeToolTip": "ConsoleApp_Furdo\\Program.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAArwBcAAAA9AAAA",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAgwFMAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-05T10:55:12.274Z",
               "IsPinned": true,
