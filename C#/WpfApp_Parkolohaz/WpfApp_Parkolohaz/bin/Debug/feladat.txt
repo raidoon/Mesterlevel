@@ -1,0 +1,20 @@
+A parkolóháznak 3 emelete és minden emeleten 20 parkolóhelye van.
+ 
+A program kezelje az autók parkolását, kihajtását, valamint biztosítson különbözõ keresési és rendezési lehetõségeket. 
+
+A program indításakor egy parkolo.txt fájlból olvassa be a parkoló aktuális állapotát.
+Ha a fájl nem létezik, hozzon létre egy üres parkolóházat.
+
+Minden változtatás után a program mentse az aktuális parkolóállapotot a parkolo.txt fájlba! Válassz listából és hajtsd végre annak megfelelõen:
+            - új autó parkoltatása egy adott parkolóhelyre. 
+            - autó kihajtása egy adott parkolóhelyrõl
+            - adott rendszám alapján keresés, hogy megtudjuk melyik parkolóhelyen van az autó
+            - adott szintre parkolt autók listázása
+            - autók listázása rendszám szerint rendezve
+            - autók listázása parkolóhely szerint rendezve
+            - kilépés
+            
+
+txt: 
+    emelet;hely;renszám
+    1;5;SAS-424

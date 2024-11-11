@@ -1,0 +1,25 @@
+﻿<Window x:Class="WpfApp_Parkolohaz.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp_Parkolohaz"
+        mc:Ignorable="d"
+        Title="Parkolóház" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="datagrid" HorizontalAlignment="Center" Height="273" Margin="0,134,0,0" VerticalAlignment="Top" Width="736" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+        <TextBox x:Name="tbrendszam" HorizontalAlignment="Left" Margin="639,38,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="tbrendszam_TextChanged"/>
+        <Label Content="Keresés rendszámmal:" HorizontalAlignment="Left" Margin="501,34,0,0" VerticalAlignment="Top"/>
+        <Label Content="Szűrés szint alapján:" HorizontalAlignment="Left" Margin="501,87,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="cbszint" HorizontalAlignment="Left" Margin="639,91,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="cbszint_SelectionChanged" />
+        <Button x:Name="btujparkolas" Content="Új autó parkoltatása" HorizontalAlignment="Left" Margin="176,92,0,0" VerticalAlignment="Top" Height="31" Width="130" Click="btujparkolas_Click"/>
+        <Label Content="Emelet:" HorizontalAlignment="Left" Margin="57,34,0,0" VerticalAlignment="Top"/>
+        <Label Content="Parkolóhely:" HorizontalAlignment="Left" Margin="32,60,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="cbemelet" HorizontalAlignment="Left" Margin="116,36,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="cbparkolohely" HorizontalAlignment="Left" Margin="116,64,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="lbszabad" Content="label" HorizontalAlignment="Left" Margin="281,21,0,0" VerticalAlignment="Top" Height="35" Width="185"/>
+        <Label Content="Rendszám:" HorizontalAlignment="Left" Margin="274,62,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbujrendszam" HorizontalAlignment="Left" Margin="346,68,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>
