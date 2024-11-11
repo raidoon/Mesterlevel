@@ -14,6 +14,10 @@ export default function HomeScreen({ navigation }) {
         title="Saját oldal meghívása"
         onPress={() => navigation.navigate('Sajat')}
       />
+      <Button
+        title="Hívás 1 képernyő meghívása"
+        onPress={() => navigation.navigate('Hivas1')}
+      />
     </View>
   );
 }
