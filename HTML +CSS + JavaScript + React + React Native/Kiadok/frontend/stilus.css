@@ -1,0 +1,36 @@
+
+h1{
+    text-align: center;
+}
+#reszletek{
+    margin-top: 20px;
+    background-color: green;
+    color: white;
+}
+
+.bekezdes{
+    text-align: justify;
+}
+.szegely{
+    background-color: green;
+    border-radius: 15px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 5px yellow;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: yellow;
+    
+}
+.felkover{
+    font-weight: bold;
+}
+td{
+    background-color: green;
+    color: white;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Könyvek</title>
+    <link href="bootstrap-5.1.3-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="stilus.css">
+    <script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
+  
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-success navbar-dark sticky-top">
+        <div class="container-fluid">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#kiadok">Kiadók</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#konyvek">Könyvek</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#reszletes">Részletes adatok</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Új könyv felvétele</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    <div class="container">
+    <h1 id="kiadok">Kiadók</h1>
+    <table class="table table-dark">
+      <thead>
+        <tr><th>Kiadó cím</th><th>Kiadó név</th><th>Kiadó webcím</th></tr>
+      </thead>
+      <tbody id="tablazat">
+      </tbody>
+    </table>
+
+    <h1 id="konyvek">Könyvek</h1>
+    <div class="row" id="doboz"></div>
+
+    <h1 id="reszletes">Részletes adatok</h1>
+    <div class="row" id="reszletek"></div>
+
+    <div class="row">
+      <div class="col-12">
+        <h2 class="mb-4 text-center" id="adatfelvitel">Új könyv adatrögzítés</h2>
+        <div class="mb-3">
+          <label for="id">Könyv azonosító</label>
+          <input id="id" type="text" class="form-control" disabled>
+        </div>
+        <div class="mb-3">
+          <label for="szerzo">Szerző</label>
+          <input id="szerzo" type="text" class="form-control">
+        </div>
+        <div class="mb-3">
+          <label for="konyvcim">Könyvcím</label>
+          <input id="konyvcim" type="text" class="form-control">
+        </div>
+        <div class="mb-3">
+          <label for="isbn">ISBN</label>
+          <input id="isbn" type="text" class="form-control">
+        </div>
+        <div class="mb-3">
+          <label for="ar">Ár</label>
+          <input id="ar" type="number" class="form-control">
+        </div>
+        <div class="mb-3">
+          <label for="kiado">Kiadó</label>
+          <select class="form-select" id="kiadoid"></select>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <h2 class="mb-4 text-left" id="adatfelvitel">Új kiadó felvitel</h2>
+        <div class="mb-3">
+          <label for="cim">Cím</label>
+          <input id="cim" type="text" class="form-control">
+        </div>
+        <div class="mb-3">
+          <label for="nev">Név</label>
+          <input id="nev" type="text" class="form-control">
+        </div>
+        <div class="mb-3">
+          <label for="www">www</label>
+          <input id="www" type="text" class="form-control">
+        </div>
+      </div>
+    </div>
+    
+    <div class="mb-3"><button class="btn btn-primary" type="button" onclick="ujkiadofelvitel()">Új kiadó rögzítése</button></div>
+    
+    <div class="mb-3">
+      <h2>Könyv képe:</h2>
+      <p>
+        <label>Válassz egy fájlt a feltöltéshez (Előtte nevezd át a képet!!!)</label>
+        <input type="file" name="myfile" /><br /><br />
+        <input type="submit" value="Kép feltöltése" name="submit" onclick="kepfeltoltes()">
+        <span class="uzenet" id="kepfeltoltesstatus"></span>
+      </p>
+      <label for="kepnev" class="form-label">Fénykép a könyvről</label>
+      <input type="url" class="form-control" id="kepnev" placeholder="10.jpg" disabled>
+    </div>
+    <div class="mb-3">
+      <button class="btn btn-primary" type="button" onclick="konyvellenorzes()">Adatok rögzítése</button>
+      <button class="btn btn-primary" type="button" onclick="ellenorzesmodositas()">Adatok módosítása</button>
+      <p id="feltoltesuzenet"></p>
+    </div>
+<script src="alap.js"></script>
+</body>
+</html>
