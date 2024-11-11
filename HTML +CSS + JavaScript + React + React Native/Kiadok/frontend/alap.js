@@ -35,7 +35,7 @@ function kiadok(adatok){
             <td><a href="${item.www}" target="_blank">${item.www}</a></td>
         </tr>`
         sz2+=`
-        <option value="${elem.id}">${elem.nev}</option>`
+        <option value="${item.id}">${item.nev}</option>`
     })
     document.getElementById("tablazat").innerHTML=sz
     document.getElementById("kiadoid").innerHTML=sz2
