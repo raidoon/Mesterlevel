@@ -1,11 +1,18 @@
 // screens/HomeScreen.js
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import React from 'react';
 import { View, Text, Button } from 'react-native';
 
 export default function HomeScreen({ navigation,route }) {
-  const {visszakuld}=route.params
-  const [vissza,setVissza] = useState("sajt")
+  //const {visszakuld} = route.params
+  const [vissza,setVissza] = useState("")
+
+  useEffect(()=>{
+    if(route.params?.visszakuld){
+      setVissza(route.params.visszakuld)
+    }
+  },[route.params]) //ha [], akkor indításkor egyszer futna le
+
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
       <Text>Kezdőlap</Text>
