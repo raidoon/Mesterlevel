@@ -1,6 +1,8 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { View, Text, Button } from "react-native";
+import SzavazatFelvitel from "./szavazatFelvitel";
+
 export default function SajatMenu2({ navigation, route }) {
   const { id, cim } = route.params;
   const [adatok, setAdatok] = useState([]);
@@ -26,19 +28,16 @@ export default function SajatMenu2({ navigation, route }) {
       <Text>{id}</Text>
       <Text>{cim}</Text>
       {/* Conditional rendering: Check if adatok[0] exists before accessing its properties */}
-      {adatok[0] ? (
-        <Text>{adatok[0].db}</Text>
-      ) : (
-        <Text>Loading data...</Text>
-      )}
+      {adatok[0] ? <Text>{adatok[0].db}</Text> : <Text>Loading data...</Text>}
       <Button
-        title="Új hívás"
+        title="Új hívás" 
         onPress={() => navigation.navigate("UjhivasScreen")}
       />
       <Button
         title="Egy újabb hívás, hogy gyakoroljak"
         onPress={() => navigation.navigate("Ujhivas2Screen")}
-      />
+      /> 
+      <SzavazatFelvitel/>
     </View>
   );
 }

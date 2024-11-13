@@ -50,6 +50,21 @@ app.post('/szavazatDb', (req, res) => {
   })
   connection.end()
 })
+//felvitel
+app.post('/szavazatFelvitel', (req, res) => {
+  kapcsolat()
+  connection.query('insert into szavazat values (null,?)',[req.body.bevitel1], (err, rows, fields) => {
+    if (err) {
+        console.log(err)
+        res.status(500).send("Hiba")
+    }
+    else{
+      console.log(rows)
+      res.status(200).send(rows)
+    }
+  })
+  connection.end()
+})
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
