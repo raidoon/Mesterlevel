@@ -34,7 +34,22 @@ app.get('/film', (req, res) => {
         }
       })
       connection.end()
+})
+//SELECT count(*) as db from szavazat where szavazat_film=1;
+app.post('/szavazatDb', (req, res) => {
+  kapcsolat()
+  connection.query('SELECT count(*) as db from szavazat where szavazat_film=?',[req.body.bevitel1], (err, rows, fields) => {
+    if (err) {
+        console.log(err)
+        res.status(500).send("Hiba")
+    }
+    else{
+      console.log(rows)
+      res.status(200).send(rows)
+    }
   })
+  connection.end()
+})
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
