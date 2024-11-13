@@ -80,7 +80,7 @@ function HomeTabs() {
       >
       <Tab.Screen name="Kezdőlap" component={HomeScreen} />
       <Tab.Screen name="Settings" component={SettingsScreen} />
-      <Tab.Screen name="SajatMenu" component={SajatMenu} />
+      <Tab.Screen name="SajatMenu" component={SajatMenusStack} />
     </Tab.Navigator>
   );
 }

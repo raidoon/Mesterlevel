@@ -13,9 +13,9 @@ export default function SajatMenu({ navigation }) {
   useEffect(()=>{
       letoltes()
   },[])
-  const reszletekFv=(id)=>{
-    alert(id)
-    navigation.navigate('SajatMenu2',{id:id})
+  const reszletekFv=(id,cim)=>{
+    //alert(id)
+    navigation.navigate('SajatMenu2',{id:id,cim:cim})
   }
 
   return (
@@ -29,7 +29,7 @@ export default function SajatMenu({ navigation }) {
                 <Text>{item.film_cim}</Text>
                 <TouchableOpacity 
                     style={{backgroundColor:"#0000ff"}} 
-                    onPress={()=>reszletekFv(item.film_id)}>
+                    onPress={()=>reszletekFv(item.film_id, item.film_cim)}>
                   <Text style={{color:"white"}}>Részletek</Text>
                 </TouchableOpacity>
             </View>
