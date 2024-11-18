@@ -38,7 +38,7 @@ app.get("/megyeLista", (req, res) => {
 app.get("/varosLista", (req, res) => {
   kapcsolat();
   connection.connect();
-  connection.query("SELECT varos_id, vnev, vtip, mnev, jaras, kisterseg, nepesseg, terulet from megye inner join varos on megye_id=megyeid inner join varostipus on vtip_id=vtipid", (err, rows, fields) => {
+  connection.query("SELECT varos_id, vnev, vtip, mnev, jaras, kisterseg, nepesseg, terulet, vtipid, megyeid from megye inner join varos on megye_id=megyeid inner join varostipus on vtip_id=vtipid", (err, rows, fields) => {
     if (err) throw err;
     console.log(rows);
     res.send(rows);
@@ -49,9 +49,10 @@ app.post('/felvitel',(req,res)=>{
   kapcsolat()
   connection.connect()
   connection.query(`insert into varos values(${req.body.varos_id},"${req.body.vnev}",${req.body.vtipid},${req.body.megyeid},"${req.body.jaras}","${req.body.kisterseg}",${req.body.nepesseg},${req.body.terulet})`, (err, rows, fields) => {
-    if (err) throw err;
-    console.log(rows);
-    res.send(rows);
+    if (err)
+    res.send("hiba");
+  else
+    res.send("sikerült")
   });
   connection.end();
 });

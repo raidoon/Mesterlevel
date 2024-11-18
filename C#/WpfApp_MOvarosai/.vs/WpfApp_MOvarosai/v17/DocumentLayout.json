@@ -7,24 +7,16 @@
       "RelativeMoniker": "D:0:0:{1092E8C4-B730-44B5-A476-580F5004D190}|movarosaiWPF\\movarosaiWPF.csproj|solutionrelative:movarosaiwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1092E8C4-B730-44B5-A476-580F5004D190}|movarosaiWPF\\movarosaiWPF.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\wpfapp_movarosai\\movarosaiwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{1092E8C4-B730-44B5-A476-580F5004D190}|movarosaiWPF\\movarosaiWPF.csproj|C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\WpfApp_MOvarosai\\movarosaiwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{1092E8C4-B730-44B5-A476-580F5004D190}|movarosaiWPF\\movarosaiWPF.csproj|solutionrelative:movarosaiwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23C4A41A-D978-4EB6-8355-5F0BA520C83D}|ConsoleApp_MOvarosai\\ConsoleApp_MOvarosai.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\wpfapp_movarosai\\consoleapp_movarosai\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23C4A41A-D978-4EB6-8355-5F0BA520C83D}|ConsoleApp_MOvarosai\\ConsoleApp_MOvarosai.csproj|solutionrelative:consoleapp_movarosai\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23C4A41A-D978-4EB6-8355-5F0BA520C83D}|ConsoleApp_MOvarosai\\ConsoleApp_MOvarosai.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\wpfapp_movarosai\\consoleapp_movarosai\\varostipus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23C4A41A-D978-4EB6-8355-5F0BA520C83D}|ConsoleApp_MOvarosai\\ConsoleApp_MOvarosai.csproj|solutionrelative:consoleapp_movarosai\\varostipus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{23C4A41A-D978-4EB6-8355-5F0BA520C83D}|ConsoleApp_MOvarosai\\ConsoleApp_MOvarosai.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\wpfapp_movarosai\\consoleapp_movarosai\\varos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23C4A41A-D978-4EB6-8355-5F0BA520C83D}|ConsoleApp_MOvarosai\\ConsoleApp_MOvarosai.csproj|solutionrelative:consoleapp_movarosai\\varos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23C4A41A-D978-4EB6-8355-5F0BA520C83D}|ConsoleApp_MOvarosai\\ConsoleApp_MOvarosai.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\wpfapp_movarosai\\consoleapp_movarosai\\megye.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23C4A41A-D978-4EB6-8355-5F0BA520C83D}|ConsoleApp_MOvarosai\\ConsoleApp_MOvarosai.csproj|solutionrelative:consoleapp_movarosai\\megye.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{23C4A41A-D978-4EB6-8355-5F0BA520C83D}|ConsoleApp_MOvarosai\\ConsoleApp_MOvarosai.csproj|C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\WpfApp_MOvarosai\\consoleapp_movarosai\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23C4A41A-D978-4EB6-8355-5F0BA520C83D}|ConsoleApp_MOvarosai\\ConsoleApp_MOvarosai.csproj|solutionrelative:consoleapp_movarosai\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +30,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\WpfApp_MOvarosai\\ConsoleApp_MOvarosai\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp_MOvarosai\\Program.cs",
@@ -47,6 +39,33 @@
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABoAAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-13T09:49:45.135Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Varos.cs",
+              "DocumentMoniker": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\WpfApp_MOvarosai\\ConsoleApp_MOvarosai\\Varos.cs",
+              "RelativeDocumentMoniker": "ConsoleApp_MOvarosai\\Varos.cs",
+              "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\WpfApp_MOvarosai\\ConsoleApp_MOvarosai\\Varos.cs",
+              "RelativeToolTip": "ConsoleApp_MOvarosai\\Varos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T09:43:02.773Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\WpfApp_MOvarosai\\movarosaiWPF\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "movarosaiWPF\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\WpfApp_MOvarosai\\movarosaiWPF\\MainWindow.xaml.cs",
+              "RelativeToolTip": "movarosaiWPF\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAHYAAAAAAAAAAAAcwJAAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T11:08:07.82Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
@@ -61,59 +80,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-11-13T11:08:07.981Z",
               "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\WpfApp_MOvarosai\\movarosaiWPF\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "movarosaiWPF\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\WpfApp_MOvarosai\\movarosaiWPF\\MainWindow.xaml.cs",
-              "RelativeToolTip": "movarosaiWPF\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAFoAAAAAAAAAAAAlwGEAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T11:08:07.82Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Varostipus.cs",
-              "DocumentMoniker": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\WpfApp_MOvarosai\\ConsoleApp_MOvarosai\\Varostipus.cs",
-              "RelativeDocumentMoniker": "ConsoleApp_MOvarosai\\Varostipus.cs",
-              "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\WpfApp_MOvarosai\\ConsoleApp_MOvarosai\\Varostipus.cs",
-              "RelativeToolTip": "ConsoleApp_MOvarosai\\Varostipus.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T10:57:25.436Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Varos.cs",
-              "DocumentMoniker": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\WpfApp_MOvarosai\\ConsoleApp_MOvarosai\\Varos.cs",
-              "RelativeDocumentMoniker": "ConsoleApp_MOvarosai\\Varos.cs",
-              "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\WpfApp_MOvarosai\\ConsoleApp_MOvarosai\\Varos.cs",
-              "RelativeToolTip": "ConsoleApp_MOvarosai\\Varos.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T10:57:19.508Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Megye.cs",
-              "DocumentMoniker": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\WpfApp_MOvarosai\\ConsoleApp_MOvarosai\\Megye.cs",
-              "RelativeDocumentMoniker": "ConsoleApp_MOvarosai\\Megye.cs",
-              "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\WpfApp_MOvarosai\\ConsoleApp_MOvarosai\\Megye.cs",
-              "RelativeToolTip": "ConsoleApp_MOvarosai\\Megye.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T10:57:14.813Z",
               "EditorCaption": ""
             }
           ]

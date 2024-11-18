@@ -14,8 +14,6 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using NetworkHelper;
-using ConsoleApp_MOvarosai;
 
 namespace movarosaiWPF
 {
@@ -126,12 +124,26 @@ namespace movarosaiWPF
                     MessageBox.Show("A terület érvénytelen vagy negatív!");
                     return;
                 }
-                else
+                //idegen kulcsok meghatározása
+                int vtipid = varostipusAdatok[cbujvarostipus.SelectedIndex].vtipid_id;
+                int megyeid = megyeAdatok[cbujmegye.SelectedIndex].megye_id;
+                /*
+                Varos felvitel = new Varos
                 {
-                    //idegen kulcsok meghatározása
-                    int vtipid = varostipusAdatok[cbvarostipus.SelectedIndex].vtipid_id;
-                    int megyeid = megyeAdatok[cbmegye.SelectedIndex].megye_id;
-                }
+                    varos_id = id,
+                    vnev = tbujvaros.Text,
+                    vtipid = vtipid,
+                    megyeid = megyeid,
+                    jaras = cbjaras.SelectedValue.ToString(),
+                    kisterseg = cbkisterseg.SelectedValue.ToString(),
+                    nepesseg = nepesseg,
+                    terulet = terulet
+                };
+                string url = "http://localhost:3000";
+                string valasz = Backend.POST(url + "/felvitel").Body(felvitel).Send().As<string>();
+                MessageBox.Show(valasz);
+                adatokbetoltese();*/
+                
             }
             else MessageBox.Show("Minden adatot meg kell adni!");
         }

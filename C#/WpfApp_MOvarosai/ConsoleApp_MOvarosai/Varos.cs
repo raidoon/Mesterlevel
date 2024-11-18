@@ -16,5 +16,7 @@ namespace ConsoleApp_MOvarosai
         public string kisterseg { get; set; }
         public int nepesseg { get; set; }
         public double terulet { get; set; }
+        public int vtipid { get; set; }
+        public int megyeid { get; set; }
     }
 }

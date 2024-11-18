@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:movarosaiWPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="488" Width="801">
+        Title="movarosai" Height="488" Width="801">
     <Grid>
         <TabControl x:Name="tabControl" HorizontalAlignment="Center" Height="434" VerticalAlignment="Center" Width="780">
             <TabItem Header="Városok">
