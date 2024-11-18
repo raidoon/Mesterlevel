@@ -12,7 +12,7 @@ namespace ConsoleApp_vizilabda
         public int ev {  get; set; }
         public string helyszin { get; set; }
         public int helyezes { get; set; }
-        public int kapitany_id { get; set; }
+        public int kapitanyid { get; set; }
         public string verseny {  get; set; }
     }
 }

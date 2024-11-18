@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\vizilabda\\ConsoleApp_vizilabda\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0C3DE5C2-91F9-4B93-A32A-9F5948E92A3F}|WpfApp_vizilabda\\WpfApp_vizilabda.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\vizilabda\\consoleapp_vizilabda\\wpfapp_vizilabda\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C3DE5C2-91F9-4B93-A32A-9F5948E92A3F}|WpfApp_vizilabda\\WpfApp_vizilabda.csproj|solutionrelative:wpfapp_vizilabda\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C3DE5C2-91F9-4B93-A32A-9F5948E92A3F}|WpfApp_vizilabda\\WpfApp_vizilabda.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\vizilabda\\consoleapp_vizilabda\\wpfapp_vizilabda\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0C3DE5C2-91F9-4B93-A32A-9F5948E92A3F}|WpfApp_vizilabda\\WpfApp_vizilabda.csproj|solutionrelative:wpfapp_vizilabda\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75319CD5-18D3-4CBA-96F8-D6A1E50A3654}|ConsoleApp_vizilabda\\ConsoleApp_vizilabda.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\vizilabda\\consoleapp_vizilabda\\consoleapp_vizilabda\\bajnoksag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75319CD5-18D3-4CBA-96F8-D6A1E50A3654}|ConsoleApp_vizilabda\\ConsoleApp_vizilabda.csproj|solutionrelative:consoleapp_vizilabda\\bajnoksag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75319CD5-18D3-4CBA-96F8-D6A1E50A3654}|ConsoleApp_vizilabda\\ConsoleApp_vizilabda.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\vizilabda\\consoleapp_vizilabda\\consoleapp_vizilabda\\kapitany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75319CD5-18D3-4CBA-96F8-D6A1E50A3654}|ConsoleApp_vizilabda\\ConsoleApp_vizilabda.csproj|solutionrelative:consoleapp_vizilabda\\kapitany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{75319CD5-18D3-4CBA-96F8-D6A1E50A3654}|ConsoleApp_vizilabda\\ConsoleApp_vizilabda.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\vizilabda\\consoleapp_vizilabda\\consoleapp_vizilabda\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75319CD5-18D3-4CBA-96F8-D6A1E50A3654}|ConsoleApp_vizilabda\\ConsoleApp_vizilabda.csproj|solutionrelative:consoleapp_vizilabda\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,20 +30,73 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\vizilabda\\ConsoleApp_vizilabda\\WpfApp_vizilabda\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp_vizilabda\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\vizilabda\\ConsoleApp_vizilabda\\WpfApp_vizilabda\\MainWindow.xaml",
+              "RelativeToolTip": "WpfApp_vizilabda\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-18T12:10:02.01Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\vizilabda\\ConsoleApp_vizilabda\\WpfApp_vizilabda\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp_vizilabda\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\vizilabda\\ConsoleApp_vizilabda\\WpfApp_vizilabda\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp_vizilabda\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAAAGUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T12:10:01.607Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\vizilabda\\ConsoleApp_vizilabda\\ConsoleApp_vizilabda\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp_vizilabda\\Program.cs",
               "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\vizilabda\\ConsoleApp_vizilabda\\ConsoleApp_vizilabda\\Program.cs",
               "RelativeToolTip": "ConsoleApp_vizilabda\\Program.cs",
-              "ViewState": "AQIAAH8AAAAAAAAAAAAmwJgAAAAoAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-18T10:31:31.586Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Kapitany.cs",
+              "DocumentMoniker": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\vizilabda\\ConsoleApp_vizilabda\\ConsoleApp_vizilabda\\Kapitany.cs",
+              "RelativeDocumentMoniker": "ConsoleApp_vizilabda\\Kapitany.cs",
+              "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\vizilabda\\ConsoleApp_vizilabda\\ConsoleApp_vizilabda\\Kapitany.cs",
+              "RelativeToolTip": "ConsoleApp_vizilabda\\Kapitany.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T13:29:25.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Bajnoksag.cs",
+              "DocumentMoniker": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\vizilabda\\ConsoleApp_vizilabda\\ConsoleApp_vizilabda\\Bajnoksag.cs",
+              "RelativeDocumentMoniker": "ConsoleApp_vizilabda\\Bajnoksag.cs",
+              "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\vizilabda\\ConsoleApp_vizilabda\\ConsoleApp_vizilabda\\Bajnoksag.cs",
+              "RelativeToolTip": "ConsoleApp_vizilabda\\Bajnoksag.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T13:25:14.65Z",
               "EditorCaption": ""
             }
           ]

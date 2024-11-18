@@ -25,7 +25,7 @@ app.get("/", (req, res) => {
 app.get("/kapitanyLista", (req, res) => {
   kapcsolat();
   connection.connect();
-  connection.query("SELECT * FROM kapitany", (err, rows, fields) => {
+  connection.query("SELECT * FROM kapitany order by kapitany.neve", (err, rows, fields) => {
     if (err) throw err;
     console.log(rows);
     res.send(rows);
@@ -66,6 +66,32 @@ app.put("/modositas", (req, res) => {
     (err, rows, fields) => {
       if (err) res.send("Hiba");
       else res.send("A módosítás sikerült");
+    }
+  );
+  connection.end();
+});
+app.post("/kapitanyFelvitel", (req, res) => {
+  kapcsolat();
+  connection.connect();
+  connection.query(
+    `insert into kapitany values(${req.body.kapitany_id},"${req.body.neve}",${req.body.szuletett},${req.body.meghalt})`,
+    (err, rows, fields) => {
+      if (err) res.send("Hiba");
+      else res.send("A felvitel sikerült");
+    }
+  );
+  connection.end();
+});
+app.post("/bajnoksagFelvitel", (req, res) => {
+  kapcsolat();
+  connection.connect();
+  connection.query(
+    `insert into bajnoksag values(${req.body.id},${req.body.ev},"${req.body.helyszin}",${req.body.helyezes},${req.body.kapitanyid},"${req.body.verseny}")`,
+    (err, rows, fields) => {
+      if (err) 
+      res.send("Hiba");
+      else 
+      res.send("A felvitel sikerült");
     }
   );
   connection.end();

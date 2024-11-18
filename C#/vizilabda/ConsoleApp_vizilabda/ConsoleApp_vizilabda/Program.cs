@@ -1,11 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using ConsoleTableExt;
 using NetworkHelper;
-
 namespace ConsoleApp_vizilabda
 {
     internal class Program
@@ -19,7 +16,6 @@ namespace ConsoleApp_vizilabda
             List<Kapitany> kapitanyAdatok = new List<Kapitany>();
             List<Bajnoksag> bajnoksagAdatok = new List<Bajnoksag>();
             List<Adatsor> osszesAdat = new List<Adatsor>();
-
 
             kapitanyAdatok = Backend.GET(urlKapitany).Send().As<List<Kapitany>>();
             bajnoksagAdatok = Backend.GET(urlBajnoksag).Send().As<List<Bajnoksag>>();
@@ -151,7 +147,6 @@ namespace ConsoleApp_vizilabda
             string url = "http://localhost:3000/modositas";
             string valasz = Backend.PUT(url).Body(modositas).Send().As<string>();
             Console.WriteLine(valasz);*/
-
             Console.ReadKey();
         }
     }
