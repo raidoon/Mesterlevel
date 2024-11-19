@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlTypes;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 namespace furdostat
 {
@@ -79,8 +81,92 @@ namespace furdostat
             int reggel = 0, napkozben = 0, este = 0;
             for(int i = 0;i < db; i++)
             {
-
+                if (adatok[i].reszleg == 0 && adatok[i].kibe == 1)
+                {
+                    if (new TimeSpan(9, 0, 0) > adatok[i].ido) reggel++;
+                    else if (new TimeSpan(16, 0, 0) > adatok[i].ido) napkozben++;
+                    else este++;
+                }
             }
+            Console.WriteLine($"\n5.feladat:\n\t6-9 óra között {reggel} vendég érkezett." +
+                                            $"\n\t9-16 óra között {napkozben} vendég érkezett." +
+                                            $"\n\t16-20 óra között {este} vendég érkezett.");
+            /*FileStream kifajl = new FileStream("szauna.txt", FileMode.Create);
+            StreamWriter sw = new StreamWriter(kifajl);
+            cv = 0;
+            while (cv < db)
+            {
+                TimeSpan szaunaido = new TimeSpan(0, 0, 0);
+                while (adatok[cv].vendegid == adatok[cv + 1].vendegid)
+                {
+                    if (adatok[cv].reszleg == 2)
+                    {
+                        szaunaido += adatok[cv + 1].ido - adatok[cv].ido;
+                        cv++;
+                    }
+                }
+                if(szaunaido>new TimeSpan(0, 0, 0))
+                {
+                    sw.WriteLine($"{adatok[cv].vendegid} {szaunaido}");  
+                }
+                cv++;
+            }
+            sw.Close();
+            kifajl.Close();
+            */
+            Console.WriteLine("\n6.feladat: A fájlba írás sikeresen megtörtént.");
+            Boolean r1 = false, r2 = false, r3 = false, r4 = false;
+            int dbr1 = 0, dbr2 = 0, dbr3 = 0, dbr4 = 0;
+            cv = 0;
+            while (cv < db)
+            {
+                while (adatok[cv].vendegid == adatok[cv+1].vendegid)
+                {
+                    switch(adatok[cv].vendegid)
+                    {
+                        case 1:
+                        {
+                            if (!r1)
+                            {
+                                dbr1++;
+                                r1 = true;
+                            }
+                            break;
+                        }
+                        case 2:
+                        {
+                            if (!r2)
+                            {
+                                dbr2++;
+                                r2 = true;
+                            }
+                            break;
+                        }
+                        case 3:
+                        {
+                            if (!r3)
+                            {
+                                dbr3++;
+                                r3 = true;
+                            }
+                            break;
+                        }
+                        case 4:
+                        {
+                            if (!r4)
+                            {
+                                dbr4++;
+                                r4 = true;
+                            }
+                            break;
+                        }
+                    }
+                    cv++;
+                }
+                r1 = false; r2 = false; r3 = false; r4 = false;
+                cv++;
+            }
+            Console.WriteLine($"\n7.feladat:\n\tUszodák: {dbr1}\n\tSzaunák: {dbr2}\n\tGyógyvizes medencék: {dbr3}\n\tStrand részleg: {dbr4}");
             Console.ReadKey();
         }
     }
