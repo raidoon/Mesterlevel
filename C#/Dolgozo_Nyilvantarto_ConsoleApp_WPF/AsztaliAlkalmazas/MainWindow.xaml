@@ -1,0 +1,38 @@
+﻿<Window x:Class="AsztaliAlkalmazas.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AsztaliAlkalmazas"
+        mc:Ignorable="d"
+        Title="Dolgozó Nyilvántartó Program" Height="450" Width="800">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Dolgozók">
+                <Grid Background="#FFE5E5E5">
+                    <DataGrid x:Name="datagrid" HorizontalAlignment="Left" Height="292" Margin="7,24,0,0" VerticalAlignment="Top" Width="777" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+                    <TextBox x:Name="tbkereses" HorizontalAlignment="Left" Height="30" Margin="32,354,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="185"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Új dolgozó">
+                <Grid Background="#FFE5E5E5">
+                    <Label x:Name="lbnev" Content="Név" HorizontalAlignment="Left" Margin="18,37,0,0" VerticalAlignment="Top"/>
+                    <Label x:Name="lbneme" Content="Neme" HorizontalAlignment="Left" Margin="18,98,0,0" VerticalAlignment="Top"/>
+                    <Label x:Name="lbreszleg" Content="Részleg" HorizontalAlignment="Left" Margin="18,165,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.488,0.504"/>
+                    <Label x:Name="lbbelepes" Content="Belépés" HorizontalAlignment="Left" Margin="18,234,0,0" VerticalAlignment="Top"/>
+                    <Label x:Name="lbber" Content="Bér" HorizontalAlignment="Left" Margin="22,300,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="tbnev" HorizontalAlignment="Left" Height="33" Margin="72,37,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="291"/>
+                    <ComboBox x:Name="cbnem" HorizontalAlignment="Left" Height="26" Margin="80,98,0,0" VerticalAlignment="Top" Width="195"/>
+                    <ComboBox x:Name="cbreszleg" HorizontalAlignment="Left" Height="26" Margin="80,165,0,0" VerticalAlignment="Top" Width="248"/>
+                    <TextBox x:Name="tbber" HorizontalAlignment="Left" Height="26" Margin="80,300,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="233"/>
+                    <ComboBox x:Name="cbbelepes" HorizontalAlignment="Left" Height="26" Margin="80,234,0,0" VerticalAlignment="Top" Width="155"/>
+                    <TextBox x:Name="tbujreszleg" HorizontalAlignment="Left" Height="24" Margin="372,167,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="252"/>
+                    <Button x:Name="btujreszleg" Content="Új részleg rözgítés" HorizontalAlignment="Left" Height="23" Margin="643,168,0,0" VerticalAlignment="Top" Width="124" Click="btujreszleg_Click"/>
+                    <Button x:Name="btujdolgozo" Content="Dolgozó rögzítése" HorizontalAlignment="Left" Height="40" Margin="75,348,0,0" VerticalAlignment="Top" Width="200" Click="btujdolgozo_Click"/>
+                    <Label x:Name="lbvalasz" Content="" HorizontalAlignment="Left" Height="66" Margin="444,322,0,0" VerticalAlignment="Top" Width="261"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>
