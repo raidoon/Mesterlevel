@@ -27,8 +27,31 @@ namespace Dolgozo_Nyilvantarto_ConsoleApp_WPF
             //LegfiatalabbDolgozo();
             //DolgozokFizetesiTartomanyban();
             //DolgozokAtlagfizeteseNemenkent();
-            JubileumiJutalomraJogosultak();
+            //JubileumiJutalomraJogosultak();
+            //LegoregebbDolgozo();
+            ReszlegenkentiOsszFizetes();
             Console.ReadKey();
+        }
+
+        private static void ReszlegenkentiOsszFizetes()
+        {
+            var lista = adatok
+                 .GroupBy(x => x.reszleg)
+                 .Select(y => new
+                 {
+                     részleg = y.Key,
+                     összfizetés = y.Sum(x => x.ber)
+                 })
+                 .ToList();
+            ConsoleTableBuilder.From(lista).ExportAndWriteLine();
+        }
+
+        private static void LegoregebbDolgozo()
+        {
+            int belepesleghamarabb = dolgozoadatok.Min(x => x.belepes);
+            var lista = dolgozoadatok.Where(x => x.belepes == belepesleghamarabb)
+                .ToList();
+            ConsoleTableBuilder.From(lista).ExportAndWriteLine();
         }
 
         private static void JubileumiJutalomraJogosultak()

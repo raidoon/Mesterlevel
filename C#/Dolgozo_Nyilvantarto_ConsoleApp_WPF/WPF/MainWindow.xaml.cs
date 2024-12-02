@@ -56,7 +56,7 @@ namespace WPF
             reszlegadatok.Select(x => x.reszleg).ToList().ForEach(x => cbreszleg.Items.Add(x));
             cbreszleg.SelectedIndex = 0;
 
-            for (int i = DateTime.Now.Year; i < 1800; i--) cbbelepes.Items.Add(i);
+            for (int i = 2024; i >1800; i--) cbbelepes.Items.Add(i);
             cbbelepes.SelectedIndex = 0;
 
 
@@ -80,16 +80,15 @@ namespace WPF
 
         private void btujreszleg_Click(object sender, RoutedEventArgs e)
         {
+            lbvalasz.Content = "";
             if (tbujreszleg.Text != "")
             {
                 var lista = reszlegadatok.Where(x=> x.reszleg==tbujreszleg.Text).ToList();
                 if (lista.Count != 0) MessageBox.Show("Ez a részleg már szerepel a részlegek között!");
                 else
                 {
-                    //int id = reszlegadatok.Max(x => x.reszlegid) + 1;
                     Reszleg felvitel = new Reszleg
                     {
-                        //reszlegid = id,
                         reszleg = tbujreszleg.Text
                     };
                     string url = "http://localhost:3000/reszlegfelvitel";
@@ -103,21 +102,28 @@ namespace WPF
 
         private void btujdolgozo_Click(object sender, RoutedEventArgs e)
         {
+            lbvalasz.Content = "";
             if (tbnev.Text != "" && tbber.Text != "")
             {
                 //dolgozofelvitel
                 //insert into dolgozo velues (null,"${req.body.nev}","${req.body.neme}",${req.body.dolgozoreszlegid},${req.body.belepes},${req.body.ber}
-                //int id = dolgozoadatok.Max(x=> x.dolgozoid) + 1;
-                /*
-                int reszlegid = 
-                Dolgozo felvitel = new Dolgozo
+                bool berok = int.TryParse(tbber.Text, out int ber) && ber > 0;
+                if (!berok)
                 {
-                    dolgozoid = id,
+                    lbvalasz.Content = "A bér nem érvényes!";
+                }
+                Dolgozo dolgozofelvitel = new Dolgozo
+                {
                     nev = tbnev.Text,
                     neme = cbneme.SelectedValue.ToString(),
-                    
+                    dolgozoreszlegid = reszlegadatok[cbreszleg.SelectedIndex].reszlegid,
+                    belepes = int.Parse(cbbelepes.SelectedValue.ToString()),
+                    ber = ber
                 };
-                */
+                string url = "http://localhost:3000/dolgozofelvitel";
+                string valasz = Backend.POST(url).Body(dolgozofelvitel).Send().As<string>();
+                lbvalasz.Content = valasz;
+                adatokbetoltese();
             }
             else MessageBox.Show("Minden adatot meg kell adni!");
         }
