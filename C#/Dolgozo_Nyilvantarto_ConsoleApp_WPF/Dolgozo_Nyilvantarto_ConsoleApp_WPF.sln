@@ -5,7 +5,7 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dolgozo_Nyilvantarto_ConsoleApp_WPF", "Dolgozo_Nyilvantarto_ConsoleApp_WPF\Dolgozo_Nyilvantarto_ConsoleApp_WPF.csproj", "{1F477E45-31A5-4C5E-83C5-45DE020E5818}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsztaliAlkalmazas", "AsztaliAlkalmazas\AsztaliAlkalmazas.csproj", "{54BED0C3-7CA6-4DB6-9484-27D222DCE528}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF", "WPF\WPF.csproj", "{BC72409A-D7D2-4C4D-B418-78C597C7167F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{1F477E45-31A5-4C5E-83C5-45DE020E5818}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F477E45-31A5-4C5E-83C5-45DE020E5818}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F477E45-31A5-4C5E-83C5-45DE020E5818}.Release|Any CPU.Build.0 = Release|Any CPU
-		{54BED0C3-7CA6-4DB6-9484-27D222DCE528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{54BED0C3-7CA6-4DB6-9484-27D222DCE528}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{54BED0C3-7CA6-4DB6-9484-27D222DCE528}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{54BED0C3-7CA6-4DB6-9484-27D222DCE528}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC72409A-D7D2-4C4D-B418-78C597C7167F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC72409A-D7D2-4C4D-B418-78C597C7167F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC72409A-D7D2-4C4D-B418-78C597C7167F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC72409A-D7D2-4C4D-B418-78C597C7167F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

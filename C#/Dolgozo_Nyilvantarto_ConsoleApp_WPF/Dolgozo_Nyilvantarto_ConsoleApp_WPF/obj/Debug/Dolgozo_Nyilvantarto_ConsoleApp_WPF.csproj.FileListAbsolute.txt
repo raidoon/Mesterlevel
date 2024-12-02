@@ -1,0 +1,10 @@
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\Dolgozo_Nyilvantarto_ConsoleApp_WPF\Dolgozo_Nyilvantarto_ConsoleApp_WPF\bin\Debug\Dolgozo_Nyilvantarto_ConsoleApp_WPF.exe.config
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\Dolgozo_Nyilvantarto_ConsoleApp_WPF\Dolgozo_Nyilvantarto_ConsoleApp_WPF\bin\Debug\Dolgozo_Nyilvantarto_ConsoleApp_WPF.exe
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\Dolgozo_Nyilvantarto_ConsoleApp_WPF\Dolgozo_Nyilvantarto_ConsoleApp_WPF\bin\Debug\Dolgozo_Nyilvantarto_ConsoleApp_WPF.pdb
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\Dolgozo_Nyilvantarto_ConsoleApp_WPF\Dolgozo_Nyilvantarto_ConsoleApp_WPF\bin\Debug\ConsoleTableExt.dll
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\Dolgozo_Nyilvantarto_ConsoleApp_WPF\Dolgozo_Nyilvantarto_ConsoleApp_WPF\bin\Debug\NetworkHelper.dll
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\Dolgozo_Nyilvantarto_ConsoleApp_WPF\Dolgozo_Nyilvantarto_ConsoleApp_WPF\obj\Debug\Dolgozo_Nyilvantarto_ConsoleApp_WPF.csproj.AssemblyReference.cache
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\Dolgozo_Nyilvantarto_ConsoleApp_WPF\Dolgozo_Nyilvantarto_ConsoleApp_WPF\obj\Debug\Dolgozo_Nyilvantarto_ConsoleApp_WPF.csproj.CoreCompileInputs.cache
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\Dolgozo_Nyilvantarto_ConsoleApp_WPF\Dolgozo_Nyilvantarto_ConsoleApp_WPF\obj\Debug\Dolgozo_.97BF32DF.Up2Date
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\Dolgozo_Nyilvantarto_ConsoleApp_WPF\Dolgozo_Nyilvantarto_ConsoleApp_WPF\obj\Debug\Dolgozo_Nyilvantarto_ConsoleApp_WPF.exe
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\Dolgozo_Nyilvantarto_ConsoleApp_WPF\Dolgozo_Nyilvantarto_ConsoleApp_WPF\obj\Debug\Dolgozo_Nyilvantarto_ConsoleApp_WPF.pdb

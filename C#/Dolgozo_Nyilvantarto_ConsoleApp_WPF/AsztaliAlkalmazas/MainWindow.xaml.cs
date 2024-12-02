@@ -19,27 +19,39 @@ namespace AsztaliAlkalmazas
 {
     public partial class MainWindow : Window
     {
+        static List<Reszleg> reszlegadatok = new List<Reszleg>();
+        static List<Dolgozo> dolgozoadatok = new List<Dolgozo>();
+        static List<Adatok> adatok = new List<Adatok>();
         public MainWindow()
         {
+            adatokbetoltese();
             InitializeComponent();
+        }
+
+        private void adatokbetoltese()
+        {
+            reszlegadatok.Clear();
+            dolgozoadatok.Clear();
+            adatok.Clear();
+
+
+            string urlreszleg = "http://localhost:3000/reszleglista";
+            reszlegadatok = Backend.GET(urlreszleg).Send().As<List<Reszleg>>();
+            string urldolgozo = "http://localhost:3000/dolgozolista";
+            dolgozoadatok = Backend.GET(urldolgozo).Send().As<List<Dolgozo>>();
+            string urladatok = "http://localhost:3000/adatoklista";
+            adatok = Backend.GET(urladatok).Send().As<List<Adatok>>();
+
         }
 
         private void btujdolgozo_Click(object sender, RoutedEventArgs e)
         {
-            if (tbnev.Text != "" && tbber.Text != "")
-            {
 
-            }
-            else MessageBox.Show("Minden adatot meg kell adni az új dolgozó felvételéhez!");
         }
 
         private void btujreszleg_Click(object sender, RoutedEventArgs e)
         {
-            if (tbujreszleg.Text != "")
-            {
 
-            }
-            else MessageBox.Show("Add meg az új részleg nevét!");
         }
     }
 }

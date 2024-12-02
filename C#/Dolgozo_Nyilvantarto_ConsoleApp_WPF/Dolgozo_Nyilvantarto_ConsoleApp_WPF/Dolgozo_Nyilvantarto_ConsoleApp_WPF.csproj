@@ -49,8 +49,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adatok.cs" />
+    <Compile Include="Dolgozo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reszleg.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

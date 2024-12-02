@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{1092E8C4-B730-44B5-A476-580F5004D190}|movarosaiWPF\\movarosaiWPF.csproj|solutionrelative:movarosaiwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23C4A41A-D978-4EB6-8355-5F0BA520C83D}|ConsoleApp_MOvarosai\\ConsoleApp_MOvarosai.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\wpfapp_movarosai\\consoleapp_movarosai\\varos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{23C4A41A-D978-4EB6-8355-5F0BA520C83D}|ConsoleApp_MOvarosai\\ConsoleApp_MOvarosai.csproj|C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\WpfApp_MOvarosai\\consoleapp_movarosai\\varos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23C4A41A-D978-4EB6-8355-5F0BA520C83D}|ConsoleApp_MOvarosai\\ConsoleApp_MOvarosai.csproj|solutionrelative:consoleapp_movarosai\\varos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -52,8 +52,7 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-18T09:43:02.773Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -63,7 +62,7 @@
               "RelativeDocumentMoniker": "movarosaiWPF\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\WpfApp_MOvarosai\\movarosaiWPF\\MainWindow.xaml.cs",
               "RelativeToolTip": "movarosaiWPF\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAHYAAAAAAAAAAAAcwJAAAAAkAAAA",
+              "ViewState": "AQIAAHgAAAAAAAAAAADwv4kAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-13T11:08:07.82Z",
               "IsPinned": true,
@@ -79,8 +78,7 @@
               "RelativeToolTip": "movarosaiWPF\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-11-13T11:08:07.981Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             }
           ]
         }

@@ -1,0 +1,22 @@
+﻿<Window x:Class="Frontend.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Frontend"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Dolgozók">
+                <Grid Background="#FFE5E5E5">
+                    <DataGrid x:Name="datagrid" HorizontalAlignment="Left" Height="248" Margin="7,29,0,0" VerticalAlignment="Top" Width="777" SelectionChanged="datagrid_SelectionChanged"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Új dolgozó">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>
