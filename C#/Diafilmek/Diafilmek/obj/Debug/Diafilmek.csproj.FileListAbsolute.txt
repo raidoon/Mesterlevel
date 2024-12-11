@@ -1,0 +1,10 @@
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\Diafilmek\Diafilmek\bin\Debug\Diafilmek.exe.config
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\Diafilmek\Diafilmek\bin\Debug\Diafilmek.exe
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\Diafilmek\Diafilmek\bin\Debug\Diafilmek.pdb
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\Diafilmek\Diafilmek\bin\Debug\ConsoleTableExt.dll
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\Diafilmek\Diafilmek\bin\Debug\NetworkHelper.dll
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\Diafilmek\Diafilmek\obj\Debug\Diafilmek.csproj.AssemblyReference.cache
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\Diafilmek\Diafilmek\obj\Debug\Diafilmek.csproj.CoreCompileInputs.cache
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\Diafilmek\Diafilmek\obj\Debug\Diafilmek.csproj.Up2Date
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\Diafilmek\Diafilmek\obj\Debug\Diafilmek.exe
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\Diafilmek\Diafilmek\obj\Debug\Diafilmek.pdb

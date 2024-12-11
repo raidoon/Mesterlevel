@@ -1,0 +1,56 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\Diafilmek\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{776D9EF1-CD0C-4663-A5D3-D5523538537A}|Diafilmek\\Diafilmek.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\diafilmek\\diafilmek\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776D9EF1-CD0C-4663-A5D3-D5523538537A}|Diafilmek\\Diafilmek.csproj|solutionrelative:diafilmek\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776D9EF1-CD0C-4663-A5D3-D5523538537A}|Diafilmek\\Diafilmek.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\diafilmek\\diafilmek\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776D9EF1-CD0C-4663-A5D3-D5523538537A}|Diafilmek\\Diafilmek.csproj|solutionrelative:diafilmek\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Film.cs",
+              "DocumentMoniker": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\Diafilmek\\Diafilmek\\Film.cs",
+              "RelativeDocumentMoniker": "Diafilmek\\Film.cs",
+              "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\Diafilmek\\Diafilmek\\Film.cs",
+              "RelativeToolTip": "Diafilmek\\Film.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T09:54:54.233Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\Diafilmek\\Diafilmek\\Program.cs",
+              "RelativeDocumentMoniker": "Diafilmek\\Program.cs",
+              "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\Diafilmek\\Diafilmek\\Program.cs",
+              "RelativeToolTip": "Diafilmek\\Program.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowC8AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T09:52:59.99Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
