@@ -38,6 +38,7 @@
               "RelativeToolTip": "KaracsonyGUI\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-12-16T10:01:49.134Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -51,6 +52,7 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-16T10:01:48.811Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -64,6 +66,7 @@
               "ViewState": "AQIAAAwAAAAAAAAAAAAUwBoAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-16T09:28:28.486Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -77,6 +80,7 @@
               "ViewState": "AQIAAC8AAAAAAAAAAAAQwEkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-16T09:26:08.032Z",
+              "IsPinned": true,
               "EditorCaption": ""
             }
           ]
