@@ -1,0 +1,30 @@
+﻿<Window x:Class="KaracsonyGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KaracsonyGUI"
+        mc:Ignorable="d"
+        Title="Karácsonyi díszek" Height="468" Width="800">
+    <Grid Margin="0,0,0,-16">
+        <Button Content="Hozzáadás" HorizontalAlignment="Left" Margin="646,320,0,0" VerticalAlignment="Top" Height="37" Width="133"/>
+        <Label x:Name="lbharangkeszlet" Content="Harangkészlet: " HorizontalAlignment="Left" Margin="49,344,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbangyalkakeszlet" Content="Angyalkakészlet: " HorizontalAlignment="Left" Margin="245,344,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbfenyofakeszlet" Content="Fenyőfakészlet: " HorizontalAlignment="Left" Margin="474,344,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbnemtudom" Content="" HorizontalAlignment="Left" Margin="121,389,0,0" VerticalAlignment="Top" Width="552" Background="#FFE0E22A" Height="35"/>
+        <Label x:Name="lbharangkesz" Content="Harangkesz" HorizontalAlignment="Left" Margin="49,236,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbharangeladott" Content="Harangeladott" HorizontalAlignment="Left" Margin="49,282,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="cbharangkesz" HorizontalAlignment="Left" Height="26" Margin="148,236,0,0" VerticalAlignment="Top" Width="64"/>
+        <ComboBox x:Name="cbharangeladott" HorizontalAlignment="Left" Height="26" Margin="148,284,0,0" VerticalAlignment="Top" Width="64"/>
+        <ComboBox x:Name="cbangyalkakesz" HorizontalAlignment="Left" Height="26" Margin="365,238,0,0" VerticalAlignment="Top" Width="64"/>
+        <ComboBox x:Name="cbangyalkaeladott" HorizontalAlignment="Left" Height="26" Margin="365,284,0,0" VerticalAlignment="Top" Width="64"/>
+        <ComboBox x:Name="cbfenyofakesz" HorizontalAlignment="Left" Height="26" Margin="564,238,0,0" VerticalAlignment="Top" Width="64"/>
+        <ComboBox x:Name="cbfenyofaeladott" HorizontalAlignment="Left" Height="26" Margin="564,284,0,0" VerticalAlignment="Top" Width="64"/>
+        <Label x:Name="lbangyalkakesz" Content="Angyalkakesz" HorizontalAlignment="Left" Margin="276,236,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbangyalkaeladott" Content="Angyalkaeladott" HorizontalAlignment="Left" Margin="264,284,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbfenyofakesz" Content="Fenyofakesz" HorizontalAlignment="Left" Margin="478,236,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbfenyofaeladott" Content="Fenyofaeladott" HorizontalAlignment="Left" Margin="474,284,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbnapszam" Content="1. nap" HorizontalAlignment="Left" Margin="673,236,0,0" VerticalAlignment="Top"/>
+        <ListBox x:Name="listbox" HorizontalAlignment="Left" Height="185" Margin="27,10,0,0" VerticalAlignment="Top" Width="752" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+    </Grid>
+</Window>
