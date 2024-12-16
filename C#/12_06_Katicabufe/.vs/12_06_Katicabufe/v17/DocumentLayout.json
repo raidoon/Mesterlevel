@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{A9457148-9951-4A44-AC58-13ADC1D88431}|12_06_Katicabufe\\12_06_Katicabufe.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\12_06_katicabufe\\12_06_katicabufe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9457148-9951-4A44-AC58-13ADC1D88431}|12_06_Katicabufe\\12_06_Katicabufe.csproj|solutionrelative:12_06_katicabufe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9457148-9951-4A44-AC58-13ADC1D88431}|12_06_Katicabufe\\12_06_Katicabufe.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\12_06_katicabufe\\12_06_katicabufe\\forgalom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9457148-9951-4A44-AC58-13ADC1D88431}|12_06_Katicabufe\\12_06_Katicabufe.csproj|solutionrelative:12_06_katicabufe\\forgalom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,10 +28,23 @@
               "RelativeDocumentMoniker": "12_06_Katicabufe\\Program.cs",
               "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\12_06_Katicabufe\\12_06_Katicabufe\\Program.cs",
               "RelativeToolTip": "12_06_Katicabufe\\Program.cs",
-              "ViewState": "AQIAAIsAAAAAAAAAAAAUwJsAAAAoAAAA",
+              "ViewState": "AQIAAKMAAAAAAAAAAAAUwKgAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T07:33:07.028Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Forgalom.cs",
+              "DocumentMoniker": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\12_06_Katicabufe\\12_06_Katicabufe\\Forgalom.cs",
+              "RelativeDocumentMoniker": "12_06_Katicabufe\\Forgalom.cs",
+              "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\12_06_Katicabufe\\12_06_Katicabufe\\Forgalom.cs",
+              "RelativeToolTip": "12_06_Katicabufe\\Forgalom.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T12:14:59.077Z",
               "EditorCaption": ""
             }
           ]
