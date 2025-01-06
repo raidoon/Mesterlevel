@@ -35,6 +35,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="NetworkHelper">
+      <HintPath>..\..\..\..\..\..\..\Downloads\NetworkHelper.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
@@ -95,9 +98,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\12_16_KaracsonyiDiszek\12_16_KaracsonyiDiszek.csproj">
-      <Project>{a709e42a-cb47-4be4-b226-e6d122216ec4}</Project>
-      <Name>12_16_KaracsonyiDiszek</Name>
+    <ProjectReference Include="..\karacsonyCLI\karacsonyCLI.csproj">
+      <Project>{0a0c0d9d-4aa9-4f04-b439-02cada50a5e7}</Project>
+      <Name>karacsonyCLI</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

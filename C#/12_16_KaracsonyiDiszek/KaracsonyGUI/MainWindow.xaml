@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Karácsonyi díszek" Height="468" Width="800">
     <Grid Margin="0,0,0,-16">
-        <Button Content="Hozzáadás" HorizontalAlignment="Left" Margin="646,320,0,0" VerticalAlignment="Top" Height="37" Width="133"/>
+        <Button Content="Hozzáadás" HorizontalAlignment="Left" Margin="646,320,0,0" VerticalAlignment="Top" Height="37" Width="133" Click="Button_Click"/>
         <Label x:Name="lbharangkeszlet" Content="Harangkészlet: " HorizontalAlignment="Left" Margin="49,344,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lbangyalkakeszlet" Content="Angyalkakészlet: " HorizontalAlignment="Left" Margin="245,344,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lbfenyofakeszlet" Content="Fenyőfakészlet: " HorizontalAlignment="Left" Margin="474,344,0,0" VerticalAlignment="Top"/>
@@ -25,6 +25,6 @@
         <Label x:Name="lbfenyofakesz" Content="Fenyofakesz" HorizontalAlignment="Left" Margin="478,236,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lbfenyofaeladott" Content="Fenyofaeladott" HorizontalAlignment="Left" Margin="474,284,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lbnapszam" Content="1. nap" HorizontalAlignment="Left" Margin="673,236,0,0" VerticalAlignment="Top"/>
-        <ListBox x:Name="listbox" HorizontalAlignment="Left" Height="185" Margin="27,10,0,0" VerticalAlignment="Top" Width="752" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+        <ListBox x:Name="listbox" HorizontalAlignment="Left" Height="185" Margin="27,10,0,0" VerticalAlignment="Top" Width="752"/>
     </Grid>
 </Window>
