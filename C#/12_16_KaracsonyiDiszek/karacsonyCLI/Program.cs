@@ -14,7 +14,7 @@ namespace karacsonyCLI
         static void Main(string[] args)
         {
             bool volt = false, ok = false;
-            int i = 0, nap = 0;
+            int i = 0, nap = 0, harang = 0, fenyofa = 0, angyalka = 0;
             List<Adatsor> adatok = new List<Adatsor>();
             string url = "http://localhost:3000/diszeklista";
             adatok = Backend.GET(url).Send().As<List<Adatsor>>();
@@ -41,10 +41,14 @@ namespace karacsonyCLI
                 else ok = false;
             }
             while (!ok);
- 
-                    
 
-            Console.WriteLine($"A(z) {nap}. nap végén harang, angyalka és fenyőfa maradt készleten.");
+            for(int j = 0; j < nap; j++)
+            {
+                harang += adatok[j].keszharang + adatok[j].eladottharang;
+                angyalka += adatok[j].keszangyal + adatok[j].eladottangyal;
+                fenyofa += adatok[j].keszfenyo + adatok[j].eladottfenyo;
+            }
+            Console.WriteLine($"\tA(z) {nap}. nap végén {harang} harang, {angyalka} angyalka és {fenyofa} fenyőfa maradt készleten.");
 
             Console.WriteLine("\n7.feladat: Legtöbbet eladott dísz:");
 
