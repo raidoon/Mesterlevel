@@ -20,7 +20,7 @@ namespace karacsonyCLI
             adatok = Backend.GET(url).Send().As<List<Adatsor>>();
             /*int napi_bevitel = adatok[1].NapiBevetel();
             Console.WriteLine(napi_bevitel);*/
-            Console.WriteLine($"Adatok száma a fájlban: {adatok.Count()}");
+            Console.WriteLine($"Adatok száma a fájlban:{adatok.Count()}");
             Console.WriteLine($"4.feladat: Összesen {adatok.Sum(a=> a.keszharang)+ adatok.Sum(a => a.keszfenyo) + adatok.Sum(a => a.keszangyal)} karácsonyi díszt készített a hölgy.");
             do
             {
@@ -50,8 +50,19 @@ namespace karacsonyCLI
             }
             Console.WriteLine($"\tA(z) {nap}. nap végén {harang} harang, {angyalka} angyalka és {fenyofa} fenyőfa maradt készleten.");
 
-            Console.WriteLine("\n7.feladat: Legtöbbet eladott dísz:");
-
+            Dictionary<string,int> eladottDiszek = new Dictionary<string,int>();
+            eladottDiszek.Add("Harang", 0);
+            eladottDiszek.Add("Angyalka", 0);
+            eladottDiszek.Add("Fenyőfa", 0);
+            foreach (var a in adatok)
+            {
+                eladottDiszek["Harang"] -= a.eladottharang;
+                eladottDiszek["Angyalka"] -= a.eladottangyal;
+                eladottDiszek["Fenyőfa"] -= a.eladottfenyo;
+            }
+            int max=eladottDiszek.Values.Max();
+            Console.WriteLine($"\n7.feladat: Legtöbbet eladott dísz: {max} darab");
+            foreach (var a in eladottDiszek) if(max==a.Value) Console.WriteLine($"\t{a.Key}");
 
             Console.ReadKey();
         }
