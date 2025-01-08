@@ -3,19 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\12_16_KaracsonyiDiszek\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3D80B9F0-50D2-43D3-8396-4FDC8BE0FB99}|KaracsonyGUI\\KaracsonyGUI.csproj|C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\12_16_KaracsonyiDiszek\\karacsonygui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3D80B9F0-50D2-43D3-8396-4FDC8BE0FB99}|KaracsonyGUI\\KaracsonyGUI.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\12_16_karacsonyidiszek\\karacsonygui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D80B9F0-50D2-43D3-8396-4FDC8BE0FB99}|KaracsonyGUI\\KaracsonyGUI.csproj|solutionrelative:karacsonygui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D80B9F0-50D2-43D3-8396-4FDC8BE0FB99}|KaracsonyGUI\\KaracsonyGUI.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\12_16_karacsonyidiszek\\karacsonygui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{3D80B9F0-50D2-43D3-8396-4FDC8BE0FB99}|KaracsonyGUI\\KaracsonyGUI.csproj|C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\12_16_KaracsonyiDiszek\\karacsonygui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{3D80B9F0-50D2-43D3-8396-4FDC8BE0FB99}|KaracsonyGUI\\KaracsonyGUI.csproj|solutionrelative:karacsonygui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A0C0D9D-4AA9-4F04-B439-02CADA50A5E7}|karacsonyCLI\\karacsonyCLI.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\12_16_karacsonyidiszek\\karacsonycli\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0A0C0D9D-4AA9-4F04-B439-02CADA50A5E7}|karacsonyCLI\\karacsonyCLI.csproj|C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\12_16_KaracsonyiDiszek\\karacsonycli\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A0C0D9D-4AA9-4F04-B439-02CADA50A5E7}|karacsonyCLI\\karacsonyCLI.csproj|solutionrelative:karacsonycli\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A0C0D9D-4AA9-4F04-B439-02CADA50A5E7}|karacsonyCLI\\karacsonyCLI.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\12_16_karacsonyidiszek\\karacsonycli\\adatsor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0A0C0D9D-4AA9-4F04-B439-02CADA50A5E7}|karacsonyCLI\\karacsonyCLI.csproj|C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\12_16_KaracsonyiDiszek\\karacsonycli\\adatsor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A0C0D9D-4AA9-4F04-B439-02CADA50A5E7}|karacsonyCLI\\karacsonyCLI.csproj|solutionrelative:karacsonycli\\adatsor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -49,7 +49,7 @@
               "RelativeDocumentMoniker": "KaracsonyGUI\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\12_16_KaracsonyiDiszek\\KaracsonyGUI\\MainWindow.xaml.cs",
               "RelativeToolTip": "KaracsonyGUI\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAowD8AAAAxAAAA",
+              "ViewState": "AQIAAHYAAAAAAAAAAAAkwIsAAABdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-16T10:01:48.811Z",
               "IsPinned": true,
@@ -66,8 +66,7 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-06T09:52:07.37Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -79,8 +78,7 @@
               "RelativeToolTip": "karacsonyCLI\\Adatsor.cs",
               "ViewState": "AQIAAAIAAAAAAAAAAAAAwBUAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T10:23:25.682Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T10:23:25.682Z"
             }
           ]
         }

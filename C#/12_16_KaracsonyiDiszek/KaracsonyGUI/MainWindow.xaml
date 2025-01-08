@@ -11,7 +11,7 @@
         <Label x:Name="lbharangkeszlet" Content="Harangkészlet: " HorizontalAlignment="Left" Margin="49,344,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lbangyalkakeszlet" Content="Angyalkakészlet: " HorizontalAlignment="Left" Margin="245,344,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lbfenyofakeszlet" Content="Fenyőfakészlet: " HorizontalAlignment="Left" Margin="474,344,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="lbnemtudom" Content="" HorizontalAlignment="Left" Margin="121,389,0,0" VerticalAlignment="Top" Width="552" Background="#FFE0E22A" Height="35"/>
+        <Label x:Name="lbuzenet" Content="" HorizontalAlignment="Left" Margin="121,389,0,0" VerticalAlignment="Top" Width="552" Background="#FFE0E22A" Height="35"/>
         <Label x:Name="lbharangkesz" Content="Harangkesz" HorizontalAlignment="Left" Margin="49,236,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lbharangeladott" Content="Harangeladott" HorizontalAlignment="Left" Margin="49,282,0,0" VerticalAlignment="Top"/>
         <ComboBox x:Name="cbharangkesz" HorizontalAlignment="Left" Height="26" Margin="148,236,0,0" VerticalAlignment="Top" Width="64"/>
