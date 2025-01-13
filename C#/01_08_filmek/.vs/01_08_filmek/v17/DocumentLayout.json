@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\01_08_filmek\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3193741D-857D-4BF4-A301-BB739249E372}|01_08_filmek\\01_08_filmek.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\01_08_filmek\\01_08_filmek\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3193741D-857D-4BF4-A301-BB739249E372}|01_08_filmek\\01_08_filmek.csproj|solutionrelative:01_08_filmek\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B70465DF-661F-451D-898D-0F092C77691F}|Wpf_ABFilmek\\Wpf_ABFilmek.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\01_08_filmek\\wpf_abfilmek\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B70465DF-661F-451D-898D-0F092C77691F}|Wpf_ABFilmek\\Wpf_ABFilmek.csproj|solutionrelative:wpf_abfilmek\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3193741D-857D-4BF4-A301-BB739249E372}|01_08_filmek\\01_08_filmek.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\01_08_filmek\\01_08_filmek\\adatsor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3193741D-857D-4BF4-A301-BB739249E372}|01_08_filmek\\01_08_filmek.csproj|solutionrelative:01_08_filmek\\adatsor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B70465DF-661F-451D-898D-0F092C77691F}|Wpf_ABFilmek\\Wpf_ABFilmek.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\01_08_filmek\\wpf_abfilmek\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B70465DF-661F-451D-898D-0F092C77691F}|Wpf_ABFilmek\\Wpf_ABFilmek.csproj|solutionrelative:wpf_abfilmek\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A97E4406-E825-4FCE-8279-7D70F2D79753}|AB_Filmek\\AB_Filmek.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\01_08_filmek\\ab_filmek\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A97E4406-E825-4FCE-8279-7D70F2D79753}|AB_Filmek\\AB_Filmek.csproj|solutionrelative:ab_filmek\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,33 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Adatsor.cs",
-              "DocumentMoniker": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\01_08_filmek\\01_08_filmek\\Adatsor.cs",
-              "RelativeDocumentMoniker": "01_08_filmek\\Adatsor.cs",
-              "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\01_08_filmek\\01_08_filmek\\Adatsor.cs",
-              "RelativeToolTip": "01_08_filmek\\Adatsor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAJAAAA",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\01_08_filmek\\AB_Filmek\\Program.cs",
+              "RelativeDocumentMoniker": "AB_Filmek\\Program.cs",
+              "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\01_08_filmek\\AB_Filmek\\Program.cs",
+              "RelativeToolTip": "AB_Filmek\\Program.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAowCwAAAB7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T10:25:26.908Z",
+              "WhenOpened": "2025-01-13T09:12:42.094Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\01_08_filmek\\Wpf_ABFilmek\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Wpf_ABFilmek\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\01_08_filmek\\Wpf_ABFilmek\\MainWindow.xaml",
+              "RelativeToolTip": "Wpf_ABFilmek\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-13T12:11:02.069Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\01_08_filmek\\01_08_filmek\\Program.cs",
-              "RelativeDocumentMoniker": "01_08_filmek\\Program.cs",
-              "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\01_08_filmek\\01_08_filmek\\Program.cs",
-              "RelativeToolTip": "01_08_filmek\\Program.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAqwEoAAAAJAAAA",
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\01_08_filmek\\Wpf_ABFilmek\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Wpf_ABFilmek\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\01_08_filmek\\Wpf_ABFilmek\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Wpf_ABFilmek\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAAAGAAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T10:24:49.138Z",
+              "WhenOpened": "2025-01-13T12:11:01.732Z",
               "IsPinned": true,
               "EditorCaption": ""
             }

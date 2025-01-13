@@ -1,0 +1,9 @@
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\01_08_filmek\AB_Filmek\bin\Debug\AB_Filmek.exe.config
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\01_08_filmek\AB_Filmek\bin\Debug\AB_Filmek.exe
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\01_08_filmek\AB_Filmek\bin\Debug\AB_Filmek.pdb
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\01_08_filmek\AB_Filmek\bin\Debug\NetworkHelper.dll
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\01_08_filmek\AB_Filmek\obj\Debug\AB_Filmek.csproj.AssemblyReference.cache
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\01_08_filmek\AB_Filmek\obj\Debug\AB_Filmek.csproj.CoreCompileInputs.cache
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\01_08_filmek\AB_Filmek\obj\Debug\AB_Filmek.csproj.Up2Date
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\01_08_filmek\AB_Filmek\obj\Debug\AB_Filmek.exe
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\01_08_filmek\AB_Filmek\obj\Debug\AB_Filmek.pdb

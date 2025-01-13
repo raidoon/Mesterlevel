@@ -5,6 +5,10 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_08_filmek", "01_08_filmek\01_08_filmek.csproj", "{3193741D-857D-4BF4-A301-BB739249E372}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AB_Filmek", "AB_Filmek\AB_Filmek.csproj", "{A97E4406-E825-4FCE-8279-7D70F2D79753}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf_ABFilmek", "Wpf_ABFilmek\Wpf_ABFilmek.csproj", "{B70465DF-661F-451D-898D-0F092C77691F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{3193741D-857D-4BF4-A301-BB739249E372}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3193741D-857D-4BF4-A301-BB739249E372}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3193741D-857D-4BF4-A301-BB739249E372}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A97E4406-E825-4FCE-8279-7D70F2D79753}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A97E4406-E825-4FCE-8279-7D70F2D79753}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A97E4406-E825-4FCE-8279-7D70F2D79753}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A97E4406-E825-4FCE-8279-7D70F2D79753}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B70465DF-661F-451D-898D-0F092C77691F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B70465DF-661F-451D-898D-0F092C77691F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B70465DF-661F-451D-898D-0F092C77691F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B70465DF-661F-451D-898D-0F092C77691F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

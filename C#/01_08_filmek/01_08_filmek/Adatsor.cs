@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _01_08_filmek
 {
-    internal class Adatsor
+    public class Adatsor
     {
         /*A Serious Man;2009;30.68;64
         Across the Universe;2007;29.37;84*/
