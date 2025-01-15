@@ -5,6 +5,8 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EgysegTeszt", "EgysegTeszt\EgysegTeszt.csproj", "{01264305-6BA6-4E45-A279-F5D2B39DF69E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathOperations_UnitTest", "MathOperations_UnitTest\MathOperations_UnitTest.csproj", "{F55291AA-12A0-4C97-9E9C-7C039E0F8A10}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{01264305-6BA6-4E45-A279-F5D2B39DF69E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01264305-6BA6-4E45-A279-F5D2B39DF69E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01264305-6BA6-4E45-A279-F5D2B39DF69E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F55291AA-12A0-4C97-9E9C-7C039E0F8A10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F55291AA-12A0-4C97-9E9C-7C039E0F8A10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F55291AA-12A0-4C97-9E9C-7C039E0F8A10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F55291AA-12A0-4C97-9E9C-7C039E0F8A10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

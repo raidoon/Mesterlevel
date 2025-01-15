@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\EgysegTeszt\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{01264305-6BA6-4E45-A279-F5D2B39DF69E}|EgysegTeszt\\EgysegTeszt.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\egysegteszt\\egysegteszt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01264305-6BA6-4E45-A279-F5D2B39DF69E}|EgysegTeszt\\EgysegTeszt.csproj|solutionrelative:egysegteszt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F55291AA-12A0-4C97-9E9C-7C039E0F8A10}|MathOperations_UnitTest\\MathOperations_UnitTest.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\egysegteszt\\mathoperations_unittest\\mathoperationstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F55291AA-12A0-4C97-9E9C-7C039E0F8A10}|MathOperations_UnitTest\\MathOperations_UnitTest.csproj|solutionrelative:mathoperations_unittest\\mathoperationstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01264305-6BA6-4E45-A279-F5D2B39DF69E}|EgysegTeszt\\EgysegTeszt.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\egysegteszt\\egysegteszt\\mathoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01264305-6BA6-4E45-A279-F5D2B39DF69E}|EgysegTeszt\\EgysegTeszt.csproj|solutionrelative:egysegteszt\\mathoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +23,29 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\EgysegTeszt\\EgysegTeszt\\Program.cs",
-              "RelativeDocumentMoniker": "EgysegTeszt\\Program.cs",
-              "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\EgysegTeszt\\EgysegTeszt\\Program.cs",
-              "RelativeToolTip": "EgysegTeszt\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "MathOperationsTests.cs",
+              "DocumentMoniker": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\EgysegTeszt\\MathOperations_UnitTest\\MathOperationsTests.cs",
+              "RelativeDocumentMoniker": "MathOperations_UnitTest\\MathOperationsTests.cs",
+              "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\EgysegTeszt\\MathOperations_UnitTest\\MathOperationsTests.cs",
+              "RelativeToolTip": "MathOperations_UnitTest\\MathOperationsTests.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAUwFcAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T12:37:17.268Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MathOperations.cs",
+              "DocumentMoniker": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\EgysegTeszt\\EgysegTeszt\\MathOperations.cs",
+              "RelativeDocumentMoniker": "EgysegTeszt\\MathOperations.cs",
+              "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\EgysegTeszt\\EgysegTeszt\\MathOperations.cs",
+              "RelativeToolTip": "EgysegTeszt\\MathOperations.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAYwBoAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-15T12:32:39.164Z",
+              "IsPinned": true,
               "EditorCaption": ""
             }
           ]
