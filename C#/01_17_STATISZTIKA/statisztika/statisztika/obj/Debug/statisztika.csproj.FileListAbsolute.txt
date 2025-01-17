@@ -1,0 +1,17 @@
+C:\Users\User\Downloads\BL 2024-25 órai munkák\Backend 2-14.2 2024-25\statisztika feladat 01.17 órai\statisztika\statisztika\bin\Debug\statisztika.exe.config
+C:\Users\User\Downloads\BL 2024-25 órai munkák\Backend 2-14.2 2024-25\statisztika feladat 01.17 órai\statisztika\statisztika\bin\Debug\statisztika.exe
+C:\Users\User\Downloads\BL 2024-25 órai munkák\Backend 2-14.2 2024-25\statisztika feladat 01.17 órai\statisztika\statisztika\bin\Debug\statisztika.pdb
+C:\Users\User\Downloads\BL 2024-25 órai munkák\Backend 2-14.2 2024-25\statisztika feladat 01.17 órai\statisztika\statisztika\bin\Debug\NetworkHelper.dll
+C:\Users\User\Downloads\BL 2024-25 órai munkák\Backend 2-14.2 2024-25\statisztika feladat 01.17 órai\statisztika\statisztika\obj\Debug\statisztika.csproj.AssemblyReference.cache
+C:\Users\User\Downloads\BL 2024-25 órai munkák\Backend 2-14.2 2024-25\statisztika feladat 01.17 órai\statisztika\statisztika\obj\Debug\statisztika.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\BL 2024-25 órai munkák\Backend 2-14.2 2024-25\statisztika feladat 01.17 órai\statisztika\statisztika\obj\Debug\statiszt.8F667E63.Up2Date
+C:\Users\User\Downloads\BL 2024-25 órai munkák\Backend 2-14.2 2024-25\statisztika feladat 01.17 órai\statisztika\statisztika\obj\Debug\statisztika.exe
+C:\Users\User\Downloads\BL 2024-25 órai munkák\Backend 2-14.2 2024-25\statisztika feladat 01.17 órai\statisztika\statisztika\obj\Debug\statisztika.pdb
+C:\Users\diak\Desktop\statisztika feladat 01.17 órai\statisztika\statisztika\obj\Debug\statisztika.csproj.AssemblyReference.cache
+C:\Users\diak\Desktop\statisztika feladat 01.17 órai\statisztika\statisztika\obj\Debug\statisztika.csproj.CoreCompileInputs.cache
+C:\Users\diak\Desktop\statisztika feladat 01.17 órai\statisztika\statisztika\obj\Debug\statisztika.exe
+C:\Users\diak\Desktop\statisztika feladat 01.17 órai\statisztika\statisztika\obj\Debug\statisztika.pdb
+C:\Users\diak\Desktop\statisztika feladat 01.17 órai\statisztika\statisztika\bin\Debug\statisztika.exe.config
+C:\Users\diak\Desktop\statisztika feladat 01.17 órai\statisztika\statisztika\bin\Debug\statisztika.exe
+C:\Users\diak\Desktop\statisztika feladat 01.17 órai\statisztika\statisztika\bin\Debug\statisztika.pdb
+C:\Users\diak\Desktop\statisztika feladat 01.17 órai\statisztika\statisztika\obj\Debug\statiszt.8F667E63.Up2Date
