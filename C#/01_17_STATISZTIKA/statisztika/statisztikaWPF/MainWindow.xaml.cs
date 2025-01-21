@@ -44,8 +44,15 @@ namespace statisztikaWPF
         private void tablazat(List<Adatsor> stat)
         {
             datagrid.ItemsSource = null;
-            datagrid.Items.Clear();
-            datagrid.ItemsSource = stat;
+            var adatok = stat.Select(x=> new
+            {
+                Azonosító = x.Azonosito,
+                Nem = x.Azonosito[4]=='N'?"Nő":"Férfi",
+                Átlag = x.Atlag,
+                Hiányzás = x.Hianyzas,
+                Távolság = x.Tavolsag
+            }).ToList();
+            datagrid.ItemsSource = adatok;
         }
 
         private void adatokbetoltese()
