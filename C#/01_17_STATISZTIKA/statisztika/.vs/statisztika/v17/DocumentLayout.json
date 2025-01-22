@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\01_17_STATISZTIKA\\statisztika\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{433125A7-2821-4160-A28D-B35D1848E929}|statisztikaWPF\\statisztikaWPF.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\01_17_statisztika\\statisztika\\statisztikawpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{433125A7-2821-4160-A28D-B35D1848E929}|statisztikaWPF\\statisztikaWPF.csproj|C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\01_17_STATISZTIKA\\statisztika\\statisztikawpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{433125A7-2821-4160-A28D-B35D1848E929}|statisztikaWPF\\statisztikaWPF.csproj|solutionrelative:statisztikawpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5F2241A-0490-4C1E-93B3-7E71279AE160}|statisztika\\statisztika.csproj|C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\01_17_STATISZTIKA\\statisztika\\statisztika\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E5F2241A-0490-4C1E-93B3-7E71279AE160}|statisztika\\statisztika.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\01_17_statisztika\\statisztika\\statisztika\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5F2241A-0490-4C1E-93B3-7E71279AE160}|statisztika\\statisztika.csproj|solutionrelative:statisztika\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -49,10 +49,11 @@
               "RelativeDocumentMoniker": "statisztika\\Program.cs",
               "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\01_17_STATISZTIKA\\statisztika\\statisztika\\Program.cs",
               "RelativeToolTip": "statisztika\\Program.cs",
-              "ViewState": "AQIAAF4AAAAAAAAAAAAUwHMAAAAqAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBIAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-17T07:11:51.011Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -73,7 +74,7 @@
               "RelativeDocumentMoniker": "statisztikaWPF\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\01_17_STATISZTIKA\\statisztika\\statisztikaWPF\\MainWindow.xaml.cs",
               "RelativeToolTip": "statisztikaWPF\\MainWindow.xaml.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAywDIAAAAgAAAA",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAAAHYAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-17T09:07:13.039Z",
               "EditorCaption": ""

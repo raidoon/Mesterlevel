@@ -1,0 +1,9 @@
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\telefonok_01_22\telefonok_01_22\bin\Debug\telefonok_01_22.exe.config
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\telefonok_01_22\telefonok_01_22\bin\Debug\telefonok_01_22.exe
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\telefonok_01_22\telefonok_01_22\bin\Debug\telefonok_01_22.pdb
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\telefonok_01_22\telefonok_01_22\bin\Debug\NetworkHelper.dll
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\telefonok_01_22\telefonok_01_22\obj\Debug\telefonok_01_22.csproj.AssemblyReference.cache
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\telefonok_01_22\telefonok_01_22\obj\Debug\telefonok_01_22.csproj.CoreCompileInputs.cache
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\telefonok_01_22\telefonok_01_22\obj\Debug\telefono.941105F9.Up2Date
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\telefonok_01_22\telefonok_01_22\obj\Debug\telefonok_01_22.exe
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\telefonok_01_22\telefonok_01_22\obj\Debug\telefonok_01_22.pdb

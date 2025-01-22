@@ -1,0 +1,14 @@
+﻿Apple: 5 db modell
+Samsung: 4 db modell
+Nokia: 2 db modell
+Honor: 2 db modell
+ZTE: 2 db modell
+Xiaomi: 1 db modell
+Motorola: 1 db modell
+Huawei: 1 db modell
+Apple : 1 db modell
+OnePlus: 1 db modell
+Ulefone: 1 db modell
+Infinix: 1 db modell
+Alcatel : 1 db modell
+Tecno: 1 db modell

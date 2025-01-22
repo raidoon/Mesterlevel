@@ -7,6 +7,27 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <TabControl>
+            <TabItem Header="Telefon adatok">
+                <Grid Background="#FFE5E5E5">
+                    <DataGrid x:Name="datagrid" HorizontalAlignment="Left" Height="380" Margin="18,16,0,0" VerticalAlignment="Top" Width="747" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Új telefon">
+                <Grid Background="#FFE5E5E5">
+                    <Label Content="Modell" HorizontalAlignment="Left" Margin="21,43,0,0" VerticalAlignment="Top"/>
+                    <Label Content="Gyártó" HorizontalAlignment="Left" Margin="21,96,0,0" VerticalAlignment="Top"/>
+                    <Label Content="Kiadási ár" HorizontalAlignment="Left" Margin="21,141,0,0" VerticalAlignment="Top"/>
+                    <Label Content="Kiadás éve" HorizontalAlignment="Left" Margin="21,0,0,0" VerticalAlignment="Center"/>
+                    <Button x:Name="btadatrogzites" Content="Adatrögzítés" HorizontalAlignment="Left" Height="113" Margin="17,283,0,0" VerticalAlignment="Top" Width="754" Click="btadatrogzites_Click"/>
+                    <CheckBox x:Name="checkbox_kepes5g"  Content="5G képes" HorizontalAlignment="Left" Margin="41,246,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="tbmodell" HorizontalAlignment="Left" Height="33" Margin="91,36,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="680" FontSize="18"/>
+                    <ComboBox x:Name="cb_gyarto" HorizontalAlignment="Left" Height="34" Margin="91,87,0,0" VerticalAlignment="Top" Width="680" FontSize="18"/>
+                    <TextBox x:Name="tbkiadasiar" HorizontalAlignment="Left" Height="33" Margin="91,134,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="680" FontSize="18"/>
+                    <ComboBox x:Name="cbkiadaseve" HorizontalAlignment="Left" Height="34" Margin="91,182,0,0" VerticalAlignment="Top" Width="680" FontSize="18"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
     </Grid>
 </Window>
