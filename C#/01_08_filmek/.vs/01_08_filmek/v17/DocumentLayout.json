@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\01_08_filmek\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B70465DF-661F-451D-898D-0F092C77691F}|Wpf_ABFilmek\\Wpf_ABFilmek.csproj|C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\01_08_filmek\\wpf_abfilmek\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B70465DF-661F-451D-898D-0F092C77691F}|Wpf_ABFilmek\\Wpf_ABFilmek.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\01_08_filmek\\wpf_abfilmek\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B70465DF-661F-451D-898D-0F092C77691F}|Wpf_ABFilmek\\Wpf_ABFilmek.csproj|solutionrelative:wpf_abfilmek\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{B70465DF-661F-451D-898D-0F092C77691F}|Wpf_ABFilmek\\Wpf_ABFilmek.csproj|solutionrelative:wpf_abfilmek\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A97E4406-E825-4FCE-8279-7D70F2D79753}|AB_Filmek\\AB_Filmek.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\01_08_filmek\\ab_filmek\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A97E4406-E825-4FCE-8279-7D70F2D79753}|AB_Filmek\\AB_Filmek.csproj|C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\01_08_filmek\\ab_filmek\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A97E4406-E825-4FCE-8279-7D70F2D79753}|AB_Filmek\\AB_Filmek.csproj|solutionrelative:ab_filmek\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -35,8 +35,7 @@
               "ViewState": "AQIAAEQAAAAAAAAAAAAwwDcAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-13T09:12:42.094Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -48,8 +47,7 @@
               "RelativeToolTip": "Wpf_ABFilmek\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-01-13T12:11:02.069Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -59,7 +57,7 @@
               "RelativeDocumentMoniker": "Wpf_ABFilmek\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\01_08_filmek\\Wpf_ABFilmek\\MainWindow.xaml.cs",
               "RelativeToolTip": "Wpf_ABFilmek\\MainWindow.xaml.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAQwB0AAAAbAAAA",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAmwGYAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-13T12:11:01.732Z",
               "IsPinned": true,
