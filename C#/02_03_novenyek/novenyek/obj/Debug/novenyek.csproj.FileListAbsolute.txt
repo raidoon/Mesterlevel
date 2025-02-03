@@ -1,0 +1,10 @@
+C:\Users\diak\Desktop\novenyek\novenyek\bin\Debug\novenyek.exe.config
+C:\Users\diak\Desktop\novenyek\novenyek\bin\Debug\novenyek.exe
+C:\Users\diak\Desktop\novenyek\novenyek\bin\Debug\novenyek.pdb
+C:\Users\diak\Desktop\novenyek\novenyek\bin\Debug\ConsoleTableExt.dll
+C:\Users\diak\Desktop\novenyek\novenyek\bin\Debug\NetworkHelper.dll
+C:\Users\diak\Desktop\novenyek\novenyek\obj\Debug\novenyek.csproj.AssemblyReference.cache
+C:\Users\diak\Desktop\novenyek\novenyek\obj\Debug\novenyek.csproj.CoreCompileInputs.cache
+C:\Users\diak\Desktop\novenyek\novenyek\obj\Debug\novenyek.csproj.Up2Date
+C:\Users\diak\Desktop\novenyek\novenyek\obj\Debug\novenyek.exe
+C:\Users\diak\Desktop\novenyek\novenyek\obj\Debug\novenyek.pdb

@@ -1,0 +1,36 @@
+﻿<Window x:Class="wpf_novenyek.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpf_novenyek"
+        mc:Ignorable="d"
+        Title="Növények" Height="450" Width="800">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Növények">
+                <Grid Background="#FFE5E5E5">
+                    <DataGrid x:Name="datagrid" HorizontalAlignment="Left" Height="267" Margin="7,17,0,0" VerticalAlignment="Top" Width="777" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+                    <Label Content="Keresés" HorizontalAlignment="Left" Margin="21,307,0,0" VerticalAlignment="Top"/>
+                    <Label Content="Szűrés" HorizontalAlignment="Left" Margin="21,352,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="tbkereses" HorizontalAlignment="Left" Height="31" Margin="94,312,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="668" TextChanged="tbkereses_TextChanged"/>
+                    <ComboBox x:Name="cbszures" HorizontalAlignment="Left" Height="34" Margin="92,349,0,0" VerticalAlignment="Top" Width="672" SelectionChanged="cbszures_SelectionChanged"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Új Növény">
+                <Grid Background="#FFE5E5E5">
+                    <Label Content="Név" HorizontalAlignment="Left" Margin="10,29,0,0" VerticalAlignment="Top"/>
+                    <Label Content="Típus" HorizontalAlignment="Left" Margin="10,78,0,0" VerticalAlignment="Top"/>
+                    <Label Content="Ár" HorizontalAlignment="Left" Margin="10,124,0,0" VerticalAlignment="Top"/>
+                    <Label Content="Vízigény" HorizontalAlignment="Left" Margin="10,177,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="tbnev" HorizontalAlignment="Left" Height="31" Margin="85,34,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="680"/>
+                    <ComboBox x:Name="cbujtipus" HorizontalAlignment="Left" Height="30" Margin="85,82,0,0" VerticalAlignment="Top" Width="680"/>
+                    <TextBox x:Name="tbar" HorizontalAlignment="Left" Height="29" Margin="82,129,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="683"/>
+                    <ComboBox x:Name="cbvizigeny" HorizontalAlignment="Left" Height="34" Margin="82,177,0,0" VerticalAlignment="Top" Width="683"/>
+                    <Button x:Name="btadatrogzites" Content="Adatrögzítés" HorizontalAlignment="Left" Height="90" Margin="7,244,0,0" VerticalAlignment="Top" Width="777" Click="btadatrogzites_Click"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>
