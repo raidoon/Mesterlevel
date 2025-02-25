@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\02_03_novenyek\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{79CA66B9-78A0-46A5-BC2B-8D11776C3D04}|novenyek\\novenyek.csproj|C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\02_03_novenyek\\novenyek\\adatsor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79CA66B9-78A0-46A5-BC2B-8D11776C3D04}|novenyek\\novenyek.csproj|solutionrelative:novenyek\\adatsor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{79CA66B9-78A0-46A5-BC2B-8D11776C3D04}|novenyek\\novenyek.csproj|C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\02_03_novenyek\\novenyek\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79CA66B9-78A0-46A5-BC2B-8D11776C3D04}|novenyek\\novenyek.csproj|solutionrelative:novenyek\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B09D921-AA61-4835-994B-98F227034AB5}|wpf_novenyek\\wpf_novenyek.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\02_03_novenyek\\wpf_novenyek\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{79CA66B9-78A0-46A5-BC2B-8D11776C3D04}|novenyek\\novenyek.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\02_03_novenyek\\novenyek\\adatsor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79CA66B9-78A0-46A5-BC2B-8D11776C3D04}|novenyek\\novenyek.csproj|solutionrelative:novenyek\\adatsor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B09D921-AA61-4835-994B-98F227034AB5}|wpf_novenyek\\wpf_novenyek.csproj|C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\02_03_novenyek\\wpf_novenyek\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B09D921-AA61-4835-994B-98F227034AB5}|wpf_novenyek\\wpf_novenyek.csproj|solutionrelative:wpf_novenyek\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Adatsor.cs",
               "DocumentMoniker": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\02_03_novenyek\\novenyek\\Adatsor.cs",
               "RelativeDocumentMoniker": "novenyek\\Adatsor.cs",
@@ -44,13 +44,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\02_03_novenyek\\novenyek\\Program.cs",
               "RelativeDocumentMoniker": "novenyek\\Program.cs",
               "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\02_03_novenyek\\novenyek\\Program.cs",
               "RelativeToolTip": "novenyek\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABCAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwBEAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-03T07:50:51.31Z",
               "IsPinned": true,
@@ -77,8 +77,7 @@
               "RelativeToolTip": "wpf_novenyek\\MainWindow.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAHAAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T08:19:19.668Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-03T08:19:19.668Z"
             }
           ]
         }

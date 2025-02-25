@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\telefonok_01_22\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A71D26A3-6FAA-4448-A4AD-A7982A050B52}|WPF_telefonok\\WPF_telefonok.csproj|C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\telefonok_01_22\\wpf_telefonok\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A71D26A3-6FAA-4448-A4AD-A7982A050B52}|WPF_telefonok\\WPF_telefonok.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\telefonok_01_22\\wpf_telefonok\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A71D26A3-6FAA-4448-A4AD-A7982A050B52}|WPF_telefonok\\WPF_telefonok.csproj|solutionrelative:wpf_telefonok\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A71D26A3-6FAA-4448-A4AD-A7982A050B52}|WPF_telefonok\\WPF_telefonok.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\telefonok_01_22\\wpf_telefonok\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A71D26A3-6FAA-4448-A4AD-A7982A050B52}|WPF_telefonok\\WPF_telefonok.csproj|solutionrelative:wpf_telefonok\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D4E28F8D-2C13-4791-8FD4-B5FE3A5B4E70}|telefonok_01_22\\telefonok_01_22.csproj|C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\telefonok_01_22\\telefonok_01_22\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4E28F8D-2C13-4791-8FD4-B5FE3A5B4E70}|telefonok_01_22\\telefonok_01_22.csproj|solutionrelative:telefonok_01_22\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A71D26A3-6FAA-4448-A4AD-A7982A050B52}|WPF_telefonok\\WPF_telefonok.csproj|C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\telefonok_01_22\\wpf_telefonok\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A71D26A3-6FAA-4448-A4AD-A7982A050B52}|WPF_telefonok\\WPF_telefonok.csproj|solutionrelative:wpf_telefonok\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D4E28F8D-2C13-4791-8FD4-B5FE3A5B4E70}|telefonok_01_22\\telefonok_01_22.csproj|C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\telefonok_01_22\\telefonok_01_22\\telefon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,7 +43,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\telefonok_01_22\\WPF_telefonok\\MainWindow.xaml",
               "RelativeDocumentMoniker": "WPF_telefonok\\MainWindow.xaml",
@@ -51,8 +51,7 @@
               "RelativeToolTip": "WPF_telefonok\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-01-22T09:36:06.543Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -62,7 +61,7 @@
               "RelativeDocumentMoniker": "WPF_telefonok\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\telefonok_01_22\\WPF_telefonok\\MainWindow.xaml.cs",
               "RelativeToolTip": "WPF_telefonok\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAcwFoAAAAwAAAA",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAAAF0AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-22T09:36:06.181Z",
               "IsPinned": true,
@@ -70,16 +69,17 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\telefonok_01_22\\telefonok_01_22\\Program.cs",
               "RelativeDocumentMoniker": "telefonok_01_22\\Program.cs",
               "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\telefonok_01_22\\telefonok_01_22\\Program.cs",
               "RelativeToolTip": "telefonok_01_22\\Program.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAAwwDgAAAAtAAAA",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAqwIUAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-22T09:32:52.117Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             }
           ]
         }
