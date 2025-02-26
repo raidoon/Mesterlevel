@@ -1,0 +1,56 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\diak\\Desktop\\PowerCalculator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2CC82083-D18B-4AD2-8670-FABFE2D5219B}|PowerCalculator\\PowerCalculator.csproj|c:\\users\\diak\\desktop\\powercalculator\\powercalculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CC82083-D18B-4AD2-8670-FABFE2D5219B}|PowerCalculator\\PowerCalculator.csproj|solutionrelative:powercalculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B860C62-F98F-48BE-925A-2A42791262DF}|PowerCalculatorTests\\PowerCalculatorTests.csproj|c:\\users\\diak\\desktop\\powercalculator\\powercalculatortests\\powercalculatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B860C62-F98F-48BE-925A-2A42791262DF}|PowerCalculatorTests\\PowerCalculatorTests.csproj|solutionrelative:powercalculatortests\\powercalculatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PowerCalculatorTests.cs",
+              "DocumentMoniker": "C:\\Users\\diak\\Desktop\\PowerCalculator\\PowerCalculatorTests\\PowerCalculatorTests.cs",
+              "RelativeDocumentMoniker": "PowerCalculatorTests\\PowerCalculatorTests.cs",
+              "ToolTip": "C:\\Users\\diak\\Desktop\\PowerCalculator\\PowerCalculatorTests\\PowerCalculatorTests.cs",
+              "RelativeToolTip": "PowerCalculatorTests\\PowerCalculatorTests.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAYwGkAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T10:34:02.977Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\diak\\Desktop\\PowerCalculator\\PowerCalculator\\Program.cs",
+              "RelativeDocumentMoniker": "PowerCalculator\\Program.cs",
+              "ToolTip": "C:\\Users\\diak\\Desktop\\PowerCalculator\\PowerCalculator\\Program.cs",
+              "RelativeToolTip": "PowerCalculator\\Program.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA1wBcAAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T10:32:16.056Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

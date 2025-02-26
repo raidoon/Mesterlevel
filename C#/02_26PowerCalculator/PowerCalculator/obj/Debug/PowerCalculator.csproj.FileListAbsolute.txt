@@ -1,0 +1,7 @@
+C:\Users\diak\Desktop\PowerCalculator\PowerCalculator\bin\Debug\PowerCalculator.exe.config
+C:\Users\diak\Desktop\PowerCalculator\PowerCalculator\bin\Debug\PowerCalculator.exe
+C:\Users\diak\Desktop\PowerCalculator\PowerCalculator\bin\Debug\PowerCalculator.pdb
+C:\Users\diak\Desktop\PowerCalculator\PowerCalculator\obj\Debug\PowerCalculator.csproj.AssemblyReference.cache
+C:\Users\diak\Desktop\PowerCalculator\PowerCalculator\obj\Debug\PowerCalculator.csproj.CoreCompileInputs.cache
+C:\Users\diak\Desktop\PowerCalculator\PowerCalculator\obj\Debug\PowerCalculator.exe
+C:\Users\diak\Desktop\PowerCalculator\PowerCalculator\obj\Debug\PowerCalculator.pdb
