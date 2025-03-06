@@ -1,0 +1,27 @@
+.szakma{
+    font-style: italic;
+    font-family: "papyrus";
+    letter-spacing: 10px;
+}
+.versenyzoNev{
+    font-weight: bold;
+    font-size: large;
+}
+.versenyzoSzakma{
+    font-variant: small-caps;
+}
+.versenyzo-box{
+    border: 5px solid black;
+    box-shadow: 5px 5px 5px;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+.hiba{
+    margin-top: 20px;
+    color: red;
+}
+.ok{
+    margin-top: 20px;
+    color: blue;
+}

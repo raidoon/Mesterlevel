@@ -1,0 +1,28 @@
+Weblapra dolgozz, Bootstrapet, stíluslapot használj!
+Készíts menüt, 6 menüponttal, a feladatok külön menübe menjenek.
+1. A szakmákat számozatlan felsorolásban jelenítsd meg!
+A szakma neve dőlt és ritkított és papyrus típusú legyen stíluslap használatával
+
+2. A versenyzők neve és szakmája 4 oszlopos gridben jelenjenek meg nagy képernyőn,közepesen 3, kicsin 2 oszlopban.
+A versenyző neve félkövér, nagyobb legyen, alatta zárójelben a szakma kisebb, kiskapitális
+
+Név és szakma dobozba kerüljön, mely bootstrap osztályokkal középre igazított legyen, belső és külső margója is bootstrappel beállított 
+A dobozra saját stílust is alkalmazz, szegélyezett, árnyékolt legyen 
+
+3. Új szakmát lehessen felvinni, 2 adat megadásával, gombnyomásra. 
+Ha üres a két mező, piros üzenet jelenjen meg gomb alatt, hogy Kötelező.
+Sikeres felvitel esetén kékkel jelenjen meg.
+
+4. Új versenyzőt lehessen felvinni, ország és szakma lenyílóban jelenjen meg,
+versenyző neve, pontja beírható, gombnyomásra vigye fel.
+Ha sikerül írja vissza, gomb alatt, minden megadása kötelező.
+
+5. Versenyzőt lehessen törölni, lenyílóban név alapján választjuk ki a versenyző nevét,
+gombnyomásra, id alapján töröl, gomb alatt visszaírja.
+Lenyílót frissítse!
+
+6. Versenyző nevét lenyílóban kiválasztjuk, beviteli mezőben új pontot írunk,
+gombnyomásra módosítsa a versenyzőt id alapján az új pontra.
+Ha nem számot adunk írja vissza a hibát! 
+Ha nem 200 és 1200 között adunk, írja vissza a hibát!
+Írja vissza gomb alatt, hogy sikerült a felvitel.
