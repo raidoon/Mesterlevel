@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\EmailAndTests\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB946CCD-4FB8-4815-AC59-494142EBE587}|Email\\Email.csproj|C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\EmailAndTests\\email\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FB946CCD-4FB8-4815-AC59-494142EBE587}|Email\\Email.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\emailandtests\\email\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB946CCD-4FB8-4815-AC59-494142EBE587}|Email\\Email.csproj|solutionrelative:email\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E93D7561-CD16-4F8E-8D9C-DD7305851D50}|EmailTest\\EmailTest.csproj|c:\\users\\diak\\desktop\\eh\\github\\mesterlevel\\c#\\emailandtests\\emailtest\\emailvalidatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E93D7561-CD16-4F8E-8D9C-DD7305851D50}|EmailTest\\EmailTest.csproj|C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\EmailAndTests\\emailtest\\emailvalidatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E93D7561-CD16-4F8E-8D9C-DD7305851D50}|EmailTest\\EmailTest.csproj|solutionrelative:emailtest\\emailvalidatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,11 +28,10 @@
               "RelativeDocumentMoniker": "EmailTest\\EmailValidatorTests.cs",
               "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\EmailAndTests\\EmailTest\\EmailValidatorTests.cs",
               "RelativeToolTip": "EmailTest\\EmailValidatorTests.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAiAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowB4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-25T12:22:57.078Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -42,7 +41,7 @@
               "RelativeDocumentMoniker": "Email\\Program.cs",
               "ToolTip": "C:\\Users\\diak\\Desktop\\EH\\GITHUB\\Mesterlevel\\C#\\EmailAndTests\\Email\\Program.cs",
               "RelativeToolTip": "Email\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAxAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAwwBsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-25T12:22:34.752Z",
               "IsPinned": true,
