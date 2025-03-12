@@ -1,0 +1,7 @@
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\CalculatorAndTest\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\CalculatorAndTest\Calculator\bin\Debug\Calculator.exe
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\CalculatorAndTest\Calculator\bin\Debug\Calculator.pdb
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\CalculatorAndTest\Calculator\obj\Debug\Calculator.csproj.AssemblyReference.cache
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\CalculatorAndTest\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\CalculatorAndTest\Calculator\obj\Debug\Calculator.exe
+C:\Users\diak\Desktop\EH\GITHUB\Mesterlevel\C#\CalculatorAndTest\Calculator\obj\Debug\Calculator.pdb

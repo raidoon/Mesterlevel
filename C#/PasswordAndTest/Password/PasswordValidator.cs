@@ -11,10 +11,16 @@ namespace Password
     {
         public bool isValidPassword(string password)
         {
-            if(string.IsNullOrEmpty(password)) return false; //ne lgyen null vagy empty
+            /*if(string.IsNullOrEmpty(password)) return false; //ne lgyen null vagy empty
             if(password.Length < 8) return false; //legyen legalább 8 karakter
             if (!password.Any(char.IsDigit)) return false; //tartalmazzon számot
             if (!password.Any(karakter => !Char.IsLetterOrDigit(karakter))) return false; //legalább 1 speckó karakter
+            return true;*/
+
+            if (!Regex.IsMatch(password, @"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$"))
+            {
+                return false;
+            }
             return true;
         }
         static void Main(string[] args)
