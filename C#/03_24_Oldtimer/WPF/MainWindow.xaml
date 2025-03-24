@@ -1,0 +1,117 @@
+﻿<Window x:Class="WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF"
+        mc:Ignorable="d"
+        
+        Title="MainWindow" Height="450" Width="1200"  MinHeight="450" MinWidth="1200">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Keresés Szűrés">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Horizontal">
+                        <Label x:Name="lbkereses" Content="Keresés" Margin="10"></Label>
+                        <TextBox x:Name="tbkereses" Margin="10"  Width="150" TextChanged="tbkereses_TextChanged_1" ></TextBox>
+                    </StackPanel>
+                    <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Horizontal">
+                        <Label x:Name="lbautoknev" Content="Autó név szűrés" Margin="10"></Label>
+                        <ComboBox x:Name="cbautoknev" Margin="10"  Width="250" SelectionChanged="cbautoknev_SelectionChanged" ></ComboBox>
+                    </StackPanel>
+                    <StackPanel Grid.Row="0" Grid.Column="2" Orientation="Horizontal">
+                        <Label x:Name="lbkategoriaknev" Content="Kategória név szűrés" Margin="10"></Label>
+                        <ComboBox x:Name="cbkategoriaknev" Margin="10"  Width="150" SelectionChanged="cbkategoriaknev_SelectionChanged"  ></ComboBox>
+                    </StackPanel>
+
+                    <DataGrid x:Name="datagridszures" Margin="10" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3"></DataGrid>
+                </Grid>
+
+            </TabItem>
+            <TabItem Header="Új adat">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"></RowDefinition>
+                        <RowDefinition Height="auto"></RowDefinition>
+                        <RowDefinition Height="auto"></RowDefinition>
+                        <RowDefinition Height="auto"></RowDefinition>
+                        <RowDefinition Height="auto"></RowDefinition>
+                        <RowDefinition Height="auto"></RowDefinition>
+                        <RowDefinition Height="auto"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Label x:Name="lbrendzsam" Content="Rendszám" Margin="10" Grid.Row="0" Grid.Column="0"></Label>
+                    <TextBox x:Name="tbrendzsam"  Margin="10" Grid.Row="0" Grid.Column="1"></TextBox>
+                    <Label x:Name="lbszin" Content="Szín" Margin="10" Grid.Row="1" Grid.Column="0"></Label>
+                    <ComboBox x:Name="cbszin"  Margin="10" Grid.Row="1" Grid.Column="1"></ComboBox>
+                    <Label x:Name="lbujszin" Content="Új Szín" Margin="10" Grid.Row="1" Grid.Column="2"></Label>
+                    <TextBox x:Name="tbujszin"  Margin="10" Grid.Row="1" Grid.Column="3"></TextBox>
+
+                    <Label x:Name="lbautonev" Content="Autó név" Margin="10" Grid.Row="2" Grid.Column="0"></Label>
+                    <ComboBox x:Name="cbautonev"  Margin="10" Grid.Row="2" Grid.Column="1"></ComboBox>
+                    <Label x:Name="lbujautonev" Content="Új Autó név" Margin="10" Grid.Row="2" Grid.Column="2"></Label>
+                    <TextBox x:Name="tbujautonev"  Margin="10" Grid.Row="2" Grid.Column="3"></TextBox>
+
+                    <Label x:Name="lbevjarat" Content="Évjárat" Margin="10" Grid.Row="3" Grid.Column="0"></Label>
+                    <ComboBox x:Name="cbevjarat"  Margin="10" Grid.Row="3" Grid.Column="1"></ComboBox>
+
+                    <Label x:Name="lbberletidij" Content="Bérleti díj" Margin="10" Grid.Row="4" Grid.Column="0"></Label>
+                    <TextBox x:Name="tbberletidij"  Margin="10" Grid.Row="4" Grid.Column="1"></TextBox>
+
+                    <Label x:Name="lbkategoria" Content="Kategória" Margin="10" Grid.Row="5" Grid.Column="0"></Label>
+                    <ComboBox x:Name="cbkategoria"  Margin="10" Grid.Row="5" Grid.Column="1"></ComboBox>
+                    <Button x:Name="btujkategoria" Content="Új Kategória rögzítés" Margin="10" Grid.Row="5" Grid.Column="2" Click="btujkategoria_Click" ></Button>
+                    <TextBox x:Name="tbujkategoria"  Margin="10" Grid.Row="5" Grid.Column="3"></TextBox>
+
+                    <Button x:Name="btadatrogzites" Content="Adatrögzítés"   Margin="10,10,10,0" Grid.Row="6" Grid.Column="0" Height="46" VerticalAlignment="Top" Click="btadatrogzites_Click" ></Button>
+                    <Label x:Name="lbuzenet" Content="" Margin="10" Grid.Row="6" Grid.Column="1"></Label>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Bérlések felvitel">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"></RowDefinition>
+                        <RowDefinition Height="auto"></RowDefinition>
+                        <RowDefinition Height="auto"></RowDefinition>
+                        <RowDefinition Height="auto"></RowDefinition>
+                        <RowDefinition Height="auto"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Label x:Name="lbauto" Content="Autó" Margin="10" Grid.Row="0" Grid.Column="0"></Label>
+                    <ComboBox x:Name="cbauto" Margin="10"  Grid.Row="0" Grid.Column="1"></ComboBox>
+
+                    <Label x:Name="lbberlesiido" Content="Bérlés időtartama (nap)" Margin="10" Grid.Row="1" Grid.Column="0"></Label>
+                    <ComboBox x:Name="cbberlesiido" Margin="10" Grid.Row="1" Grid.Column="1"></ComboBox>
+
+                    <Label x:Name="lbbiztositasidij" Content="Biztosítási díj" Margin="10" Grid.Row="2" Grid.Column="0"></Label>
+                    <TextBox x:Name="tbbiztositas"  Margin="10" Grid.Row="2" Grid.Column="1"></TextBox>
+
+                    <Label x:Name="lbdatum" Content="Dátum" Margin="10" Grid.Row="3" Grid.Column="0"></Label>
+                    <DatePicker x:Name="datum" Margin="10" Grid.Row="3" Grid.Column="1"></DatePicker>
+
+                    <Button x:Name="btberlesrogzitese" Content="Bérlés rögzítése" Margin="10" Grid.Row="4" Grid.Column="0" Click="btberlesrogzitese_Click" ></Button>
+                    <Label x:Name="lbberlesuzenet" Content="" Margin="10" Grid.Row="4" Grid.Column="1"></Label>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>
+
