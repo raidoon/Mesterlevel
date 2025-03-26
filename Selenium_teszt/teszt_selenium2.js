@@ -15,8 +15,8 @@ async function openOrigo() {
 
     // Az összes WebDriver-rel egyidejűleg nyissuk meg az Origo.hu-t
     await Promise.all(drivers.map(async (driver, index) => {
-      await driver.get('https://www.origo.hu/');
-      console.log(`Opened Origo.hu in tab ${index + 1}`);
+      await driver.get('https://www.google.co.uk/');
+      console.log(`Opened Google.com in tab ${index + 1}`);
     }));
   } finally {
     // Minden WebDriver bezárása
