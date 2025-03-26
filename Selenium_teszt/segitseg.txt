@@ -1,0 +1,5 @@
+npm install selenium-webdriver
+
+node teszt_selenium.js
+
+a teszt_selenium2 megnyitja 5-ször az origot
