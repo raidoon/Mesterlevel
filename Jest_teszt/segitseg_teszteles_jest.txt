@@ -1,0 +1,32 @@
+1.Telepíteni kell a jest tesztelő keretrendszert
+npm install --save-dev jest
+
+2. egyik fájl:
+program.js:
+
+function add(a, b) {
+    return a + b;
+  }
+  
+  module.exports = { add };
+
+3. másik fájl:
+fontos hogy test.js legyen a vége:
+
+program.test.js:
+
+const { add } = require('./program');
+
+test('adds 1 + 2 to equal 3', () => {
+  expect(add(1, 2)).toBe(3);
+});
+
+test('adds 5 + 7 to equal 12', () => {
+  expect(add(5, 7)).toBe(12);
+});
+
+4. terminálba:
+npx jest program.test.js
+
+
+

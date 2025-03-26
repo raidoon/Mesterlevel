@@ -1,0 +1,9 @@
+
+1. Készíts program.js-be új függvényt, bemenete egy szöveg, és egy szám
+kimenete, a szöveg szám-adik szava
+ pl. be: Süt a nap,3  ki: nap
+2. Teszteld:
+be: Süt a nap,3  ki: nap
+be: Süt a nap,0  ki:""
+be: Süt a nap,4  ki:""
+be: Virágzik a megy fa, tavasz van!!! , 5 ki:tavasz
